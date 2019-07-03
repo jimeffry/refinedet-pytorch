@@ -1,0 +1,8 @@
+aeroplane:9508
+bicycle:12497
+boat:18687
+bus:10547
+car:72513
+motorbike:14799
+person:429356
+train:8066
