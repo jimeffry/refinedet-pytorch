@@ -7,4 +7,5 @@ A higher performance [PyTorch](http://pytorch.org/) implementation of [Single-Sh
 * pytorch >= 1.0
 * pickle
 * opencv3
-
+# Evalue
+* ![person: P-R](./logs/person.png)
