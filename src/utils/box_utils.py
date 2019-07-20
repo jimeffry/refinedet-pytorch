@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import torch
-
+import numpy as np
 
 def point_form(boxes):
     """ Convert prior_boxes to (xmin, ymin, xmax, ymax)
@@ -78,9 +78,9 @@ def refine_match(threshold, bbox_gt, priors, variances, labels, loc_t, conf_t, i
         priors: (tensor) Prior boxes from priorbox layers, Shape: [n_priors,4].
         variances: (tensor) Variances corresponding to each prior coord,
             Shape: [num_priors, 4].
-        labels: (tensor) All the class labels for the image, Shape: [num_obj].
+        labels: (tensor) All the class labels for the image, Shape: [num_obj] range(dataset_cls_num)
         loc_t: (tensor) Tensor to be filled w/ endcoded location targets.
-        conf_t: (tensor) Tensor to be filled w/ matched indices for conf preds.
+        conf_t: (tensor) Tensor to be filled w/ matched indices for conf preds,range(dataset_cls_num+1)
         idx: (int) current batch index
     Return:
         The matched indices corresponding to 1)location and 2)confidence preds.
@@ -109,10 +109,11 @@ def refine_match(threshold, bbox_gt, priors, variances, labels, loc_t, conf_t, i
         best_truth_idx[best_prior_idx[j]] = j  # make sure every bg has a corresponding anchor:lxy
     matches = bbox_gt[best_truth_idx]          # matches Shape: [num_priors,4]
     if arm_loc is None:
-        conf = labels[best_truth_idx]         # Shape: [num_priors]
+        conf = labels[best_truth_idx]        # Shape: [num_priors]
         loc = encode(matches, priors, variances)
     else:
-        conf = labels[best_truth_idx]      # Shape: [num_priors]
+        # 
+        conf = labels[best_truth_idx]  +1    # Shape: [num_priors]
         loc = encode(matches, center_size(decode_arm), variances)
     conf[best_truth_overlap < threshold] = 0  # label as background
     loc_t[idx] = loc    # [num_priors,4] encoded offsets to learn
@@ -161,6 +162,7 @@ def decode(loc, priors, variances):
         priors[:, 2:] * torch.exp(loc[:, 2:] * variances[1])), 1)
     boxes[:, :2] -= boxes[:, 2:] / 2
     boxes[:, 2:] += boxes[:, :2]
+    boxes.clamp_(min=0.0,max=1.0)
     return boxes
 
 
@@ -178,7 +180,7 @@ def log_sum_exp(x):
 # Original author: Francisco Massa:
 # https://github.com/fmassa/object-detection.torch
 # Ported to PyTorch by Max deGroot (02/01/2017)
-def nms(boxes, scores, overlap=0.5, top_k=200):
+def nms_(boxes, scores, overlap=0.5, top_k=2000):
     """Apply non-maximum suppression at test time to avoid detecting too many
     overlapping bounding boxes for a given object.
     Args:
@@ -243,3 +245,57 @@ def nms(boxes, scores, overlap=0.5, top_k=200):
         # keep only elements with an IoU <= overlap
         idx = idx[IoU.le(overlap)]
     return keep, count
+
+def nms(boxes,scores, threshold=0.7,topk=200,mode='Union'):
+    pick = []
+    count = 0
+    if boxes.size()==0:
+        return pick,count
+    #print('score',np.shape(scores))
+    #boxes = np.array(boxes)
+    x1 = boxes[:,0]
+    y1 = boxes[:,1]
+    x2 = boxes[:,2]
+    y2 = boxes[:,3]
+    #s  = np.array(scores)
+    #area = np.multiply(x2-x1+1, y2-y1+1)
+    w = x2 - x1 + 1
+    h = y2 - y1 + 1
+    w = torch.clamp(w, min=0.0)
+    h = torch.clamp(h, min=0.0)
+    areas = w * h
+    #I = np.array(s.argsort())
+    v, idx = scores.sort(0)
+    idx = idx[-topk:] 
+    #I[-1] have hightest prob score, I[0:-1]->others
+    #print('test',y2[idx[0:-1]].size())
+    while len(idx)>0:
+        '''
+        xx1 = np.maximum(x1[I[-1]], x1[I[0:-1]]) 
+        yy1 = np.maximum(y1[I[-1]], y1[I[0:-1]])
+        xx2 = np.minimum(x2[I[-1]], x2[I[0:-1]])
+        yy2 = np.minimum(y2[I[-1]], y2[I[0:-1]])
+        '''
+        xx1 = torch.max(x1[idx[-1]],x1[idx[0:-1]])
+        yy1 = torch.max(y1[idx[-1]],y1[idx[0:-1]])
+        xx2 = torch.max(x2[idx[-1]],x2[idx[0:-1]])
+        yy2 = torch.max(y2[idx[-1]],y2[idx[0:-1]])
+        in_w = xx2 - xx1 + 1
+        in_h = yy2 - yy1 + 1
+        in_w = torch.clamp(in_w,min=0.0)
+        in_h = torch.clamp(in_h,min=0.0)
+        #w = np.maximum(0.0, xx2 - xx1 + 1)
+        #h = np.maximum(0.0, yy2 - yy1 + 1)
+        inter = in_w * in_h
+        if mode == 'Min':
+            iou = inter / torch.min(areas[idx[-1]], areas[idx[0:-1]])
+        else:
+            iou = inter / (areas[idx[-1]] + areas[idx[0:-1]] - inter)
+        pick.append(idx[-1])
+        count +=1
+        mask = iou < threshold
+        idx = idx[:-1]
+        idx = idx[mask]
+        #I = I[np.where(iou<=threshold)[0]]
+    #result_rectangle = boxes[pick].tolist()
+    return pick,count

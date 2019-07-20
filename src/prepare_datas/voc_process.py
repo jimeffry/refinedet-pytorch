@@ -32,7 +32,7 @@ def parms():
     parser.add_argument('--save-dir',dest='save_dir',type=str,default='../../data/',\
                         help='tfrecord save dir')
     parser.add_argument('--save-name',dest='save_name',type=str,\
-                        default='train',help='image for train or test')
+                        default='train_record',help='image for train or test')
     parser.add_argument('--file2-in',dest='file2_in',type=str,\
                         default=None,help='file2')
     parser.add_argument('--dataset-name',dest='dataset_name',type=str,default='VOC',\
@@ -106,33 +106,7 @@ def read_xml_gtbox_and_label(xml_path,img_name,cnt_dict,keep_difficult=True):
                         box_list.extend([x1,y1,x2,y2,label])
     return img_height, img_width, box_list,cnt_pass
 
-def get_voc_anno(xml_path,img_name,cnt_dict,keep_difficult=True):
-    tree = ET.parse(xml_path)
-    root = tree.getroot()
-    img_width = None
-    img_height = None
-    box_list = []
-    cnt_pass = 0
-    root.find('filename').text
-    for obj in root.iter('object'):
-            difficult = int(obj.find('difficult').text) == 1
-            if not self.keep_difficult and difficult:
-                continue
-            name = obj.find('name').text.lower().strip()
-            bbox = obj.find('bndbox')
-
-            pts = ['xmin', 'ymin', 'xmax', 'ymax']
-            bndbox = []
-            for i, pt in enumerate(pts):
-                cur_pt = int(bbox.find(pt).text) - 1
-                # scale height or width
-                cur_pt = cur_pt / width if i % 2 == 0 else cur_pt / height
-                bndbox.append(cur_pt)
-            label_idx = self.class_to_ind[name]
-            bndbox.append(label_idx)
-            res += [bndbox] 
-
-def convert_voc(base_dir,file_in,file_out):
+def convert_voc(base_dir,file_in,file_out,name):
     '''
     base_dir: VOC root dir
     file_in: annotation file- img_name
@@ -140,7 +114,8 @@ def convert_voc(base_dir,file_in,file_out):
     '''
     annotation_f = open(file_in,'r')
     f_out = open(file_out,'w')
-    record_w = open('train_recod.txt','w')
+    record_w = open('%s.txt' % name,'w')
+    tmp_f = open('voc12trainval.txt','w')
     p_cnt = 0
     cnt_none = 0
     cnt_img =0
@@ -172,11 +147,12 @@ def convert_voc(base_dir,file_in,file_out):
             gt_str = map(str,gtboxes)
             gt_str = ','.join(gt_str)
             f_out.write("{},{}\n".format(img_path,gt_str))
+            tmp_f.write("{}\n".format(one_line.strip()))
     for tmp_key in sorted(instance_cnt_dic.keys()):
         record_w.write("{}:{}\n".format(tmp_key,instance_cnt_dic[tmp_key]))
     annotation_f.close()
     f_out.close()
-    #record_w.close()
+    record_w.close()
     print("pass: %s, none: %s, img_num: %s" %(p_cnt,cnt_none,cnt_img))
 
 def get_dir_cnt(dirpath,outfile):
@@ -212,6 +188,35 @@ def merge_2file(file1,file2,file_out):
     f2_r.close()
     f_w.close()
 
+def filter_area(file_in,file_out):
+    '''
+    '''
+    f_r = open(file_in,'r')
+    f_w = open(file_out,'w')
+    f_cnts = f_r.readlines()
+    for tmp_f in f_cnts:
+        tmp = tmp_f.strip().split(',')
+        imgpath = tmp[0]
+        bbox = map(float,tmp[1:])
+        bbox = np.array(list(bbox))
+        bbox = bbox.reshape([-1,5])
+        tmp_bb =[]
+        for idx in range(bbox.shape[0]):
+            pt = bbox[idx]
+            w = pt[2] - pt[0]
+            h = pt[3] - pt[1] 
+            label = pt[4]
+            if int(label) == 0 and w/h >3:
+                continue
+            if w*h > 400:
+                tmp_bb.extend(pt)
+        if len(tmp_bb) >0:
+            bb_out = map(str,tmp_bb)
+            bb_str = ','.join(list(bb_out))
+            f_w.write('{},{}\n'.format(imgpath,bb_str))
+    f_r.close()
+    f_w.close()
+
 
 if __name__=='__main__':
     #base_dir = "/data/VOC/VOCdevkit/VOC2012"
@@ -224,9 +229,16 @@ if __name__=='__main__':
     dir_path = args.xml_dir
     file2_in = args.file2_in
     cmd = args.cmd_type
-    if cmd == 'readvoc':
-        convert_voc(base_dir,file_in,file_out)
+    #cmd = cmd.strip()
+    #print(base_dir)
+    #print(cmd)
+    if cmd in ['readvoc']:
+        convert_voc(base_dir,file_in,file_out,args.save_name)
     elif cmd == 'getdir':
         get_dir_cnt(dir_path,file_out)
     elif cmd == 'merge':
         merge_2file(file_in,file2_in,file_out)
+    elif cmd == 'filter':
+        filter_area(file_in,file_out)
+    else:
+        print('please input right cmd')

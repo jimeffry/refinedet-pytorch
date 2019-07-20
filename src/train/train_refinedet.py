@@ -19,9 +19,11 @@ import torch.nn.init as init
 sys.path.append(os.path.join(os.path.dirname(__file__),'../losses'))
 from refinedet_multibox_loss import RefineDetMultiBoxLoss
 sys.path.append(os.path.join(os.path.dirname(__file__),'../networks'))
-from refinedet import build_refinedet
+#from refinedet import build_refinedet
+from refinedet_resnet import build_refinedet
 sys.path.append(os.path.join(os.path.dirname(__file__),'../prepare_datas'))
 from read_pkle import detection_collate,ReadPkDataset
+from read_imgs import ReadDataset
 sys.path.append(os.path.join(os.path.dirname(__file__),'../configs'))
 from config import cfgs
 
@@ -37,7 +39,7 @@ def args():
                         type=str, help='gpu')
     parser.add_argument('--log_dir',type=str, default='../../logs',
                         help='log dir')
-    parser.add_argument('--basenet', default='vgg16_reducedfc.pth',
+    parser.add_argument('--basenet', default='res101.pth',
                         help='Pretrained base model')
     parser.add_argument('--batch_size', default=32, type=int,
                         help='Batch size for training')
@@ -51,7 +53,7 @@ def args():
                         help='Use CUDA to train model')
     parser.add_argument('--lr', '--learning-rate', default=1e-3, type=float,
                         help='initial learning rate')
-    parser.add_argument('--gamma', default=10, type=float,
+    parser.add_argument('--odm_gamma', default=10, type=float,
                         help='Gamma  loss')
     parser.add_argument('--arm_gamma', default=10, type=float,
                         help='Gamma  loss')
@@ -73,7 +75,7 @@ def set_config(args):
                 "using CUDA.\nRun with --cuda for optimal training speed.")
             torch.set_default_tensor_type('torch.FloatTensor')
     else:
-        torch.set_default_tensor_type('torch.DoubleTensor')
+        torch.set_default_tensor_type('torch.FloatTensor')
 
 def train(args):
     #*********************************************load args
@@ -93,14 +95,15 @@ def train(args):
     log_path = os.path.join(log_dir,log_name)
     hdlr = logging.FileHandler(log_path)
     logger.addHandler(hdlr)
+    logger.addHandler(logging.StreamHandler())
     logger.setLevel(logging.DEBUG)
     logger.info("train gpu:{}".format(gpu_list))
     #*************************************************load data io
-    train_dataset = ReadPkDataset()
+    train_dataset = ReadDataset()
     #************************************************* build net
     refinedet_net = build_refinedet()
     net = refinedet_net
-    logger.info("**********> net struct:{} ".format(refinedet_net))
+    #logger.info("**********> net struct:{} ".format(refinedet_net))
     if args.cuda:
         net = torch.nn.DataParallel(refinedet_net,gpu_list)
         torch.backends.cudnn.benchmark = False
@@ -117,30 +120,28 @@ def train(args):
         os.makedirs(model_path)
     model_path = os.path.join(model_path,cfgs.ModelPrefix)
     if load_num is not None:
-        load_path = "%s_%s.pkl" %(model_path,load_num)
+        load_path = "%s_%s.pth" %(model_path,load_num)
         logger.info('Resuming training, loading {}...'.format(load_path))
         refinedet_net.load_weights(load_path)
     else:
-        vgg_path = os.path.join(model_dir, args.basenet)
-        vgg_weights = torch.load(vgg_path)
+        base_path = os.path.join(model_dir, args.basenet)
+        base_weights = torch.load(base_path)
         logger.info('Loading base network weights...')
-        refinedet_net.vgg.load_state_dict(vgg_weights)
+        refinedet_net.backone.load_state_dict(base_weights)
     #**********************************************************************build optimizer
     if args.cuda:
         net = net.cuda()
     if load_num is None:
         logger.info('Initializing weights...')
         # initialize newly added layers' weights with xavier method
-        refinedet_net.extras.apply(weights_init)
-        refinedet_net.arm_loc.apply(weights_init)
-        refinedet_net.arm_conf.apply(weights_init)
-        refinedet_net.odm_loc.apply(weights_init)
-        refinedet_net.odm_conf.apply(weights_init)
-        refinedet_net.tcb0.apply(weights_init)
-        refinedet_net.tcb1.apply(weights_init)
-        refinedet_net.tcb2.apply(weights_init)
+        refinedet_net.Arm_list.apply(weights_init)
+        refinedet_net.Odm_list.apply(weights_init)
+        refinedet_net.FPN.apply(weights_init)
+        #refinedet_net.res6.apply(weights_init)
     optimizer = optim.SGD([{'params': net.parameters(), 'initial_lr': args.lr}], lr=args.lr, 
                             momentum=cfgs.Momentum,weight_decay=cfgs.Weight_decay)
+    #optimizer = optim.Adam([{'params': net.parameters(), 'initial_lr': args.lr}], lr=args.lr, 
+     #                       weight_decay=cfgs.Weight_decay)
     arm_criterion = RefineDetMultiBoxLoss(2, 0.5, True, 0, True, 3, 0.5,
                              False, args.cuda)
     odm_criterion = RefineDetMultiBoxLoss(cfgs.ClsNum, 0.5, True, 0, True, 3, 0.5,
@@ -150,22 +151,22 @@ def train(args):
     #***********************************************************************build trainer
     net.train()
     # loss counters
-    gamma = torch.tensor(args.gamma,dtype=torch.float)
+    odm_gamma = torch.tensor(args.odm_gamma,dtype=torch.float)
     arm_gamma = torch.tensor(args.arm_gamma,dtype=torch.float)
     arm_loc_loss = 0
     arm_conf_loss = 0
     odm_loc_loss = 0
     odm_conf_loss = 0
     logger.info('Loading the dataset...')
-    batch_num = int(np.ceil(float(cfgs.Total_Imgs) / float(batch_size)))
+    batch_num = int(np.ceil(float(train_dataset.__len__()) / float(batch_size)))
     logger.info('Training RefineDet on:{}'.format(dataname))
     logger.info('Using the specified args:{}'.format(args))
-    data_loader = torch.utils.data.DataLoader(train_dataset, batch_size,
-                                  num_workers=args.num_workers,
-                                  shuffle=True, collate_fn=detection_collate,
-                                  pin_memory=True)
+    #data_loader = torch.utils.data.DataLoader(train_dataset, batch_size,
+     #                             num_workers=args.num_workers,
+      #                            shuffle=True, collate_fn=detection_collate,
+       #                           pin_memory=True)
     # create batch iterator
-    batch_iterator = iter(data_loader)
+    #batch_iterator = iter(data_loader)
     for epoch_idx in range(args.start_iter, cfgs.epoch_num):
         for step_idx in range(batch_num):
             if args.visdom and step_idx != 0 and (step_idx % cfgs.Smry_iter == 0):
@@ -177,10 +178,12 @@ def train(args):
                 odm_conf_loss = 0
             # load train data
             try:
-                images, targets = next(batch_iterator)
+                #images, targets = next(batch_iterator)
+                images, targets = train_dataset.get_batch(batch_size)
             except StopIteration:
-                batch_iterator = iter(data_loader)
-                images, targets = next(batch_iterator)
+                #train_dataset.close_pkl()
+                #train_dataset.load_pkl()
+                images, targets = train_dataset.get_batch(batch_size)
             if args.cuda:
                 images = images.cuda()
                 targets = [ann.cuda() for ann in targets]
@@ -197,9 +200,9 @@ def train(args):
             arm_loss_l, arm_loss_c = arm_criterion(out, targets)
             odm_loss_l, odm_loss_c = odm_criterion(out, targets)
             #input()
-            arm_loss = gamma * arm_loss_l + arm_loss_c
-            odm_loss = gamma * odm_loss_l + odm_loss_c
-            loss = arm_loss + arm_gamma * odm_loss
+            arm_loss = arm_loss_l * arm_gamma + arm_loss_c
+            odm_loss = odm_loss_l * odm_gamma + odm_loss_c
+            loss = arm_loss + odm_loss
             loss.backward()
             optimizer.step()
             t1 = time.time()
@@ -212,14 +215,15 @@ def train(args):
             scheduler.step()
             if step_idx % cfgs.Show_train_info == 0:
                 training_time = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
-                logger.info('{}'.foramt(training_time))
-                logger.info('iter ' + repr(step_idx) + ' || ARM_L Loss: %.4f ARM_C Loss: %.4f ODM_L Loss: %.4f ODM_C Loss: %.4f || lr: %.6f || speed: %.2f per Sec.' \
-                % (arm_loss_l.item(), arm_loss_c.item(), odm_loss_l.item(), odm_loss_c.item(),optimizer.param_groups[0]['lr'],batch_size/(t1 - t0)))
+                logger.info('{}'.format(training_time))
+                logger.info('epoch '+repr(epoch_idx)+' iter ' + repr(step_idx) + ' || ARM_L Loss: %.4f ARM_C Loss: %.4f ODM_L Loss: %.4f ODM_C Loss: %.4f Total_Loss: %.4f || lr: %.6f || speed: %.2f per Sec.' \
+                % (arm_loss_l.item(), arm_loss_c.item(), odm_loss_l.item(), odm_loss_c.item(),loss.item(),optimizer.param_groups[0]['lr'],batch_size/(t1 - t0)))
             #if args.visdom:
              #   update_vis_plot(iteration, arm_loss_l.data[0], arm_loss_c.data[0],
               #                  iter_plot, epoch_plot, 'append')
-        if epoch_idx % save_weight_period ==0:
+        if epoch_idx % save_weight_period ==0 and epoch_idx > 0 :
             torch.save(refinedet_net.state_dict(),"{}_{}.pth".format(model_path,epoch_idx))
+            logger.info(' *********************************** save weightes ')
 
 
 def adjust_learning_rate(optimizer, lr,gamma, step):

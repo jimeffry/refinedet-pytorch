@@ -103,7 +103,7 @@ class RefineDetMultiBoxLoss(nn.Module):
         #print(loc_t.size(), conf_t.size())
 
         if self.use_ARM:
-            arm_conf_soft = F.softmax(arm_conf_data, 2)
+            arm_conf_soft = F.softmax(arm_conf_data, dim=2)
             arm_conf_pos = arm_conf_soft[:,:,1]
             object_score_index = arm_conf_pos <= self.theta
             pos = conf_t > 0
@@ -122,7 +122,9 @@ class RefineDetMultiBoxLoss(nn.Module):
 
         # Compute max conf across batch for hard negative mining
         batch_conf = conf_data.view(-1, self.num_classes)
-        loss_c = log_sum_exp(batch_conf) - batch_conf.gather(1, conf_t.view(-1, 1))
+        #loss_c = log_sum_exp(batch_conf) - batch_conf.gather(1, conf_t.view(-1, 1))
+        loss_c_s = F.softmax(batch_conf,dim=1)
+        loss_c = loss_c_s.gather(1,conf_t.view(-1,1))
         #print(loss_c.size())
 
         # Hard Negative Mining

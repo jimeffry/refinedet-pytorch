@@ -1,30 +1,31 @@
+import os
+import sys
+import numpy as np
 import torch
 from torch.autograd import Function
-from torch.nn.Function as F
+from torch.nn import functional as F
 from box_utils import decode, nms, center_size
-from data import voc_refinedet as cfg
-
+sys.path.append(os.path.join(os.path.dirname(__file__),'../configs'))
+from config import cfgs
 
 #class Detect_RefineDet(Function):
-class Detect_RefineDet(object):
+class Detect_RefineDet(Function):
     """At test time, Detect is the final layer of SSD.  Decode location preds,
     apply non-maximum suppression to location predictions based on conf
     scores and threshold to a top_k number of output predictions for both
     confidence score and locations.
     """
-    def __init__(self, num_classes, size, bkg_label, top_k, conf_thresh, nms_thresh, 
-                objectness_thre, keep_top_k):
-        self.num_classes = num_classes
-        self.background_label = bkg_label
-        self.top_k = top_k
-        self.keep_top_k = keep_top_k
+    def __init__(self):
+        self.num_classes = cfgs.ClsNum
+        self.top_k = cfgs.top_k
+        #self.keep_top_k = keep_top_k
         # Parameters used in nms.
-        self.nms_thresh = nms_thresh
-        if nms_thresh <= 0:
+        self.nms_thresh = cfgs.nms_threshold
+        if self.nms_thresh <= 0:
             raise ValueError('nms_threshold must be non negative.')
-        self.conf_thresh = conf_thresh
-        self.objectness_thre = objectness_thre
-        self.variance = cfg[str(size)]['variance']
+        self.conf_thresh = cfgs.odm_threshold
+        self.objectness_thre = cfgs.arm_threshold
+        self.variance = cfgs.variance
         if torch.cuda.is_available():
             self.variance = torch.tensor(self.variance,dtype=torch.float)
             self.variance.cuda()
@@ -83,11 +84,17 @@ class Detect_RefineDet(object):
                 l_mask = c_mask.unsqueeze(1).expand_as(decoded_boxes)
                 boxes = decoded_boxes[l_mask].view(-1, 4)
                 # idx of highest scoring and non-overlapping boxes per class
-                #print(boxes, scores)
+                #print(boxes.size(), scores.size())
                 ids, count = nms(boxes, scores, self.nms_thresh, self.top_k)
+                ids = torch.tensor(ids,dtype=torch.long)
+                if count ==0:
+                    continue
+                #print(count,ids[:count],torch.gather(scores,0,ids).data)
+                #print(boxes[ids[:count]])
+                #print('debug',scores[ids[:count]].size(),boxes[ids[:count]].size())
                 output[i, cl, :count] = \
-                    torch.cat((scores[ids[:count]].unsqueeze(1),
-                               boxes[ids[:count]]), 1)
+                    torch.cat((scores[ids[:count]].view(-1,1),
+                               boxes[ids[:count]].view(-1,4)), 1)
         #flt = output.contiguous().view(num, -1, 5)
         #_, idx = flt[:, :, 0].sort(1, descending=True)
         #_, rank = idx.sort(1)                                             ############????????

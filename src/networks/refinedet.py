@@ -10,6 +10,7 @@ import sys
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+from resnet import resnet101
 sys.path.append(os.path.join(os.path.dirname(__file__),'../configs'))
 from config import cfgs
 sys.path.append(os.path.join(os.path.dirname(__file__),'../utils'))
@@ -72,6 +73,7 @@ class RefineDet(nn.Module):
         arm_conf = list()
         odm_loc = list()
         odm_conf = list()
+        odm_conf_debug = list()
         # apply vgg up to conv4_3 relu and conv5_3 relu
         for k in range(30):
             x = self.vgg[k](x)
@@ -94,8 +96,8 @@ class RefineDet(nn.Module):
         for (x, l, c) in zip(sources, self.arm_loc, self.arm_conf):
             arm_loc.append(l(x).permute(0, 2, 3, 1).contiguous())
             arm_conf.append(c(x).permute(0, 2, 3, 1).contiguous())
-        arm_loc = torch.cat([o.view(o.size(0), -1) for o in arm_loc], 1)
-        arm_conf = torch.cat([o.view(o.size(0), -1) for o in arm_conf], 1)
+        arm_loc = torch.cat([tmp.view(tmp.size(0), -1) for tmp in arm_loc], 1)
+        arm_conf = torch.cat([tmp.view(tmp.size(0), -1) for tmp in arm_conf], 1)
         #print([x.size() for x in sources])
         # calculate TCB features
         #print([x.size() for x in sources])
@@ -119,15 +121,17 @@ class RefineDet(nn.Module):
         for (x, l, c) in zip(tcb_source, self.odm_loc, self.odm_conf):
             odm_loc.append(l(x).permute(0, 2, 3, 1).contiguous())
             odm_conf.append(c(x).permute(0, 2, 3, 1).contiguous())
-        odm_loc = torch.cat([o.view(o.size(0), -1) for o in odm_loc], 1)
-        odm_conf = torch.cat([o.view(o.size(0), -1) for o in odm_conf], 1)
+        odm_conf_debug = odm_conf
+        odm_loc = torch.cat([tmp.view(tmp.size(0), -1) for tmp in odm_loc], 1)
+        odm_conf = torch.cat([tmp.view(tmp.size(0), -1) for tmp in odm_conf], 1)
         #print(arm_loc.size(), arm_conf.size(), odm_loc.size(), odm_conf.size())
         output = (
                 arm_loc.view(arm_loc.size(0), -1, 4),
                 arm_conf.view(arm_conf.size(0), -1, 2),
                 odm_loc.view(odm_loc.size(0), -1, 4),
                 odm_conf.view(odm_conf.size(0), -1, self.num_classes),
-                self.priors
+                self.priors,
+                odm_conf_debug
             )
         return output
 
@@ -136,8 +140,7 @@ class RefineDet(nn.Module):
         #device = torch.device('cpu')
         if ext == '.pkl' or '.pth':
             print('Loading weights into state dict...')
-            self.load_state_dict(torch.load(base_file,
-                                 map_location=lambda storage, loc: storage))
+            self.load_state_dict(torch.load(base_file),strict=False)
             print('Finished!')
         else:
             print('Sorry only .pth and .pkl files supported.')
@@ -226,7 +229,7 @@ def add_tcb(cfg):
                                 nn.ReLU(inplace=True)
         ]
         if k != len(cfg) - 1:
-            feature_upsample_layers += [nn.ConvTranspose2d(256, 256, 2, 2)]
+            feature_upsample_layers += [nn.ConvTranspose2d(256, 256, 2, 2)]#nn.Upsample(scale_factor=2, mode='bilinear')
     return (feature_scale_layers, feature_upsample_layers, feature_pred_layers)
 
 

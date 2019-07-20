@@ -16,6 +16,7 @@ else:
 import torch
 import cv2
 import numpy as np
+import random
 import torch.utils.data as u_data
 #from convert_to_pickle import label_show
 sys.path.append(os.path.join(os.path.dirname(__file__),'../configs'))
@@ -39,34 +40,71 @@ def detection_collate(batch):
     return torch.stack(imgs, 0), targets
 
 
-class ReadPkDataset(u_data.Dataset): #data.Dataset
+class ReadDataset(u_data.Dataset): #data.Dataset
     """
     VOC Detection Dataset Object
     """
     def __init__(self):
-        self.total_imgs = cfgs.Total_Imgs
-        self.Pickle_path = cfgs.Pkl_Path
+        self.voc_file = cfgs.voc_file
+        self.coco_file = cfgs.coco_file
         self.img_size = cfgs.ImgSize
-        self.load_pkl()
+        self.voc_dir = cfgs.voc_dir
+        self.coco_dir = cfgs.coco_dir
+        self.ids = []
+        self.annotations = []
+        self.load_txt()
         self.idx = 0
+        self.total_num = self.__len__()
+        self.shulf_num = list(range(self.total_num))
+        random.shuffle(self.shulf_num)
 
     def __getitem__(self, index):
-        im, gt = self.pull_item(index)
+        im, gt,_,_ = self.pull_item(index)
         return im, gt
 
     def __len__(self):
-        return self.total_imgs
+        return len(self.annotations)
 
-    def load_pkl(self):
-        self.pkl_load = open(self.Pickle_path,'rb')
-    def close_pkl(self):
-        self.pkl_load.close()
+    def load_txt(self):
+        self.voc_r = open(self.voc_file,'r')
+        #self.coco_r = open(self.coco_file,'r')
+        voc_annotations = self.voc_r.readlines()
+        #coco_annotations = self.coco_r.readlines()
+        for tmp in voc_annotations:
+            tmp_splits = tmp.strip().split(',')
+            img_path = os.path.join(self.voc_dir,tmp_splits[0])
+            self.ids.append((self.voc_dir,tmp_splits[0].split('/')[-1][:-4]))
+            bbox = map(float, tmp_splits[1:])
+            if not isinstance(bbox,list):
+                bbox = list(bbox)
+            bbox.insert(0,img_path)
+            self.annotations.append(bbox)
+        '''
+        for tmp in coco_annotations:
+            tmp_splits = tmp.strip().split(',')
+            img_path = os.path.join(self.coco_dir,tmp_splits[0])
+            bbox = map(float, tmp_splits[1:])
+            if not isinstance(bbox,list):
+                bbox = list(bbox)
+            bbox.insert(0,img_path)
+            self.annotations.append(bbox)
+        '''
+    def close_txt(self):
+        self.voc_r.close()
+        self.coco_r.close()
 
     def get_batch(self,batch_size):
         batch_data = torch.zeros([batch_size,3,self.img_size,self.img_size],dtype=torch.float32)
         targets = []
+        if self.idx >= self.total_num -1:
+            random.shuffle(self.shulf_num)
+            self.idx = 0
         for tmp_idx in range(batch_size):
-            img,gt = self.pull_item(self.idx)
+            if self.idx >= self.total_num:
+                rd_idx = 0
+            else:
+                rd_idx = self.shulf_num[self.idx]
+            img,gt,_,_ = self.pull_item(rd_idx)
             self.idx +=1
             batch_data[tmp_idx,:,:,:] = img
             targets.append(torch.FloatTensor(gt))
@@ -78,18 +116,16 @@ class ReadPkDataset(u_data.Dataset): #data.Dataset
                 gt_boxes+label: box-(x1,y1,x2,y2)
                 label: dataset_class_num 
         '''
-        tmp_dict = Pickle.load(self.pkl_load)
-        img_data = tmp_dict['img_data']
+        tmp_annotation = self.annotations[index]
+        tmp_path = tmp_annotation[0]
+        img_data = cv2.imread(tmp_path)
+        h,w = img_data.shape[:2]
         img_data = img_data[:,:,::-1]
-        gt_box_label = tmp_dict['gt']
-        #print(gt_box_label)
-        #gt_box_label[:,-1] = gt_box_label[:,-1] +1
+        gt_box_label = np.array(tmp_annotation[1:],dtype=np.float32).reshape(-1,5)
+        #print(gt_box_label) 
         img_data, gt_box_label = self.re_scale(img_data,gt_box_label)
         img_data = self.normalize(img_data)
-        if index == self.total_imgs-1:
-            self.close_pkl()
-            self.load_pkl()
-        return torch.from_numpy(img_data).permute(2, 0, 1),gt_box_label
+        return torch.from_numpy(img_data).permute(2, 0, 1),gt_box_label,h,w
         #return img_data,gt_box_label
     
     def re_scale(self,img, boxes):
@@ -105,11 +141,11 @@ class ReadPkDataset(u_data.Dataset): #data.Dataset
         out = np.ones((self.img_size, self.img_size, 3), dtype=np.uint8) * 127
         out[oy:oy + new_h, ox:ox + new_w, :] = scaled
         '''
-        out = cv2.resize(img, (self.img_size, self.img_size))
         boxes[:,0] = boxes[:,0] / float(img_w)
         boxes[:,1] = boxes[:,1] / float(img_h)
         boxes[:,2] = boxes[:,2] / float(img_w)
         boxes[:,3] = boxes[:,3] / float(img_h)
+        out = cv2.resize(img, (self.img_size, self.img_size))
         '''
         boxes[:,0] = boxes[:,0] * new_w + ox
         boxes[:,1] = boxes[:,1] * new_h + oy
@@ -131,10 +167,11 @@ class ReadPkDataset(u_data.Dataset): #data.Dataset
         img[:,:,0] -= cfgs.PIXEL_MEAN[0]
         img[:,:,1] -= cfgs.PIXEL_MEAN[1]
         img[:,:,2] -= cfgs.PIXEL_MEAN[2]
+        
         return img.astype(np.float32)
 
 if __name__=='__main__':
-    test_d = ReadPkDataset()
+    test_d = ReadDataset()
     img_dict = dict()
     i=0
     total = 133644
@@ -142,8 +179,8 @@ if __name__=='__main__':
         img, gt = test_d.get_batch(2)
         img_dict['img_data'] = img[0].numpy()
         img_dict['gt'] = gt[0]
-        #label_show(img_dict)
-        print(gt[0][:,-1])
+        label_show(img_dict)
+        #print(gt[0][:,-1])
         #sys.stdout.write('\r>> %d /%d' %(i,total))
         #sys.stdout.flush()
         i+=1

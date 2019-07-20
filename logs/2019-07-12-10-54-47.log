@@ -1,0 +1,1300 @@
+epoch:240 iter 0 || ARM_L Loss: 1.3554 ARM_C Loss: 2.4549 ODM_L Loss: 1.3057 ODM_C Loss: 2.9577  Total: 8.0736 || lr: 0.001000 || speed: 14.99 per Sec.
+2019-07-12 10:57:24
+epoch:240 iter 100 || ARM_L Loss: 1.4156 ARM_C Loss: 2.3180 ODM_L Loss: 1.1346 ODM_C Loss: 1.7934  Total: 6.6615 || lr: 0.001000 || speed: 49.99 per Sec.
+2019-07-12 10:59:53
+epoch:240 iter 200 || ARM_L Loss: 1.1761 ARM_C Loss: 2.0592 ODM_L Loss: 1.0062 ODM_C Loss: 1.5628  Total: 5.8043 || lr: 0.001000 || speed: 49.27 per Sec.
+2019-07-12 11:02:25
+epoch:240 iter 300 || ARM_L Loss: 1.2138 ARM_C Loss: 2.0484 ODM_L Loss: 0.8775 ODM_C Loss: 1.4819  Total: 5.6216 || lr: 0.001000 || speed: 48.08 per Sec.
+2019-07-12 11:05:01
+epoch:240 iter 400 || ARM_L Loss: 0.9478 ARM_C Loss: 1.9065 ODM_L Loss: 1.0151 ODM_C Loss: 1.8286  Total: 5.6979 || lr: 0.001000 || speed: 47.28 per Sec.
+2019-07-12 11:07:32
+epoch:240 iter 500 || ARM_L Loss: 1.8559 ARM_C Loss: 2.2096 ODM_L Loss: 1.2922 ODM_C Loss: 2.2461  Total: 7.6039 || lr: 0.001000 || speed: 46.56 per Sec.
+2019-07-12 11:10:01
+epoch:240 iter 600 || ARM_L Loss: 2.2953 ARM_C Loss: 2.0472 ODM_L Loss: 1.0250 ODM_C Loss: 1.7965  Total: 7.1640 || lr: 0.001000 || speed: 48.94 per Sec.
+2019-07-12 11:12:39
+epoch:240 iter 700 || ARM_L Loss: 1.3711 ARM_C Loss: 2.1736 ODM_L Loss: 1.1912 ODM_C Loss: 2.0444  Total: 6.7803 || lr: 0.001000 || speed: 46.85 per Sec.
+2019-07-12 11:15:14
+epoch:240 iter 800 || ARM_L Loss: 1.5725 ARM_C Loss: 2.1206 ODM_L Loss: 1.0858 ODM_C Loss: 1.8694  Total: 6.6483 || lr: 0.001000 || speed: 47.81 per Sec.
+2019-07-12 11:17:50
+epoch:240 iter 900 || ARM_L Loss: 1.5649 ARM_C Loss: 2.1062 ODM_L Loss: 0.9764 ODM_C Loss: 1.9285  Total: 6.5760 || lr: 0.001000 || speed: 47.46 per Sec.
+2019-07-12 11:20:34
+epoch:240 iter 1000 || ARM_L Loss: 1.1058 ARM_C Loss: 1.9992 ODM_L Loss: 0.8907 ODM_C Loss: 1.3567  Total: 5.3524 || lr: 0.001000 || speed: 47.40 per Sec.
+2019-07-12 11:23:04
+epoch:240 iter 1100 || ARM_L Loss: 1.2937 ARM_C Loss: 2.0051 ODM_L Loss: 1.1158 ODM_C Loss: 1.5237  Total: 5.9383 || lr: 0.001000 || speed: 48.75 per Sec.
+2019-07-12 11:25:34
+epoch:240 iter 1200 || ARM_L Loss: 0.7834 ARM_C Loss: 1.8457 ODM_L Loss: 0.7214 ODM_C Loss: 1.2476  Total: 4.5980 || lr: 0.001000 || speed: 48.55 per Sec.
+2019-07-12 11:28:05
+epoch:240 iter 1300 || ARM_L Loss: 0.9520 ARM_C Loss: 2.1065 ODM_L Loss: 1.0666 ODM_C Loss: 1.8887  Total: 6.0138 || lr: 0.001000 || speed: 48.23 per Sec.
+2019-07-12 11:30:39
+epoch:240 iter 1400 || ARM_L Loss: 1.2474 ARM_C Loss: 2.0467 ODM_L Loss: 0.9217 ODM_C Loss: 1.5593  Total: 5.7751 || lr: 0.001000 || speed: 48.31 per Sec.
+2019-07-12 11:33:09
+epoch:240 iter 1500 || ARM_L Loss: 1.3114 ARM_C Loss: 2.0917 ODM_L Loss: 0.8912 ODM_C Loss: 1.6111  Total: 5.9055 || lr: 0.001000 || speed: 48.24 per Sec.
+2019-07-12 11:35:39
+epoch:240 iter 1600 || ARM_L Loss: 1.2047 ARM_C Loss: 1.9290 ODM_L Loss: 1.0371 ODM_C Loss: 1.5362  Total: 5.7070 || lr: 0.001000 || speed: 49.44 per Sec.
+2019-07-12 11:38:16
+epoch:240 iter 1700 || ARM_L Loss: 1.4087 ARM_C Loss: 2.1077 ODM_L Loss: 0.9482 ODM_C Loss: 1.6290  Total: 6.0936 || lr: 0.001000 || speed: 47.58 per Sec.
+2019-07-12 11:40:46
+epoch:240 iter 1800 || ARM_L Loss: 1.4000 ARM_C Loss: 2.1881 ODM_L Loss: 0.9323 ODM_C Loss: 2.0744  Total: 6.5947 || lr: 0.001000 || speed: 44.62 per Sec.
+2019-07-12 11:43:16
+epoch:240 iter 1900 || ARM_L Loss: 1.7173 ARM_C Loss: 2.1825 ODM_L Loss: 0.8714 ODM_C Loss: 1.6412  Total: 6.4124 || lr: 0.001000 || speed: 49.53 per Sec.
+2019-07-12 11:45:50
+epoch:240 iter 2000 || ARM_L Loss: 0.9043 ARM_C Loss: 2.0309 ODM_L Loss: 0.7666 ODM_C Loss: 1.1841  Total: 4.8859 || lr: 0.001000 || speed: 48.58 per Sec.
+2019-07-12 11:48:25
+epoch:240 iter 2100 || ARM_L Loss: 1.0554 ARM_C Loss: 1.9403 ODM_L Loss: 0.8398 ODM_C Loss: 1.3379  Total: 5.1734 || lr: 0.001000 || speed: 47.81 per Sec.
+2019-07-12 11:50:55
+epoch:240 iter 2200 || ARM_L Loss: 1.2834 ARM_C Loss: 2.1072 ODM_L Loss: 1.1417 ODM_C Loss: 1.9681  Total: 6.5004 || lr: 0.001000 || speed: 49.34 per Sec.
+2019-07-12 11:53:25
+epoch:240 iter 2300 || ARM_L Loss: 1.3631 ARM_C Loss: 1.9338 ODM_L Loss: 0.9736 ODM_C Loss: 1.4408  Total: 5.7113 || lr: 0.001000 || speed: 46.57 per Sec.
+2019-07-12 11:55:58
+epoch:240 iter 2400 || ARM_L Loss: 1.2101 ARM_C Loss: 2.0034 ODM_L Loss: 0.8799 ODM_C Loss: 1.3990  Total: 5.4924 || lr: 0.001000 || speed: 48.63 per Sec.
+2019-07-12 11:58:32
+epoch:240 iter 2500 || ARM_L Loss: 1.4923 ARM_C Loss: 2.1722 ODM_L Loss: 1.0107 ODM_C Loss: 1.9876  Total: 6.6628 || lr: 0.001000 || speed: 49.88 per Sec.
+2019-07-12 12:01:02
+epoch:240 iter 2600 || ARM_L Loss: 1.2925 ARM_C Loss: 2.1208 ODM_L Loss: 1.1602 ODM_C Loss: 1.8236  Total: 6.3971 || lr: 0.001000 || speed: 49.81 per Sec.
+2019-07-12 12:03:32
+epoch:240 iter 2700 || ARM_L Loss: 1.3480 ARM_C Loss: 2.0639 ODM_L Loss: 1.2407 ODM_C Loss: 1.6838  Total: 6.3364 || lr: 0.001000 || speed: 49.36 per Sec.
+2019-07-12 12:06:08
+epoch:240 iter 2800 || ARM_L Loss: 1.0675 ARM_C Loss: 1.9117 ODM_L Loss: 0.9268 ODM_C Loss: 1.5565  Total: 5.4624 || lr: 0.001000 || speed: 45.72 per Sec.
+2019-07-12 12:08:38
+epoch:240 iter 2900 || ARM_L Loss: 0.9895 ARM_C Loss: 2.1023 ODM_L Loss: 1.0689 ODM_C Loss: 1.6738  Total: 5.8345 || lr: 0.001000 || speed: 46.19 per Sec.
+2019-07-12 12:11:08
+epoch:240 iter 3000 || ARM_L Loss: 1.1400 ARM_C Loss: 1.8774 ODM_L Loss: 0.7151 ODM_C Loss: 1.2165  Total: 4.9490 || lr: 0.001000 || speed: 48.23 per Sec.
+2019-07-12 12:13:41
+epoch:240 iter 3100 || ARM_L Loss: 0.7665 ARM_C Loss: 1.8081 ODM_L Loss: 0.6163 ODM_C Loss: 1.1003  Total: 4.2912 || lr: 0.001000 || speed: 49.01 per Sec.
+2019-07-12 12:16:11
+epoch:240 iter 3200 || ARM_L Loss: 1.0292 ARM_C Loss: 1.8898 ODM_L Loss: 0.8624 ODM_C Loss: 1.3863  Total: 5.1677 || lr: 0.001000 || speed: 49.14 per Sec.
+2019-07-12 12:18:41
+epoch:240 iter 3300 || ARM_L Loss: 1.3936 ARM_C Loss: 1.9352 ODM_L Loss: 0.9094 ODM_C Loss: 1.3859  Total: 5.6241 || lr: 0.001000 || speed: 49.51 per Sec.
+2019-07-12 12:21:13
+epoch:240 iter 3400 || ARM_L Loss: 1.0035 ARM_C Loss: 1.8884 ODM_L Loss: 0.8295 ODM_C Loss: 1.4056  Total: 5.1270 || lr: 0.001000 || speed: 49.54 per Sec.
+2019-07-12 12:23:49
+epoch:240 iter 3500 || ARM_L Loss: 0.8429 ARM_C Loss: 1.7503 ODM_L Loss: 0.7324 ODM_C Loss: 1.3134  Total: 4.6389 || lr: 0.001000 || speed: 48.21 per Sec.
+2019-07-12 12:26:20
+epoch:240 iter 3600 || ARM_L Loss: 1.2877 ARM_C Loss: 1.9957 ODM_L Loss: 1.0804 ODM_C Loss: 1.5984  Total: 5.9622 || lr: 0.001000 || speed: 47.75 per Sec.
+2019-07-12 12:28:51
+epoch:240 iter 3700 || ARM_L Loss: 1.2622 ARM_C Loss: 1.8913 ODM_L Loss: 0.8534 ODM_C Loss: 1.4999  Total: 5.5068 || lr: 0.001000 || speed: 48.89 per Sec.
+2019-07-12 12:31:25
+epoch:240 iter 3800 || ARM_L Loss: 1.3223 ARM_C Loss: 2.0520 ODM_L Loss: 1.0423 ODM_C Loss: 1.5680  Total: 5.9846 || lr: 0.001000 || speed: 46.00 per Sec.
+2019-07-12 12:33:54
+epoch:240 iter 3900 || ARM_L Loss: 1.2587 ARM_C Loss: 2.0102 ODM_L Loss: 1.1223 ODM_C Loss: 1.5431  Total: 5.9343 || lr: 0.001000 || speed: 47.44 per Sec.
+2019-07-12 12:36:24
+epoch:240 iter 4000 || ARM_L Loss: 1.5148 ARM_C Loss: 2.2589 ODM_L Loss: 0.9213 ODM_C Loss: 1.8234  Total: 6.5185 || lr: 0.001000 || speed: 48.12 per Sec.
+2019-07-12 12:38:55
+epoch:240 iter 4100 || ARM_L Loss: 1.3303 ARM_C Loss: 2.1064 ODM_L Loss: 0.9688 ODM_C Loss: 1.6918  Total: 6.0973 || lr: 0.001000 || speed: 49.82 per Sec.
+2019-07-12 12:41:30
+epoch:240 iter 4200 || ARM_L Loss: 1.2319 ARM_C Loss: 2.0738 ODM_L Loss: 0.9334 ODM_C Loss: 1.7122  Total: 5.9514 || lr: 0.001000 || speed: 47.53 per Sec.
+2019-07-12 12:44:01
+epoch:240 iter 4300 || ARM_L Loss: 1.0170 ARM_C Loss: 1.8693 ODM_L Loss: 0.7663 ODM_C Loss: 1.4938  Total: 5.1464 || lr: 0.001000 || speed: 48.93 per Sec.
+2019-07-12 12:46:30
+epoch:240 iter 4400 || ARM_L Loss: 0.7339 ARM_C Loss: 1.7688 ODM_L Loss: 0.5797 ODM_C Loss: 1.2769  Total: 4.3592 || lr: 0.001000 || speed: 46.62 per Sec.
+2019-07-12 12:49:03
+epoch:240 iter 4500 || ARM_L Loss: 1.3095 ARM_C Loss: 2.0593 ODM_L Loss: 0.8875 ODM_C Loss: 1.7118  Total: 5.9681 || lr: 0.001000 || speed: 48.09 per Sec.
+2019-07-12 12:51:36
+epoch:240 iter 4600 || ARM_L Loss: 1.3265 ARM_C Loss: 2.0516 ODM_L Loss: 0.9588 ODM_C Loss: 1.5226  Total: 5.8594 || lr: 0.001000 || speed: 48.17 per Sec.
+**********************************saved weights at 240
+2019-07-12 12:51:47
+epoch:241 iter 0 || ARM_L Loss: 0.8193 ARM_C Loss: 1.8923 ODM_L Loss: 0.7039 ODM_C Loss: 1.4530  Total: 4.8684 || lr: 0.001000 || speed: 45.05 per Sec.
+2019-07-12 12:54:00
+epoch:241 iter 100 || ARM_L Loss: 1.0642 ARM_C Loss: 1.8654 ODM_L Loss: 0.7354 ODM_C Loss: 1.2654  Total: 4.9304 || lr: 0.001000 || speed: 48.50 per Sec.
+2019-07-12 12:56:12
+epoch:241 iter 200 || ARM_L Loss: 1.1500 ARM_C Loss: 2.0162 ODM_L Loss: 0.9573 ODM_C Loss: 1.5325  Total: 5.6560 || lr: 0.001000 || speed: 48.09 per Sec.
+2019-07-12 12:58:24
+epoch:241 iter 300 || ARM_L Loss: 1.0569 ARM_C Loss: 1.9886 ODM_L Loss: 0.9107 ODM_C Loss: 1.5065  Total: 5.4627 || lr: 0.001000 || speed: 49.72 per Sec.
+2019-07-12 13:00:37
+epoch:241 iter 400 || ARM_L Loss: 1.0710 ARM_C Loss: 1.9143 ODM_L Loss: 0.9460 ODM_C Loss: 1.6052  Total: 5.5365 || lr: 0.001000 || speed: 45.45 per Sec.
+2019-07-12 13:02:49
+epoch:241 iter 500 || ARM_L Loss: 1.2355 ARM_C Loss: 1.9600 ODM_L Loss: 0.8651 ODM_C Loss: 1.6187  Total: 5.6793 || lr: 0.001000 || speed: 49.25 per Sec.
+2019-07-12 13:05:01
+epoch:241 iter 600 || ARM_L Loss: 0.9622 ARM_C Loss: 1.9731 ODM_L Loss: 0.7752 ODM_C Loss: 1.3734  Total: 5.0839 || lr: 0.001000 || speed: 49.66 per Sec.
+2019-07-12 13:07:14
+epoch:241 iter 700 || ARM_L Loss: 0.9335 ARM_C Loss: 1.9129 ODM_L Loss: 0.7672 ODM_C Loss: 1.4067  Total: 5.0203 || lr: 0.001000 || speed: 47.77 per Sec.
+2019-07-12 13:09:26
+epoch:241 iter 800 || ARM_L Loss: 1.1988 ARM_C Loss: 2.0755 ODM_L Loss: 0.9681 ODM_C Loss: 1.5957  Total: 5.8381 || lr: 0.001000 || speed: 48.19 per Sec.
+2019-07-12 13:11:38
+epoch:241 iter 900 || ARM_L Loss: 1.3364 ARM_C Loss: 2.0829 ODM_L Loss: 1.0033 ODM_C Loss: 1.8106  Total: 6.2332 || lr: 0.001000 || speed: 49.50 per Sec.
+2019-07-12 13:13:50
+epoch:241 iter 1000 || ARM_L Loss: 0.9874 ARM_C Loss: 1.9556 ODM_L Loss: 0.9198 ODM_C Loss: 1.3693  Total: 5.2321 || lr: 0.001000 || speed: 46.72 per Sec.
+2019-07-12 13:16:02
+epoch:241 iter 1100 || ARM_L Loss: 1.0858 ARM_C Loss: 1.9126 ODM_L Loss: 0.7236 ODM_C Loss: 1.4379  Total: 5.1600 || lr: 0.001000 || speed: 48.32 per Sec.
+2019-07-12 13:18:14
+epoch:241 iter 1200 || ARM_L Loss: 1.2282 ARM_C Loss: 1.8591 ODM_L Loss: 0.8350 ODM_C Loss: 1.3601  Total: 5.2824 || lr: 0.001000 || speed: 47.60 per Sec.
+2019-07-12 13:20:26
+epoch:241 iter 1300 || ARM_L Loss: 1.2047 ARM_C Loss: 1.9540 ODM_L Loss: 0.9153 ODM_C Loss: 1.4977  Total: 5.5718 || lr: 0.001000 || speed: 47.95 per Sec.
+2019-07-12 13:22:39
+epoch:241 iter 1400 || ARM_L Loss: 1.4037 ARM_C Loss: 2.0639 ODM_L Loss: 0.9625 ODM_C Loss: 1.5466  Total: 5.9766 || lr: 0.001000 || speed: 45.55 per Sec.
+2019-07-12 13:24:51
+epoch:241 iter 1500 || ARM_L Loss: 0.7501 ARM_C Loss: 1.7250 ODM_L Loss: 0.6674 ODM_C Loss: 1.2426  Total: 4.3850 || lr: 0.001000 || speed: 47.89 per Sec.
+2019-07-12 13:27:03
+epoch:241 iter 1600 || ARM_L Loss: 1.5652 ARM_C Loss: 1.9613 ODM_L Loss: 0.7567 ODM_C Loss: 1.3672  Total: 5.6504 || lr: 0.001000 || speed: 46.52 per Sec.
+2019-07-12 13:29:15
+epoch:241 iter 1700 || ARM_L Loss: 1.2779 ARM_C Loss: 1.8215 ODM_L Loss: 0.8071 ODM_C Loss: 1.3220  Total: 5.2285 || lr: 0.001000 || speed: 48.93 per Sec.
+2019-07-12 13:31:27
+epoch:241 iter 1800 || ARM_L Loss: 1.4761 ARM_C Loss: 1.8784 ODM_L Loss: 0.8568 ODM_C Loss: 1.2331  Total: 5.4444 || lr: 0.001000 || speed: 47.75 per Sec.
+2019-07-12 13:33:39
+epoch:241 iter 1900 || ARM_L Loss: 0.8700 ARM_C Loss: 1.7645 ODM_L Loss: 0.6785 ODM_C Loss: 1.1272  Total: 4.4401 || lr: 0.001000 || speed: 48.91 per Sec.
+2019-07-12 13:35:51
+epoch:241 iter 2000 || ARM_L Loss: 0.9205 ARM_C Loss: 2.0020 ODM_L Loss: 0.7911 ODM_C Loss: 1.4919  Total: 5.2055 || lr: 0.001000 || speed: 49.31 per Sec.
+2019-07-12 13:38:04
+epoch:241 iter 2100 || ARM_L Loss: 1.2874 ARM_C Loss: 2.0812 ODM_L Loss: 1.0879 ODM_C Loss: 1.8554  Total: 6.3118 || lr: 0.001000 || speed: 48.60 per Sec.
+2019-07-12 13:40:17
+epoch:241 iter 2200 || ARM_L Loss: 1.1046 ARM_C Loss: 1.9526 ODM_L Loss: 0.8600 ODM_C Loss: 1.3088  Total: 5.2259 || lr: 0.001000 || speed: 48.72 per Sec.
+2019-07-12 13:42:30
+epoch:241 iter 2300 || ARM_L Loss: 1.1607 ARM_C Loss: 1.9879 ODM_L Loss: 0.9681 ODM_C Loss: 1.5041  Total: 5.6208 || lr: 0.001000 || speed: 48.77 per Sec.
+2019-07-12 13:44:42
+epoch:241 iter 2400 || ARM_L Loss: 1.1325 ARM_C Loss: 2.1191 ODM_L Loss: 0.8409 ODM_C Loss: 1.5214  Total: 5.6139 || lr: 0.001000 || speed: 47.00 per Sec.
+2019-07-12 13:46:53
+epoch:241 iter 2500 || ARM_L Loss: 1.4628 ARM_C Loss: 2.0140 ODM_L Loss: 1.0989 ODM_C Loss: 1.5129  Total: 6.0887 || lr: 0.001000 || speed: 48.51 per Sec.
+2019-07-12 13:49:05
+epoch:241 iter 2600 || ARM_L Loss: 1.2147 ARM_C Loss: 1.9194 ODM_L Loss: 0.8383 ODM_C Loss: 1.3832  Total: 5.3557 || lr: 0.001000 || speed: 46.06 per Sec.
+2019-07-12 13:51:18
+epoch:241 iter 2700 || ARM_L Loss: 1.3053 ARM_C Loss: 1.9457 ODM_L Loss: 0.7402 ODM_C Loss: 1.4868  Total: 5.4780 || lr: 0.001000 || speed: 48.84 per Sec.
+2019-07-12 13:53:30
+epoch:241 iter 2800 || ARM_L Loss: 0.9876 ARM_C Loss: 2.0064 ODM_L Loss: 0.8223 ODM_C Loss: 1.3930  Total: 5.2094 || lr: 0.001000 || speed: 49.44 per Sec.
+2019-07-12 13:55:42
+epoch:241 iter 2900 || ARM_L Loss: 1.4230 ARM_C Loss: 1.9746 ODM_L Loss: 0.8948 ODM_C Loss: 1.4976  Total: 5.7900 || lr: 0.001000 || speed: 48.23 per Sec.
+2019-07-12 13:57:55
+epoch:241 iter 3000 || ARM_L Loss: 1.0253 ARM_C Loss: 2.0287 ODM_L Loss: 0.8721 ODM_C Loss: 1.6315  Total: 5.5577 || lr: 0.001000 || speed: 47.09 per Sec.
+2019-07-12 14:00:06
+epoch:241 iter 3100 || ARM_L Loss: 1.0489 ARM_C Loss: 1.8806 ODM_L Loss: 0.8283 ODM_C Loss: 1.1350  Total: 4.8927 || lr: 0.001000 || speed: 47.19 per Sec.
+2019-07-12 14:02:19
+epoch:241 iter 3200 || ARM_L Loss: 1.1375 ARM_C Loss: 1.9026 ODM_L Loss: 0.9706 ODM_C Loss: 1.5626  Total: 5.5734 || lr: 0.001000 || speed: 48.60 per Sec.
+2019-07-12 14:04:31
+epoch:241 iter 3300 || ARM_L Loss: 1.0910 ARM_C Loss: 1.9630 ODM_L Loss: 0.8610 ODM_C Loss: 1.4978  Total: 5.4129 || lr: 0.001000 || speed: 47.39 per Sec.
+2019-07-12 14:06:43
+epoch:241 iter 3400 || ARM_L Loss: 1.0030 ARM_C Loss: 2.1533 ODM_L Loss: 0.9430 ODM_C Loss: 1.6037  Total: 5.7028 || lr: 0.001000 || speed: 48.68 per Sec.
+2019-07-12 14:08:55
+epoch:241 iter 3500 || ARM_L Loss: 1.0875 ARM_C Loss: 1.9993 ODM_L Loss: 0.9598 ODM_C Loss: 1.7037  Total: 5.7502 || lr: 0.001000 || speed: 46.50 per Sec.
+2019-07-12 14:11:08
+epoch:241 iter 3600 || ARM_L Loss: 1.1752 ARM_C Loss: 1.8631 ODM_L Loss: 0.9294 ODM_C Loss: 1.5519  Total: 5.5196 || lr: 0.001000 || speed: 47.45 per Sec.
+2019-07-12 14:13:20
+epoch:241 iter 3700 || ARM_L Loss: 0.9109 ARM_C Loss: 1.8203 ODM_L Loss: 0.6124 ODM_C Loss: 1.2280  Total: 4.5716 || lr: 0.001000 || speed: 48.08 per Sec.
+2019-07-12 14:15:31
+epoch:241 iter 3800 || ARM_L Loss: 1.0340 ARM_C Loss: 1.8788 ODM_L Loss: 0.7987 ODM_C Loss: 1.5458  Total: 5.2574 || lr: 0.001000 || speed: 49.58 per Sec.
+2019-07-12 14:17:43
+epoch:241 iter 3900 || ARM_L Loss: 1.0144 ARM_C Loss: 1.9131 ODM_L Loss: 0.8435 ODM_C Loss: 1.4652  Total: 5.2362 || lr: 0.001000 || speed: 48.49 per Sec.
+2019-07-12 14:19:55
+epoch:241 iter 4000 || ARM_L Loss: 0.9699 ARM_C Loss: 1.7578 ODM_L Loss: 0.6771 ODM_C Loss: 1.3437  Total: 4.7485 || lr: 0.001000 || speed: 48.51 per Sec.
+2019-07-12 14:22:07
+epoch:241 iter 4100 || ARM_L Loss: 1.0829 ARM_C Loss: 2.1332 ODM_L Loss: 0.9736 ODM_C Loss: 1.7490  Total: 5.9387 || lr: 0.001000 || speed: 48.32 per Sec.
+2019-07-12 14:24:19
+epoch:241 iter 4200 || ARM_L Loss: 1.1231 ARM_C Loss: 2.0657 ODM_L Loss: 0.8924 ODM_C Loss: 1.3901  Total: 5.4713 || lr: 0.001000 || speed: 45.66 per Sec.
+2019-07-12 14:26:30
+epoch:241 iter 4300 || ARM_L Loss: 1.2390 ARM_C Loss: 1.8964 ODM_L Loss: 0.9510 ODM_C Loss: 1.2998  Total: 5.3863 || lr: 0.001000 || speed: 49.09 per Sec.
+2019-07-12 14:28:43
+epoch:241 iter 4400 || ARM_L Loss: 1.0243 ARM_C Loss: 1.8999 ODM_L Loss: 0.9406 ODM_C Loss: 1.2952  Total: 5.1600 || lr: 0.001000 || speed: 49.68 per Sec.
+2019-07-12 14:30:55
+epoch:241 iter 4500 || ARM_L Loss: 1.3232 ARM_C Loss: 1.9516 ODM_L Loss: 0.9138 ODM_C Loss: 1.4174  Total: 5.6060 || lr: 0.001000 || speed: 47.01 per Sec.
+2019-07-12 14:33:07
+epoch:241 iter 4600 || ARM_L Loss: 1.1896 ARM_C Loss: 1.8604 ODM_L Loss: 0.8862 ODM_C Loss: 1.4707  Total: 5.4068 || lr: 0.001000 || speed: 49.31 per Sec.
+2019-07-12 14:33:16
+epoch:242 iter 0 || ARM_L Loss: 1.1224 ARM_C Loss: 2.0256 ODM_L Loss: 0.7563 ODM_C Loss: 1.4222  Total: 5.3265 || lr: 0.001000 || speed: 47.61 per Sec.
+2019-07-12 14:35:29
+epoch:242 iter 100 || ARM_L Loss: 1.0861 ARM_C Loss: 1.8538 ODM_L Loss: 0.8189 ODM_C Loss: 1.1884  Total: 4.9472 || lr: 0.001000 || speed: 47.80 per Sec.
+2019-07-12 14:37:40
+epoch:242 iter 200 || ARM_L Loss: 0.7321 ARM_C Loss: 1.8179 ODM_L Loss: 0.6427 ODM_C Loss: 1.1470  Total: 4.3397 || lr: 0.001000 || speed: 48.43 per Sec.
+2019-07-12 14:39:53
+epoch:242 iter 300 || ARM_L Loss: 0.8471 ARM_C Loss: 1.6801 ODM_L Loss: 0.6017 ODM_C Loss: 1.2226  Total: 4.3514 || lr: 0.001000 || speed: 46.56 per Sec.
+2019-07-12 14:42:06
+epoch:242 iter 400 || ARM_L Loss: 1.1187 ARM_C Loss: 1.8752 ODM_L Loss: 0.8948 ODM_C Loss: 1.5173  Total: 5.4060 || lr: 0.001000 || speed: 47.60 per Sec.
+2019-07-12 14:44:18
+epoch:242 iter 500 || ARM_L Loss: 1.2926 ARM_C Loss: 2.1650 ODM_L Loss: 0.8663 ODM_C Loss: 1.6326  Total: 5.9564 || lr: 0.001000 || speed: 48.72 per Sec.
+2019-07-12 14:46:31
+epoch:242 iter 600 || ARM_L Loss: 0.9204 ARM_C Loss: 1.8860 ODM_L Loss: 0.8999 ODM_C Loss: 1.5116  Total: 5.2180 || lr: 0.001000 || speed: 45.92 per Sec.
+2019-07-12 14:48:43
+epoch:242 iter 700 || ARM_L Loss: 0.9560 ARM_C Loss: 1.8732 ODM_L Loss: 0.8191 ODM_C Loss: 1.4272  Total: 5.0754 || lr: 0.001000 || speed: 49.01 per Sec.
+2019-07-12 14:50:56
+epoch:242 iter 800 || ARM_L Loss: 1.1274 ARM_C Loss: 1.9508 ODM_L Loss: 0.9179 ODM_C Loss: 1.2906  Total: 5.2867 || lr: 0.001000 || speed: 48.27 per Sec.
+2019-07-12 14:53:08
+epoch:242 iter 900 || ARM_L Loss: 0.8083 ARM_C Loss: 1.7794 ODM_L Loss: 0.6263 ODM_C Loss: 1.1726  Total: 4.3866 || lr: 0.001000 || speed: 49.85 per Sec.
+2019-07-12 14:55:20
+epoch:242 iter 1000 || ARM_L Loss: 1.2433 ARM_C Loss: 1.9144 ODM_L Loss: 0.8043 ODM_C Loss: 1.4968  Total: 5.4589 || lr: 0.001000 || speed: 47.80 per Sec.
+2019-07-12 14:57:33
+epoch:242 iter 1100 || ARM_L Loss: 0.7939 ARM_C Loss: 1.7844 ODM_L Loss: 0.7114 ODM_C Loss: 1.2416  Total: 4.5313 || lr: 0.001000 || speed: 47.96 per Sec.
+2019-07-12 14:59:45
+epoch:242 iter 1200 || ARM_L Loss: 1.2063 ARM_C Loss: 1.9409 ODM_L Loss: 1.0097 ODM_C Loss: 1.5417  Total: 5.6986 || lr: 0.001000 || speed: 49.20 per Sec.
+2019-07-12 15:01:57
+epoch:242 iter 1300 || ARM_L Loss: 0.9248 ARM_C Loss: 1.8941 ODM_L Loss: 0.7776 ODM_C Loss: 1.6665  Total: 5.2629 || lr: 0.001000 || speed: 49.46 per Sec.
+2019-07-12 15:04:10
+epoch:242 iter 1400 || ARM_L Loss: 1.1031 ARM_C Loss: 1.9072 ODM_L Loss: 1.0294 ODM_C Loss: 1.5090  Total: 5.5488 || lr: 0.001000 || speed: 44.04 per Sec.
+2019-07-12 15:06:21
+epoch:242 iter 1500 || ARM_L Loss: 0.9416 ARM_C Loss: 1.9562 ODM_L Loss: 0.7955 ODM_C Loss: 1.3727  Total: 5.0660 || lr: 0.001000 || speed: 48.67 per Sec.
+2019-07-12 15:08:34
+epoch:242 iter 1600 || ARM_L Loss: 1.0165 ARM_C Loss: 1.8460 ODM_L Loss: 0.7551 ODM_C Loss: 1.1730  Total: 4.7905 || lr: 0.001000 || speed: 48.66 per Sec.
+2019-07-12 15:10:47
+epoch:242 iter 1700 || ARM_L Loss: 1.1347 ARM_C Loss: 1.8643 ODM_L Loss: 0.9097 ODM_C Loss: 1.3776  Total: 5.2863 || lr: 0.001000 || speed: 47.47 per Sec.
+2019-07-12 15:12:59
+epoch:242 iter 1800 || ARM_L Loss: 0.8700 ARM_C Loss: 1.8659 ODM_L Loss: 0.7724 ODM_C Loss: 1.2480  Total: 4.7563 || lr: 0.001000 || speed: 50.11 per Sec.
+2019-07-12 15:15:12
+epoch:242 iter 1900 || ARM_L Loss: 1.1304 ARM_C Loss: 1.9124 ODM_L Loss: 0.6471 ODM_C Loss: 1.4416  Total: 5.1314 || lr: 0.001000 || speed: 45.13 per Sec.
+2019-07-12 15:17:24
+epoch:242 iter 2000 || ARM_L Loss: 1.2029 ARM_C Loss: 1.8915 ODM_L Loss: 0.8119 ODM_C Loss: 1.2243  Total: 5.1306 || lr: 0.001000 || speed: 47.81 per Sec.
+2019-07-12 15:19:36
+epoch:242 iter 2100 || ARM_L Loss: 1.1220 ARM_C Loss: 1.8865 ODM_L Loss: 0.8388 ODM_C Loss: 1.5557  Total: 5.4030 || lr: 0.001000 || speed: 47.88 per Sec.
+2019-07-12 15:21:49
+epoch:242 iter 2200 || ARM_L Loss: 1.4191 ARM_C Loss: 2.0311 ODM_L Loss: 1.0285 ODM_C Loss: 1.6103  Total: 6.0890 || lr: 0.001000 || speed: 48.53 per Sec.
+2019-07-12 15:24:02
+epoch:242 iter 2300 || ARM_L Loss: 0.8130 ARM_C Loss: 1.8299 ODM_L Loss: 0.7562 ODM_C Loss: 1.1946  Total: 4.5937 || lr: 0.001000 || speed: 48.10 per Sec.
+2019-07-12 15:26:15
+epoch:242 iter 2400 || ARM_L Loss: 0.6690 ARM_C Loss: 1.7898 ODM_L Loss: 0.7172 ODM_C Loss: 1.3768  Total: 4.5527 || lr: 0.001000 || speed: 50.29 per Sec.
+2019-07-12 15:28:28
+epoch:242 iter 2500 || ARM_L Loss: 1.0587 ARM_C Loss: 1.8994 ODM_L Loss: 0.7968 ODM_C Loss: 1.4658  Total: 5.2208 || lr: 0.001000 || speed: 49.14 per Sec.
+2019-07-12 15:30:40
+epoch:242 iter 2600 || ARM_L Loss: 0.8508 ARM_C Loss: 1.9009 ODM_L Loss: 0.7697 ODM_C Loss: 1.4209  Total: 4.9423 || lr: 0.001000 || speed: 48.59 per Sec.
+2019-07-12 15:32:53
+epoch:242 iter 2700 || ARM_L Loss: 0.9186 ARM_C Loss: 1.7277 ODM_L Loss: 0.7583 ODM_C Loss: 1.0959  Total: 4.5006 || lr: 0.001000 || speed: 49.01 per Sec.
+2019-07-12 15:35:05
+epoch:242 iter 2800 || ARM_L Loss: 1.0982 ARM_C Loss: 1.9448 ODM_L Loss: 0.8781 ODM_C Loss: 1.5625  Total: 5.4836 || lr: 0.001000 || speed: 47.98 per Sec.
+2019-07-12 15:37:18
+epoch:242 iter 2900 || ARM_L Loss: 1.4212 ARM_C Loss: 2.0189 ODM_L Loss: 0.8874 ODM_C Loss: 1.5845  Total: 5.9121 || lr: 0.001000 || speed: 49.49 per Sec.
+2019-07-12 15:39:30
+epoch:242 iter 3000 || ARM_L Loss: 1.0420 ARM_C Loss: 1.8259 ODM_L Loss: 0.8348 ODM_C Loss: 1.3120  Total: 5.0147 || lr: 0.001000 || speed: 48.08 per Sec.
+2019-07-12 15:41:44
+epoch:242 iter 3100 || ARM_L Loss: 1.3665 ARM_C Loss: 2.0132 ODM_L Loss: 0.9335 ODM_C Loss: 1.9271  Total: 6.2402 || lr: 0.001000 || speed: 48.77 per Sec.
+2019-07-12 15:43:56
+epoch:242 iter 3200 || ARM_L Loss: 0.8079 ARM_C Loss: 1.8850 ODM_L Loss: 0.7920 ODM_C Loss: 1.3135  Total: 4.7984 || lr: 0.001000 || speed: 49.67 per Sec.
+2019-07-12 15:46:09
+epoch:242 iter 3300 || ARM_L Loss: 1.1257 ARM_C Loss: 1.8793 ODM_L Loss: 0.6952 ODM_C Loss: 1.3928  Total: 5.0929 || lr: 0.001000 || speed: 48.16 per Sec.
+2019-07-12 15:48:21
+epoch:242 iter 3400 || ARM_L Loss: 0.9553 ARM_C Loss: 1.8738 ODM_L Loss: 0.6882 ODM_C Loss: 1.2412  Total: 4.7585 || lr: 0.001000 || speed: 49.58 per Sec.
+2019-07-12 15:50:33
+epoch:242 iter 3500 || ARM_L Loss: 1.1419 ARM_C Loss: 1.8035 ODM_L Loss: 0.8075 ODM_C Loss: 1.2304  Total: 4.9834 || lr: 0.001000 || speed: 48.66 per Sec.
+2019-07-12 15:52:46
+epoch:242 iter 3600 || ARM_L Loss: 0.6262 ARM_C Loss: 1.7567 ODM_L Loss: 0.5869 ODM_C Loss: 1.0651  Total: 4.0349 || lr: 0.001000 || speed: 48.95 per Sec.
+2019-07-12 15:54:59
+epoch:242 iter 3700 || ARM_L Loss: 1.1128 ARM_C Loss: 1.9426 ODM_L Loss: 0.8562 ODM_C Loss: 1.6403  Total: 5.5518 || lr: 0.001000 || speed: 47.90 per Sec.
+2019-07-12 15:57:12
+epoch:242 iter 3800 || ARM_L Loss: 1.2184 ARM_C Loss: 2.2531 ODM_L Loss: 0.9901 ODM_C Loss: 1.8115  Total: 6.2731 || lr: 0.001000 || speed: 46.96 per Sec.
+2019-07-12 15:59:24
+epoch:242 iter 3900 || ARM_L Loss: 1.1063 ARM_C Loss: 1.9520 ODM_L Loss: 0.7760 ODM_C Loss: 1.2550  Total: 5.0894 || lr: 0.001000 || speed: 47.27 per Sec.
+2019-07-12 16:01:36
+epoch:242 iter 4000 || ARM_L Loss: 1.4496 ARM_C Loss: 2.1642 ODM_L Loss: 1.0444 ODM_C Loss: 1.6913  Total: 6.3494 || lr: 0.001000 || speed: 47.91 per Sec.
+2019-07-12 16:03:48
+epoch:242 iter 4100 || ARM_L Loss: 1.0387 ARM_C Loss: 1.9542 ODM_L Loss: 0.8408 ODM_C Loss: 1.3504  Total: 5.1840 || lr: 0.001000 || speed: 48.76 per Sec.
+2019-07-12 16:06:00
+epoch:242 iter 4200 || ARM_L Loss: 1.0529 ARM_C Loss: 1.8806 ODM_L Loss: 0.8358 ODM_C Loss: 1.4078  Total: 5.1770 || lr: 0.001000 || speed: 47.07 per Sec.
+2019-07-12 16:08:13
+epoch:242 iter 4300 || ARM_L Loss: 0.8134 ARM_C Loss: 1.9192 ODM_L Loss: 0.7045 ODM_C Loss: 1.2288  Total: 4.6659 || lr: 0.001000 || speed: 48.02 per Sec.
+2019-07-12 16:10:25
+epoch:242 iter 4400 || ARM_L Loss: 0.9365 ARM_C Loss: 1.8108 ODM_L Loss: 0.7310 ODM_C Loss: 1.0152  Total: 4.4935 || lr: 0.001000 || speed: 49.96 per Sec.
+2019-07-12 16:12:37
+epoch:242 iter 4500 || ARM_L Loss: 0.9263 ARM_C Loss: 1.9899 ODM_L Loss: 0.8445 ODM_C Loss: 1.5917  Total: 5.3524 || lr: 0.001000 || speed: 47.74 per Sec.
+2019-07-12 16:14:50
+epoch:242 iter 4600 || ARM_L Loss: 0.9190 ARM_C Loss: 1.9007 ODM_L Loss: 0.7943 ODM_C Loss: 1.2590  Total: 4.8730 || lr: 0.001000 || speed: 48.20 per Sec.
+**********************************saved weights at 242
+2019-07-12 16:15:00
+epoch:243 iter 0 || ARM_L Loss: 0.8805 ARM_C Loss: 1.7734 ODM_L Loss: 0.7781 ODM_C Loss: 1.2882  Total: 4.7202 || lr: 0.001000 || speed: 46.74 per Sec.
+2019-07-12 16:17:12
+epoch:243 iter 100 || ARM_L Loss: 0.7068 ARM_C Loss: 1.7612 ODM_L Loss: 0.7293 ODM_C Loss: 1.0316  Total: 4.2289 || lr: 0.001000 || speed: 48.48 per Sec.
+2019-07-12 16:19:24
+epoch:243 iter 200 || ARM_L Loss: 0.9480 ARM_C Loss: 1.6599 ODM_L Loss: 0.6944 ODM_C Loss: 1.1340  Total: 4.4363 || lr: 0.001000 || speed: 47.87 per Sec.
+2019-07-12 16:21:36
+epoch:243 iter 300 || ARM_L Loss: 0.9821 ARM_C Loss: 2.0547 ODM_L Loss: 0.7581 ODM_C Loss: 1.8425  Total: 5.6375 || lr: 0.001000 || speed: 47.64 per Sec.
+2019-07-12 16:23:49
+epoch:243 iter 400 || ARM_L Loss: 0.8887 ARM_C Loss: 1.8844 ODM_L Loss: 0.7112 ODM_C Loss: 1.1799  Total: 4.6642 || lr: 0.001000 || speed: 48.50 per Sec.
+2019-07-12 16:26:02
+epoch:243 iter 500 || ARM_L Loss: 0.6030 ARM_C Loss: 1.5042 ODM_L Loss: 0.5589 ODM_C Loss: 0.9398  Total: 3.6060 || lr: 0.001000 || speed: 47.35 per Sec.
+2019-07-12 16:28:19
+epoch:243 iter 600 || ARM_L Loss: 0.9613 ARM_C Loss: 2.0109 ODM_L Loss: 0.6972 ODM_C Loss: 1.4067  Total: 5.0761 || lr: 0.001000 || speed: 48.36 per Sec.
+2019-07-12 16:30:36
+epoch:243 iter 700 || ARM_L Loss: 1.2505 ARM_C Loss: 1.9186 ODM_L Loss: 1.0151 ODM_C Loss: 1.5296  Total: 5.7137 || lr: 0.001000 || speed: 48.27 per Sec.
+2019-07-12 16:32:54
+epoch:243 iter 800 || ARM_L Loss: 1.1432 ARM_C Loss: 1.6658 ODM_L Loss: 0.6253 ODM_C Loss: 1.2021  Total: 4.6363 || lr: 0.001000 || speed: 47.01 per Sec.
+2019-07-12 16:35:12
+epoch:243 iter 900 || ARM_L Loss: 0.7665 ARM_C Loss: 1.7767 ODM_L Loss: 0.5908 ODM_C Loss: 1.1480  Total: 4.2821 || lr: 0.001000 || speed: 49.09 per Sec.
+2019-07-12 16:37:30
+epoch:243 iter 1000 || ARM_L Loss: 0.9284 ARM_C Loss: 1.8021 ODM_L Loss: 0.8320 ODM_C Loss: 1.2672  Total: 4.8298 || lr: 0.001000 || speed: 42.46 per Sec.
+2019-07-12 16:39:48
+epoch:243 iter 1100 || ARM_L Loss: 1.1136 ARM_C Loss: 1.9749 ODM_L Loss: 0.9420 ODM_C Loss: 1.4808  Total: 5.5113 || lr: 0.001000 || speed: 44.66 per Sec.
+2019-07-12 16:42:05
+epoch:243 iter 1200 || ARM_L Loss: 0.9088 ARM_C Loss: 2.0484 ODM_L Loss: 0.8717 ODM_C Loss: 1.4805  Total: 5.3094 || lr: 0.001000 || speed: 45.07 per Sec.
+2019-07-12 16:44:21
+epoch:243 iter 1300 || ARM_L Loss: 0.5287 ARM_C Loss: 1.5499 ODM_L Loss: 0.4947 ODM_C Loss: 0.9588  Total: 3.5321 || lr: 0.001000 || speed: 48.25 per Sec.
+2019-07-12 16:46:37
+epoch:243 iter 1400 || ARM_L Loss: 0.9155 ARM_C Loss: 1.7439 ODM_L Loss: 0.7573 ODM_C Loss: 1.2844  Total: 4.7011 || lr: 0.001000 || speed: 46.01 per Sec.
+2019-07-12 16:48:53
+epoch:243 iter 1500 || ARM_L Loss: 0.7145 ARM_C Loss: 1.7090 ODM_L Loss: 0.5978 ODM_C Loss: 1.2342  Total: 4.2555 || lr: 0.001000 || speed: 48.82 per Sec.
+2019-07-12 16:51:10
+epoch:243 iter 1600 || ARM_L Loss: 0.9836 ARM_C Loss: 1.9152 ODM_L Loss: 0.7116 ODM_C Loss: 1.4623  Total: 5.0728 || lr: 0.001000 || speed: 46.65 per Sec.
+2019-07-12 16:53:27
+epoch:243 iter 1700 || ARM_L Loss: 0.7505 ARM_C Loss: 1.7183 ODM_L Loss: 0.5489 ODM_C Loss: 1.1943  Total: 4.2119 || lr: 0.001000 || speed: 48.83 per Sec.
+2019-07-12 16:55:46
+epoch:243 iter 1800 || ARM_L Loss: 0.8032 ARM_C Loss: 1.7961 ODM_L Loss: 0.6274 ODM_C Loss: 1.1687  Total: 4.3955 || lr: 0.001000 || speed: 47.69 per Sec.
+2019-07-12 16:58:03
+epoch:243 iter 1900 || ARM_L Loss: 0.9916 ARM_C Loss: 1.9372 ODM_L Loss: 0.8029 ODM_C Loss: 1.2575  Total: 4.9892 || lr: 0.001000 || speed: 47.81 per Sec.
+2019-07-12 17:00:19
+epoch:243 iter 2000 || ARM_L Loss: 0.7096 ARM_C Loss: 1.7036 ODM_L Loss: 0.6848 ODM_C Loss: 1.1319  Total: 4.2300 || lr: 0.001000 || speed: 49.13 per Sec.
+2019-07-12 17:02:36
+epoch:243 iter 2100 || ARM_L Loss: 0.7388 ARM_C Loss: 1.7012 ODM_L Loss: 0.6993 ODM_C Loss: 1.2032  Total: 4.3425 || lr: 0.001000 || speed: 48.44 per Sec.
+2019-07-12 17:04:52
+epoch:243 iter 2200 || ARM_L Loss: 0.8859 ARM_C Loss: 1.7720 ODM_L Loss: 0.5621 ODM_C Loss: 1.2291  Total: 4.4491 || lr: 0.001000 || speed: 49.16 per Sec.
+2019-07-12 17:07:10
+epoch:243 iter 2300 || ARM_L Loss: 0.4935 ARM_C Loss: 1.5774 ODM_L Loss: 0.4895 ODM_C Loss: 0.9422  Total: 3.5026 || lr: 0.001000 || speed: 47.21 per Sec.
+2019-07-12 17:09:27
+epoch:243 iter 2400 || ARM_L Loss: 0.9549 ARM_C Loss: 1.7986 ODM_L Loss: 0.8066 ODM_C Loss: 1.1958  Total: 4.7559 || lr: 0.001000 || speed: 47.63 per Sec.
+2019-07-12 17:11:44
+epoch:243 iter 2500 || ARM_L Loss: 0.6623 ARM_C Loss: 1.8469 ODM_L Loss: 0.5189 ODM_C Loss: 1.0300  Total: 4.0580 || lr: 0.001000 || speed: 48.49 per Sec.
+2019-07-12 17:14:00
+epoch:243 iter 2600 || ARM_L Loss: 1.0184 ARM_C Loss: 1.8946 ODM_L Loss: 0.8686 ODM_C Loss: 1.4130  Total: 5.1947 || lr: 0.001000 || speed: 48.58 per Sec.
+2019-07-12 17:16:16
+epoch:243 iter 2700 || ARM_L Loss: 0.9614 ARM_C Loss: 1.8102 ODM_L Loss: 0.7210 ODM_C Loss: 1.1420  Total: 4.6346 || lr: 0.001000 || speed: 47.26 per Sec.
+2019-07-12 17:18:32
+epoch:243 iter 2800 || ARM_L Loss: 0.9744 ARM_C Loss: 1.7920 ODM_L Loss: 0.5948 ODM_C Loss: 1.2356  Total: 4.5968 || lr: 0.001000 || speed: 49.42 per Sec.
+2019-07-12 17:20:48
+epoch:243 iter 2900 || ARM_L Loss: 0.5797 ARM_C Loss: 1.5216 ODM_L Loss: 0.5419 ODM_C Loss: 0.9994  Total: 3.6425 || lr: 0.001000 || speed: 48.33 per Sec.
+2019-07-12 17:23:05
+epoch:243 iter 3000 || ARM_L Loss: 0.9028 ARM_C Loss: 1.7635 ODM_L Loss: 0.7019 ODM_C Loss: 1.2633  Total: 4.6316 || lr: 0.001000 || speed: 46.74 per Sec.
+2019-07-12 17:25:21
+epoch:243 iter 3100 || ARM_L Loss: 0.5622 ARM_C Loss: 1.5795 ODM_L Loss: 0.6296 ODM_C Loss: 1.1518  Total: 3.9231 || lr: 0.001000 || speed: 46.91 per Sec.
+2019-07-12 17:27:37
+epoch:243 iter 3200 || ARM_L Loss: 1.0102 ARM_C Loss: 1.8736 ODM_L Loss: 0.8176 ODM_C Loss: 1.3667  Total: 5.0681 || lr: 0.001000 || speed: 47.05 per Sec.
+2019-07-12 17:29:55
+epoch:243 iter 3300 || ARM_L Loss: 1.2824 ARM_C Loss: 1.8145 ODM_L Loss: 0.8055 ODM_C Loss: 1.2458  Total: 5.1482 || lr: 0.001000 || speed: 47.21 per Sec.
+2019-07-12 17:32:12
+epoch:243 iter 3400 || ARM_L Loss: 0.7874 ARM_C Loss: 1.9095 ODM_L Loss: 0.7237 ODM_C Loss: 1.5367  Total: 4.9573 || lr: 0.001000 || speed: 44.02 per Sec.
+2019-07-12 17:34:28
+epoch:243 iter 3500 || ARM_L Loss: 0.6658 ARM_C Loss: 1.6556 ODM_L Loss: 0.6022 ODM_C Loss: 0.9476  Total: 3.8712 || lr: 0.001000 || speed: 45.91 per Sec.
+2019-07-12 17:36:43
+epoch:243 iter 3600 || ARM_L Loss: 1.1503 ARM_C Loss: 1.9179 ODM_L Loss: 0.9142 ODM_C Loss: 1.3208  Total: 5.3032 || lr: 0.001000 || speed: 47.38 per Sec.
+2019-07-12 17:38:59
+epoch:243 iter 3700 || ARM_L Loss: 1.0781 ARM_C Loss: 1.8754 ODM_L Loss: 0.7617 ODM_C Loss: 1.4528  Total: 5.1680 || lr: 0.001000 || speed: 43.20 per Sec.
+2019-07-12 17:41:16
+epoch:243 iter 3800 || ARM_L Loss: 1.1267 ARM_C Loss: 1.8797 ODM_L Loss: 0.7566 ODM_C Loss: 1.3108  Total: 5.0738 || lr: 0.001000 || speed: 49.66 per Sec.
+2019-07-12 17:43:35
+epoch:243 iter 3900 || ARM_L Loss: 1.0342 ARM_C Loss: 1.9149 ODM_L Loss: 0.8745 ODM_C Loss: 1.3717  Total: 5.1953 || lr: 0.001000 || speed: 47.51 per Sec.
+2019-07-12 17:45:51
+epoch:243 iter 4000 || ARM_L Loss: 1.1906 ARM_C Loss: 1.8536 ODM_L Loss: 0.7034 ODM_C Loss: 1.4128  Total: 5.1603 || lr: 0.001000 || speed: 48.63 per Sec.
+2019-07-12 17:48:08
+epoch:243 iter 4100 || ARM_L Loss: 1.1097 ARM_C Loss: 1.7208 ODM_L Loss: 0.6960 ODM_C Loss: 1.3289  Total: 4.8554 || lr: 0.001000 || speed: 44.68 per Sec.
+2019-07-12 17:50:25
+epoch:243 iter 4200 || ARM_L Loss: 1.0032 ARM_C Loss: 1.9872 ODM_L Loss: 0.7877 ODM_C Loss: 1.3599  Total: 5.1381 || lr: 0.001000 || speed: 48.05 per Sec.
+2019-07-12 17:52:44
+epoch:243 iter 4300 || ARM_L Loss: 0.8777 ARM_C Loss: 1.8467 ODM_L Loss: 0.7897 ODM_C Loss: 1.2572  Total: 4.7713 || lr: 0.001000 || speed: 45.19 per Sec.
+2019-07-12 17:55:01
+epoch:243 iter 4400 || ARM_L Loss: 0.8390 ARM_C Loss: 1.8348 ODM_L Loss: 0.6509 ODM_C Loss: 1.2766  Total: 4.6013 || lr: 0.001000 || speed: 48.09 per Sec.
+2019-07-12 17:57:19
+epoch:243 iter 4500 || ARM_L Loss: 1.0503 ARM_C Loss: 1.8216 ODM_L Loss: 0.7990 ODM_C Loss: 1.2629  Total: 4.9338 || lr: 0.001000 || speed: 47.58 per Sec.
+2019-07-12 17:59:35
+epoch:243 iter 4600 || ARM_L Loss: 0.5152 ARM_C Loss: 1.5123 ODM_L Loss: 0.4952 ODM_C Loss: 1.1651  Total: 3.6878 || lr: 0.001000 || speed: 46.14 per Sec.
+2019-07-12 17:59:45
+epoch:244 iter 0 || ARM_L Loss: 1.3809 ARM_C Loss: 1.9026 ODM_L Loss: 0.9657 ODM_C Loss: 1.3940  Total: 5.6433 || lr: 0.001000 || speed: 45.18 per Sec.
+2019-07-12 18:02:03
+epoch:244 iter 100 || ARM_L Loss: 0.7375 ARM_C Loss: 1.7415 ODM_L Loss: 0.7177 ODM_C Loss: 1.1338  Total: 4.3305 || lr: 0.001000 || speed: 47.99 per Sec.
+2019-07-12 18:04:19
+epoch:244 iter 200 || ARM_L Loss: 0.8616 ARM_C Loss: 1.7055 ODM_L Loss: 0.6742 ODM_C Loss: 0.9892  Total: 4.2305 || lr: 0.001000 || speed: 47.23 per Sec.
+2019-07-12 18:06:36
+epoch:244 iter 300 || ARM_L Loss: 0.8454 ARM_C Loss: 1.5894 ODM_L Loss: 0.6701 ODM_C Loss: 1.0817  Total: 4.1866 || lr: 0.001000 || speed: 45.25 per Sec.
+2019-07-12 18:08:52
+epoch:244 iter 400 || ARM_L Loss: 1.0684 ARM_C Loss: 1.7370 ODM_L Loss: 0.7384 ODM_C Loss: 1.1886  Total: 4.7324 || lr: 0.001000 || speed: 48.16 per Sec.
+2019-07-12 18:11:08
+epoch:244 iter 500 || ARM_L Loss: 0.7910 ARM_C Loss: 1.6923 ODM_L Loss: 0.6600 ODM_C Loss: 1.0016  Total: 4.1450 || lr: 0.001000 || speed: 48.76 per Sec.
+2019-07-12 18:13:24
+epoch:244 iter 600 || ARM_L Loss: 1.0354 ARM_C Loss: 1.9906 ODM_L Loss: 0.7193 ODM_C Loss: 1.4334  Total: 5.1786 || lr: 0.001000 || speed: 48.75 per Sec.
+2019-07-12 18:15:36
+epoch:244 iter 700 || ARM_L Loss: 1.0074 ARM_C Loss: 1.8095 ODM_L Loss: 0.7656 ODM_C Loss: 1.1496  Total: 4.7320 || lr: 0.001000 || speed: 48.33 per Sec.
+2019-07-12 18:17:47
+epoch:244 iter 800 || ARM_L Loss: 1.5323 ARM_C Loss: 2.0086 ODM_L Loss: 0.9361 ODM_C Loss: 1.6125  Total: 6.0895 || lr: 0.001000 || speed: 47.81 per Sec.
+2019-07-12 18:19:57
+epoch:244 iter 900 || ARM_L Loss: 1.0662 ARM_C Loss: 1.9713 ODM_L Loss: 0.8195 ODM_C Loss: 1.3771  Total: 5.2340 || lr: 0.001000 || speed: 48.49 per Sec.
+2019-07-12 18:22:06
+epoch:244 iter 1000 || ARM_L Loss: 1.0285 ARM_C Loss: 1.6959 ODM_L Loss: 0.7854 ODM_C Loss: 1.0806  Total: 4.5903 || lr: 0.001000 || speed: 47.05 per Sec.
+2019-07-12 18:24:17
+epoch:244 iter 1100 || ARM_L Loss: 0.8497 ARM_C Loss: 1.6626 ODM_L Loss: 0.7035 ODM_C Loss: 1.1343  Total: 4.3500 || lr: 0.001000 || speed: 46.58 per Sec.
+2019-07-12 18:26:27
+epoch:244 iter 1200 || ARM_L Loss: 0.9729 ARM_C Loss: 1.8657 ODM_L Loss: 0.7063 ODM_C Loss: 1.2337  Total: 4.7786 || lr: 0.001000 || speed: 47.38 per Sec.
+2019-07-12 18:28:36
+epoch:244 iter 1300 || ARM_L Loss: 0.9972 ARM_C Loss: 1.8532 ODM_L Loss: 0.7182 ODM_C Loss: 1.1270  Total: 4.6956 || lr: 0.001000 || speed: 45.21 per Sec.
+2019-07-12 18:30:46
+epoch:244 iter 1400 || ARM_L Loss: 1.0894 ARM_C Loss: 1.9279 ODM_L Loss: 0.7396 ODM_C Loss: 1.3005  Total: 5.0574 || lr: 0.000100 || speed: 48.23 per Sec.
+2019-07-12 18:33:00
+epoch:244 iter 1500 || ARM_L Loss: 0.9353 ARM_C Loss: 1.8050 ODM_L Loss: 0.6763 ODM_C Loss: 1.2665  Total: 4.6830 || lr: 0.000100 || speed: 48.67 per Sec.
+2019-07-12 18:35:16
+epoch:244 iter 1600 || ARM_L Loss: 0.9336 ARM_C Loss: 1.8244 ODM_L Loss: 0.8142 ODM_C Loss: 1.3724  Total: 4.9447 || lr: 0.000100 || speed: 46.49 per Sec.
+2019-07-12 18:37:34
+epoch:244 iter 1700 || ARM_L Loss: 1.1116 ARM_C Loss: 1.8303 ODM_L Loss: 0.8067 ODM_C Loss: 1.2404  Total: 4.9890 || lr: 0.000100 || speed: 45.97 per Sec.
+2019-07-12 18:39:51
+epoch:244 iter 1800 || ARM_L Loss: 0.9409 ARM_C Loss: 1.8960 ODM_L Loss: 0.7004 ODM_C Loss: 1.3508  Total: 4.8881 || lr: 0.000100 || speed: 48.40 per Sec.
+2019-07-12 18:42:10
+epoch:244 iter 1900 || ARM_L Loss: 1.0357 ARM_C Loss: 1.7333 ODM_L Loss: 0.8340 ODM_C Loss: 1.1214  Total: 4.7244 || lr: 0.000100 || speed: 47.62 per Sec.
+2019-07-12 18:44:28
+epoch:244 iter 2000 || ARM_L Loss: 1.1298 ARM_C Loss: 1.7583 ODM_L Loss: 0.7134 ODM_C Loss: 1.1749  Total: 4.7763 || lr: 0.000100 || speed: 44.40 per Sec.
+2019-07-12 18:46:46
+epoch:244 iter 2100 || ARM_L Loss: 1.0333 ARM_C Loss: 1.8618 ODM_L Loss: 0.7557 ODM_C Loss: 1.2353  Total: 4.8861 || lr: 0.000100 || speed: 46.69 per Sec.
+2019-07-12 18:49:05
+epoch:244 iter 2200 || ARM_L Loss: 0.9263 ARM_C Loss: 1.7729 ODM_L Loss: 0.7381 ODM_C Loss: 1.2045  Total: 4.6417 || lr: 0.000100 || speed: 34.58 per Sec.
+2019-07-12 18:51:24
+epoch:244 iter 2300 || ARM_L Loss: 1.0082 ARM_C Loss: 1.8667 ODM_L Loss: 0.9322 ODM_C Loss: 1.2510  Total: 5.0581 || lr: 0.000100 || speed: 46.84 per Sec.
+2019-07-12 18:53:42
+epoch:244 iter 2400 || ARM_L Loss: 0.7463 ARM_C Loss: 1.7842 ODM_L Loss: 0.6799 ODM_C Loss: 1.3537  Total: 4.5642 || lr: 0.000100 || speed: 49.17 per Sec.
+2019-07-12 18:55:59
+epoch:244 iter 2500 || ARM_L Loss: 1.0714 ARM_C Loss: 1.9937 ODM_L Loss: 0.8009 ODM_C Loss: 1.0700  Total: 4.9359 || lr: 0.000100 || speed: 45.12 per Sec.
+2019-07-12 18:58:16
+epoch:244 iter 2600 || ARM_L Loss: 0.6781 ARM_C Loss: 1.5863 ODM_L Loss: 0.5774 ODM_C Loss: 0.9094  Total: 3.7512 || lr: 0.000100 || speed: 47.12 per Sec.
+2019-07-12 19:00:36
+epoch:244 iter 2700 || ARM_L Loss: 0.8492 ARM_C Loss: 1.7074 ODM_L Loss: 0.6875 ODM_C Loss: 0.9887  Total: 4.2327 || lr: 0.000100 || speed: 46.57 per Sec.
+2019-07-12 19:02:54
+epoch:244 iter 2800 || ARM_L Loss: 0.8915 ARM_C Loss: 1.6196 ODM_L Loss: 0.6488 ODM_C Loss: 1.0158  Total: 4.1757 || lr: 0.000100 || speed: 46.09 per Sec.
+2019-07-12 19:05:13
+epoch:244 iter 2900 || ARM_L Loss: 0.8859 ARM_C Loss: 1.6534 ODM_L Loss: 0.7780 ODM_C Loss: 1.0998  Total: 4.4172 || lr: 0.000100 || speed: 45.00 per Sec.
+2019-07-12 19:07:30
+epoch:244 iter 3000 || ARM_L Loss: 1.0146 ARM_C Loss: 1.8381 ODM_L Loss: 0.8614 ODM_C Loss: 1.2682  Total: 4.9823 || lr: 0.000100 || speed: 49.80 per Sec.
+2019-07-12 19:09:48
+epoch:244 iter 3100 || ARM_L Loss: 0.7080 ARM_C Loss: 1.8142 ODM_L Loss: 0.5814 ODM_C Loss: 1.1734  Total: 4.2771 || lr: 0.000100 || speed: 46.98 per Sec.
+2019-07-12 19:12:07
+epoch:244 iter 3200 || ARM_L Loss: 0.8153 ARM_C Loss: 1.8384 ODM_L Loss: 0.7613 ODM_C Loss: 1.2580  Total: 4.6731 || lr: 0.000100 || speed: 43.97 per Sec.
+2019-07-12 19:14:25
+epoch:244 iter 3300 || ARM_L Loss: 0.8994 ARM_C Loss: 1.6927 ODM_L Loss: 0.7855 ODM_C Loss: 1.0606  Total: 4.4381 || lr: 0.000100 || speed: 48.73 per Sec.
+2019-07-12 19:16:43
+epoch:244 iter 3400 || ARM_L Loss: 0.8672 ARM_C Loss: 1.8211 ODM_L Loss: 0.7159 ODM_C Loss: 1.1891  Total: 4.5933 || lr: 0.000100 || speed: 49.68 per Sec.
+2019-07-12 19:19:02
+epoch:244 iter 3500 || ARM_L Loss: 1.1630 ARM_C Loss: 1.8549 ODM_L Loss: 0.7762 ODM_C Loss: 1.2384  Total: 5.0324 || lr: 0.000100 || speed: 45.56 per Sec.
+2019-07-12 19:21:21
+epoch:244 iter 3600 || ARM_L Loss: 0.9720 ARM_C Loss: 1.8558 ODM_L Loss: 0.7835 ODM_C Loss: 1.2491  Total: 4.8604 || lr: 0.000100 || speed: 48.09 per Sec.
+2019-07-12 19:23:38
+epoch:244 iter 3700 || ARM_L Loss: 0.9092 ARM_C Loss: 1.5770 ODM_L Loss: 0.6118 ODM_C Loss: 1.0472  Total: 4.1452 || lr: 0.000100 || speed: 45.11 per Sec.
+2019-07-12 19:25:56
+epoch:244 iter 3800 || ARM_L Loss: 0.6396 ARM_C Loss: 1.5326 ODM_L Loss: 0.4773 ODM_C Loss: 0.9316  Total: 3.5811 || lr: 0.000100 || speed: 47.65 per Sec.
+2019-07-12 19:28:13
+epoch:244 iter 3900 || ARM_L Loss: 0.7132 ARM_C Loss: 1.6654 ODM_L Loss: 0.5401 ODM_C Loss: 1.0119  Total: 3.9306 || lr: 0.000100 || speed: 46.60 per Sec.
+2019-07-12 19:30:31
+epoch:244 iter 4000 || ARM_L Loss: 0.6868 ARM_C Loss: 1.6113 ODM_L Loss: 0.5672 ODM_C Loss: 0.9180  Total: 3.7833 || lr: 0.000100 || speed: 48.46 per Sec.
+2019-07-12 19:32:50
+epoch:244 iter 4100 || ARM_L Loss: 1.1311 ARM_C Loss: 1.7891 ODM_L Loss: 0.6740 ODM_C Loss: 1.1346  Total: 4.7286 || lr: 0.000100 || speed: 42.32 per Sec.
+2019-07-12 19:35:08
+epoch:244 iter 4200 || ARM_L Loss: 0.8206 ARM_C Loss: 1.7551 ODM_L Loss: 0.6535 ODM_C Loss: 1.0805  Total: 4.3098 || lr: 0.000100 || speed: 48.68 per Sec.
+2019-07-12 19:37:26
+epoch:244 iter 4300 || ARM_L Loss: 1.2777 ARM_C Loss: 1.8358 ODM_L Loss: 0.7491 ODM_C Loss: 1.1511  Total: 5.0138 || lr: 0.000100 || speed: 47.88 per Sec.
+2019-07-12 19:39:44
+epoch:244 iter 4400 || ARM_L Loss: 0.5552 ARM_C Loss: 1.4182 ODM_L Loss: 0.5604 ODM_C Loss: 0.7994  Total: 3.3332 || lr: 0.000100 || speed: 46.60 per Sec.
+2019-07-12 19:42:02
+epoch:244 iter 4500 || ARM_L Loss: 1.0910 ARM_C Loss: 1.8904 ODM_L Loss: 0.7754 ODM_C Loss: 1.0541  Total: 4.8108 || lr: 0.000100 || speed: 46.30 per Sec.
+2019-07-12 19:44:20
+epoch:244 iter 4600 || ARM_L Loss: 0.6915 ARM_C Loss: 1.6953 ODM_L Loss: 0.6172 ODM_C Loss: 1.0723  Total: 4.0764 || lr: 0.000100 || speed: 45.28 per Sec.
+**********************************saved weights at 244
+2019-07-12 19:44:30
+epoch:245 iter 0 || ARM_L Loss: 0.9757 ARM_C Loss: 1.5576 ODM_L Loss: 0.6952 ODM_C Loss: 0.9501  Total: 4.1787 || lr: 0.000100 || speed: 46.72 per Sec.
+2019-07-12 19:46:48
+epoch:245 iter 100 || ARM_L Loss: 0.7058 ARM_C Loss: 1.5076 ODM_L Loss: 0.5086 ODM_C Loss: 0.7966  Total: 3.5186 || lr: 0.000100 || speed: 48.59 per Sec.
+2019-07-12 19:49:07
+epoch:245 iter 200 || ARM_L Loss: 0.9485 ARM_C Loss: 1.6908 ODM_L Loss: 0.7149 ODM_C Loss: 1.0354  Total: 4.3896 || lr: 0.000100 || speed: 45.51 per Sec.
+2019-07-12 19:51:26
+epoch:245 iter 300 || ARM_L Loss: 0.4685 ARM_C Loss: 1.4584 ODM_L Loss: 0.3850 ODM_C Loss: 0.9243  Total: 3.2361 || lr: 0.000100 || speed: 47.09 per Sec.
+2019-07-12 19:53:43
+epoch:245 iter 400 || ARM_L Loss: 0.8610 ARM_C Loss: 1.7086 ODM_L Loss: 0.5800 ODM_C Loss: 1.1793  Total: 4.3289 || lr: 0.000100 || speed: 41.57 per Sec.
+2019-07-12 19:56:01
+epoch:245 iter 500 || ARM_L Loss: 0.6642 ARM_C Loss: 1.8304 ODM_L Loss: 0.6084 ODM_C Loss: 1.2462  Total: 4.3492 || lr: 0.000100 || speed: 48.08 per Sec.
+2019-07-12 19:58:19
+epoch:245 iter 600 || ARM_L Loss: 0.9405 ARM_C Loss: 1.7768 ODM_L Loss: 0.7708 ODM_C Loss: 1.3169  Total: 4.8051 || lr: 0.000100 || speed: 49.24 per Sec.
+2019-07-12 20:00:38
+epoch:245 iter 700 || ARM_L Loss: 0.5619 ARM_C Loss: 1.4868 ODM_L Loss: 0.4561 ODM_C Loss: 0.7718  Total: 3.2766 || lr: 0.000100 || speed: 48.58 per Sec.
+2019-07-12 20:02:56
+epoch:245 iter 800 || ARM_L Loss: 0.7298 ARM_C Loss: 1.7412 ODM_L Loss: 0.6789 ODM_C Loss: 0.9682  Total: 4.1181 || lr: 0.000100 || speed: 46.58 per Sec.
+2019-07-12 20:05:15
+epoch:245 iter 900 || ARM_L Loss: 0.9144 ARM_C Loss: 1.7610 ODM_L Loss: 0.6949 ODM_C Loss: 1.1490  Total: 4.5193 || lr: 0.000100 || speed: 44.12 per Sec.
+2019-07-12 20:07:33
+epoch:245 iter 1000 || ARM_L Loss: 0.6565 ARM_C Loss: 1.6451 ODM_L Loss: 0.5794 ODM_C Loss: 1.1001  Total: 3.9811 || lr: 0.000100 || speed: 45.04 per Sec.
+2019-07-12 20:09:51
+epoch:245 iter 1100 || ARM_L Loss: 0.4647 ARM_C Loss: 1.3683 ODM_L Loss: 0.5007 ODM_C Loss: 0.9372  Total: 3.2708 || lr: 0.000100 || speed: 50.08 per Sec.
+2019-07-12 20:12:09
+epoch:245 iter 1200 || ARM_L Loss: 0.7238 ARM_C Loss: 1.7529 ODM_L Loss: 0.5906 ODM_C Loss: 1.2147  Total: 4.2820 || lr: 0.000100 || speed: 46.41 per Sec.
+2019-07-12 20:14:27
+epoch:245 iter 1300 || ARM_L Loss: 1.2299 ARM_C Loss: 1.8915 ODM_L Loss: 0.9028 ODM_C Loss: 1.4133  Total: 5.4375 || lr: 0.000100 || speed: 44.58 per Sec.
+2019-07-12 20:16:46
+epoch:245 iter 1400 || ARM_L Loss: 1.0258 ARM_C Loss: 1.8888 ODM_L Loss: 0.7620 ODM_C Loss: 1.1675  Total: 4.8442 || lr: 0.000100 || speed: 46.05 per Sec.
+2019-07-12 20:19:05
+epoch:245 iter 1500 || ARM_L Loss: 1.0959 ARM_C Loss: 1.7770 ODM_L Loss: 0.6353 ODM_C Loss: 1.1977  Total: 4.7059 || lr: 0.000100 || speed: 45.58 per Sec.
+2019-07-12 20:21:23
+epoch:245 iter 1600 || ARM_L Loss: 0.7605 ARM_C Loss: 1.7664 ODM_L Loss: 0.6502 ODM_C Loss: 1.0534  Total: 4.2306 || lr: 0.000100 || speed: 45.68 per Sec.
+2019-07-12 20:23:41
+epoch:245 iter 1700 || ARM_L Loss: 0.5568 ARM_C Loss: 1.6436 ODM_L Loss: 0.4616 ODM_C Loss: 0.9510  Total: 3.6131 || lr: 0.000100 || speed: 47.80 per Sec.
+2019-07-12 20:26:00
+epoch:245 iter 1800 || ARM_L Loss: 0.8667 ARM_C Loss: 1.6756 ODM_L Loss: 0.5895 ODM_C Loss: 0.9882  Total: 4.1201 || lr: 0.000100 || speed: 46.22 per Sec.
+2019-07-12 20:28:18
+epoch:245 iter 1900 || ARM_L Loss: 0.4770 ARM_C Loss: 1.5512 ODM_L Loss: 0.4202 ODM_C Loss: 1.2191  Total: 3.6675 || lr: 0.000100 || speed: 45.57 per Sec.
+2019-07-12 20:30:36
+epoch:245 iter 2000 || ARM_L Loss: 0.8126 ARM_C Loss: 1.7124 ODM_L Loss: 0.6410 ODM_C Loss: 1.0484  Total: 4.2144 || lr: 0.000100 || speed: 37.32 per Sec.
+2019-07-12 20:32:54
+epoch:245 iter 2100 || ARM_L Loss: 0.7310 ARM_C Loss: 1.7868 ODM_L Loss: 0.7052 ODM_C Loss: 1.1029  Total: 4.3259 || lr: 0.000100 || speed: 45.29 per Sec.
+2019-07-12 20:35:13
+epoch:245 iter 2200 || ARM_L Loss: 0.7966 ARM_C Loss: 1.7365 ODM_L Loss: 0.6074 ODM_C Loss: 1.0154  Total: 4.1559 || lr: 0.000100 || speed: 48.93 per Sec.
+2019-07-12 20:37:30
+epoch:245 iter 2300 || ARM_L Loss: 1.0236 ARM_C Loss: 1.8423 ODM_L Loss: 0.7092 ODM_C Loss: 1.2211  Total: 4.7962 || lr: 0.000100 || speed: 44.72 per Sec.
+2019-07-12 20:39:49
+epoch:245 iter 2400 || ARM_L Loss: 0.4104 ARM_C Loss: 1.3676 ODM_L Loss: 0.4414 ODM_C Loss: 0.7626  Total: 2.9820 || lr: 0.000100 || speed: 46.70 per Sec.
+2019-07-12 20:42:08
+epoch:245 iter 2500 || ARM_L Loss: 0.8489 ARM_C Loss: 1.7449 ODM_L Loss: 0.6452 ODM_C Loss: 1.1496  Total: 4.3886 || lr: 0.000100 || speed: 47.25 per Sec.
+2019-07-12 20:44:26
+epoch:245 iter 2600 || ARM_L Loss: 0.5540 ARM_C Loss: 1.6371 ODM_L Loss: 0.6148 ODM_C Loss: 1.0819  Total: 3.8878 || lr: 0.000100 || speed: 48.44 per Sec.
+2019-07-12 20:46:45
+epoch:245 iter 2700 || ARM_L Loss: 0.7395 ARM_C Loss: 1.6947 ODM_L Loss: 0.5233 ODM_C Loss: 0.9696  Total: 3.9272 || lr: 0.000100 || speed: 49.46 per Sec.
+2019-07-12 20:49:04
+epoch:245 iter 2800 || ARM_L Loss: 1.1850 ARM_C Loss: 1.7420 ODM_L Loss: 0.6084 ODM_C Loss: 0.9970  Total: 4.5324 || lr: 0.000100 || speed: 45.61 per Sec.
+2019-07-12 20:51:23
+epoch:245 iter 2900 || ARM_L Loss: 0.9547 ARM_C Loss: 1.7045 ODM_L Loss: 0.6105 ODM_C Loss: 1.1799  Total: 4.4497 || lr: 0.000100 || speed: 45.43 per Sec.
+2019-07-12 20:53:41
+epoch:245 iter 3000 || ARM_L Loss: 0.7886 ARM_C Loss: 1.7625 ODM_L Loss: 0.6384 ODM_C Loss: 1.0292  Total: 4.2187 || lr: 0.000100 || speed: 46.40 per Sec.
+2019-07-12 20:56:00
+epoch:245 iter 3100 || ARM_L Loss: 0.9168 ARM_C Loss: 1.9284 ODM_L Loss: 0.6271 ODM_C Loss: 1.3532  Total: 4.8255 || lr: 0.000100 || speed: 48.43 per Sec.
+2019-07-12 20:58:18
+epoch:245 iter 3200 || ARM_L Loss: 0.8214 ARM_C Loss: 1.4698 ODM_L Loss: 0.5096 ODM_C Loss: 0.9170  Total: 3.7177 || lr: 0.000100 || speed: 47.11 per Sec.
+2019-07-12 21:00:37
+epoch:245 iter 3300 || ARM_L Loss: 1.0158 ARM_C Loss: 1.7104 ODM_L Loss: 0.7404 ODM_C Loss: 1.1187  Total: 4.5853 || lr: 0.000100 || speed: 43.22 per Sec.
+2019-07-12 21:02:56
+epoch:245 iter 3400 || ARM_L Loss: 0.6632 ARM_C Loss: 1.6838 ODM_L Loss: 0.5698 ODM_C Loss: 1.0792  Total: 3.9960 || lr: 0.000100 || speed: 44.10 per Sec.
+2019-07-12 21:05:14
+epoch:245 iter 3500 || ARM_L Loss: 0.9099 ARM_C Loss: 1.7854 ODM_L Loss: 0.6969 ODM_C Loss: 0.9661  Total: 4.3583 || lr: 0.000100 || speed: 39.76 per Sec.
+2019-07-12 21:07:33
+epoch:245 iter 3600 || ARM_L Loss: 0.7393 ARM_C Loss: 1.4749 ODM_L Loss: 0.4196 ODM_C Loss: 0.9003  Total: 3.5341 || lr: 0.000100 || speed: 47.54 per Sec.
+2019-07-12 21:09:50
+epoch:245 iter 3700 || ARM_L Loss: 0.8534 ARM_C Loss: 1.7399 ODM_L Loss: 0.6581 ODM_C Loss: 1.0305  Total: 4.2819 || lr: 0.000100 || speed: 46.76 per Sec.
+2019-07-12 21:12:08
+epoch:245 iter 3800 || ARM_L Loss: 0.5424 ARM_C Loss: 1.4551 ODM_L Loss: 0.5444 ODM_C Loss: 0.9546  Total: 3.4966 || lr: 0.000100 || speed: 44.80 per Sec.
+2019-07-12 21:14:26
+epoch:245 iter 3900 || ARM_L Loss: 0.9244 ARM_C Loss: 1.6226 ODM_L Loss: 0.6155 ODM_C Loss: 0.9665  Total: 4.1290 || lr: 0.000100 || speed: 44.38 per Sec.
+2019-07-12 21:16:43
+epoch:245 iter 4000 || ARM_L Loss: 0.7451 ARM_C Loss: 1.8680 ODM_L Loss: 0.6576 ODM_C Loss: 0.9836  Total: 4.2542 || lr: 0.000100 || speed: 47.97 per Sec.
+2019-07-12 21:19:02
+epoch:245 iter 4100 || ARM_L Loss: 0.9501 ARM_C Loss: 1.7026 ODM_L Loss: 0.6520 ODM_C Loss: 1.1279  Total: 4.4326 || lr: 0.000100 || speed: 45.25 per Sec.
+2019-07-12 21:21:20
+epoch:245 iter 4200 || ARM_L Loss: 0.7313 ARM_C Loss: 1.8128 ODM_L Loss: 0.6348 ODM_C Loss: 1.2601  Total: 4.4389 || lr: 0.000100 || speed: 46.03 per Sec.
+2019-07-12 21:23:38
+epoch:245 iter 4300 || ARM_L Loss: 0.7576 ARM_C Loss: 1.4759 ODM_L Loss: 0.5948 ODM_C Loss: 0.8882  Total: 3.7164 || lr: 0.000100 || speed: 44.66 per Sec.
+2019-07-12 21:25:55
+epoch:245 iter 4400 || ARM_L Loss: 0.7373 ARM_C Loss: 1.6044 ODM_L Loss: 0.5910 ODM_C Loss: 0.9523  Total: 3.8849 || lr: 0.000100 || speed: 43.21 per Sec.
+2019-07-12 21:28:13
+epoch:245 iter 4500 || ARM_L Loss: 0.6115 ARM_C Loss: 1.5365 ODM_L Loss: 0.4870 ODM_C Loss: 1.0028  Total: 3.6379 || lr: 0.000100 || speed: 46.19 per Sec.
+2019-07-12 21:30:32
+epoch:245 iter 4600 || ARM_L Loss: 0.7518 ARM_C Loss: 1.6113 ODM_L Loss: 0.5697 ODM_C Loss: 1.0648  Total: 3.9976 || lr: 0.000100 || speed: 47.89 per Sec.
+2019-07-12 21:30:42
+epoch:246 iter 0 || ARM_L Loss: 0.5187 ARM_C Loss: 1.4110 ODM_L Loss: 0.4705 ODM_C Loss: 1.0258  Total: 3.4260 || lr: 0.000100 || speed: 45.71 per Sec.
+2019-07-12 21:33:00
+epoch:246 iter 100 || ARM_L Loss: 0.7689 ARM_C Loss: 1.6394 ODM_L Loss: 0.6127 ODM_C Loss: 1.0991  Total: 4.1202 || lr: 0.000100 || speed: 41.96 per Sec.
+2019-07-12 21:35:18
+epoch:246 iter 200 || ARM_L Loss: 0.6037 ARM_C Loss: 1.5708 ODM_L Loss: 0.5461 ODM_C Loss: 0.8620  Total: 3.5825 || lr: 0.000100 || speed: 49.49 per Sec.
+2019-07-12 21:37:37
+epoch:246 iter 300 || ARM_L Loss: 0.4790 ARM_C Loss: 1.4154 ODM_L Loss: 0.5128 ODM_C Loss: 0.7108  Total: 3.1180 || lr: 0.000100 || speed: 45.98 per Sec.
+2019-07-12 21:39:54
+epoch:246 iter 400 || ARM_L Loss: 0.5561 ARM_C Loss: 1.7549 ODM_L Loss: 0.4691 ODM_C Loss: 1.0374  Total: 3.8175 || lr: 0.000100 || speed: 45.51 per Sec.
+2019-07-12 21:42:14
+epoch:246 iter 500 || ARM_L Loss: 1.1082 ARM_C Loss: 1.8341 ODM_L Loss: 0.8222 ODM_C Loss: 1.2085  Total: 4.9731 || lr: 0.000100 || speed: 49.04 per Sec.
+2019-07-12 21:44:32
+epoch:246 iter 600 || ARM_L Loss: 1.0756 ARM_C Loss: 1.8717 ODM_L Loss: 0.8076 ODM_C Loss: 1.3522  Total: 5.1071 || lr: 0.000100 || speed: 47.80 per Sec.
+2019-07-12 21:46:50
+epoch:246 iter 700 || ARM_L Loss: 0.7990 ARM_C Loss: 1.6250 ODM_L Loss: 0.6643 ODM_C Loss: 1.0019  Total: 4.0901 || lr: 0.000100 || speed: 48.15 per Sec.
+2019-07-12 21:49:07
+epoch:246 iter 800 || ARM_L Loss: 1.0101 ARM_C Loss: 1.6028 ODM_L Loss: 0.5985 ODM_C Loss: 1.0712  Total: 4.2825 || lr: 0.000100 || speed: 48.09 per Sec.
+2019-07-12 21:51:27
+epoch:246 iter 900 || ARM_L Loss: 0.6783 ARM_C Loss: 1.5649 ODM_L Loss: 0.4945 ODM_C Loss: 0.9346  Total: 3.6722 || lr: 0.000100 || speed: 47.80 per Sec.
+2019-07-12 21:53:45
+epoch:246 iter 1000 || ARM_L Loss: 0.8131 ARM_C Loss: 1.5286 ODM_L Loss: 0.6749 ODM_C Loss: 0.9772  Total: 3.9938 || lr: 0.000100 || speed: 45.68 per Sec.
+2019-07-12 21:56:04
+epoch:246 iter 1100 || ARM_L Loss: 1.1709 ARM_C Loss: 1.8572 ODM_L Loss: 0.8477 ODM_C Loss: 1.2306  Total: 5.1063 || lr: 0.000100 || speed: 47.48 per Sec.
+2019-07-12 21:58:22
+epoch:246 iter 1200 || ARM_L Loss: 0.6781 ARM_C Loss: 1.4630 ODM_L Loss: 0.4905 ODM_C Loss: 0.8348  Total: 3.4663 || lr: 0.000100 || speed: 48.11 per Sec.
+2019-07-12 22:00:40
+epoch:246 iter 1300 || ARM_L Loss: 0.7489 ARM_C Loss: 1.6301 ODM_L Loss: 0.6163 ODM_C Loss: 1.1394  Total: 4.1346 || lr: 0.000100 || speed: 46.98 per Sec.
+2019-07-12 22:02:59
+epoch:246 iter 1400 || ARM_L Loss: 0.6640 ARM_C Loss: 1.6992 ODM_L Loss: 0.5394 ODM_C Loss: 1.1073  Total: 4.0099 || lr: 0.000100 || speed: 44.79 per Sec.
+2019-07-12 22:05:17
+epoch:246 iter 1500 || ARM_L Loss: 1.0879 ARM_C Loss: 1.7034 ODM_L Loss: 0.7184 ODM_C Loss: 1.1289  Total: 4.6386 || lr: 0.000100 || speed: 46.67 per Sec.
+2019-07-12 22:07:37
+epoch:246 iter 1600 || ARM_L Loss: 0.8652 ARM_C Loss: 1.7405 ODM_L Loss: 0.7322 ODM_C Loss: 1.3802  Total: 4.7181 || lr: 0.000100 || speed: 45.88 per Sec.
+2019-07-12 22:09:55
+epoch:246 iter 1700 || ARM_L Loss: 0.6908 ARM_C Loss: 1.6401 ODM_L Loss: 0.6190 ODM_C Loss: 0.7412  Total: 3.6912 || lr: 0.000100 || speed: 46.94 per Sec.
+2019-07-12 22:12:13
+epoch:246 iter 1800 || ARM_L Loss: 0.8107 ARM_C Loss: 1.6198 ODM_L Loss: 0.7233 ODM_C Loss: 1.0625  Total: 4.2163 || lr: 0.000100 || speed: 44.39 per Sec.
+2019-07-12 22:14:33
+epoch:246 iter 1900 || ARM_L Loss: 1.0811 ARM_C Loss: 1.9006 ODM_L Loss: 0.8444 ODM_C Loss: 1.2954  Total: 5.1215 || lr: 0.000100 || speed: 48.36 per Sec.
+2019-07-12 22:16:50
+epoch:246 iter 2000 || ARM_L Loss: 0.6762 ARM_C Loss: 1.5767 ODM_L Loss: 0.6162 ODM_C Loss: 0.9756  Total: 3.8447 || lr: 0.000100 || speed: 49.09 per Sec.
+2019-07-12 22:19:08
+epoch:246 iter 2100 || ARM_L Loss: 0.5786 ARM_C Loss: 1.5029 ODM_L Loss: 0.6024 ODM_C Loss: 1.0624  Total: 3.7463 || lr: 0.000100 || speed: 45.19 per Sec.
+2019-07-12 22:21:27
+epoch:246 iter 2200 || ARM_L Loss: 0.5034 ARM_C Loss: 1.4895 ODM_L Loss: 0.4243 ODM_C Loss: 0.9130  Total: 3.3301 || lr: 0.000100 || speed: 47.81 per Sec.
+2019-07-12 22:23:47
+epoch:246 iter 2300 || ARM_L Loss: 0.9809 ARM_C Loss: 1.8456 ODM_L Loss: 0.7622 ODM_C Loss: 1.2711  Total: 4.8597 || lr: 0.000100 || speed: 46.83 per Sec.
+2019-07-12 22:26:06
+epoch:246 iter 2400 || ARM_L Loss: 0.8426 ARM_C Loss: 1.9418 ODM_L Loss: 0.7365 ODM_C Loss: 1.2220  Total: 4.7429 || lr: 0.000100 || speed: 45.33 per Sec.
+2019-07-12 22:28:24
+epoch:246 iter 2500 || ARM_L Loss: 0.8277 ARM_C Loss: 1.7671 ODM_L Loss: 0.6833 ODM_C Loss: 1.0833  Total: 4.3614 || lr: 0.000100 || speed: 48.58 per Sec.
+2019-07-12 22:30:41
+epoch:246 iter 2600 || ARM_L Loss: 0.8932 ARM_C Loss: 1.6924 ODM_L Loss: 0.7070 ODM_C Loss: 1.1306  Total: 4.4233 || lr: 0.000100 || speed: 47.84 per Sec.
+2019-07-12 22:33:01
+epoch:246 iter 2700 || ARM_L Loss: 0.9620 ARM_C Loss: 1.8660 ODM_L Loss: 0.7687 ODM_C Loss: 1.4682  Total: 5.0650 || lr: 0.000100 || speed: 47.66 per Sec.
+2019-07-12 22:35:20
+epoch:246 iter 2800 || ARM_L Loss: 0.9392 ARM_C Loss: 1.6767 ODM_L Loss: 0.7185 ODM_C Loss: 1.1630  Total: 4.4974 || lr: 0.000100 || speed: 47.98 per Sec.
+2019-07-12 22:37:38
+epoch:246 iter 2900 || ARM_L Loss: 0.8721 ARM_C Loss: 1.6681 ODM_L Loss: 0.7418 ODM_C Loss: 1.1827  Total: 4.4648 || lr: 0.000100 || speed: 48.96 per Sec.
+2019-07-12 22:39:56
+epoch:246 iter 3000 || ARM_L Loss: 0.9127 ARM_C Loss: 1.7925 ODM_L Loss: 0.6363 ODM_C Loss: 1.1584  Total: 4.4999 || lr: 0.000100 || speed: 46.08 per Sec.
+2019-07-12 22:42:15
+epoch:246 iter 3100 || ARM_L Loss: 0.6955 ARM_C Loss: 1.6922 ODM_L Loss: 0.5799 ODM_C Loss: 1.0669  Total: 4.0347 || lr: 0.000100 || speed: 48.15 per Sec.
+2019-07-12 22:44:34
+epoch:246 iter 3200 || ARM_L Loss: 0.8947 ARM_C Loss: 1.8655 ODM_L Loss: 0.8160 ODM_C Loss: 1.2224  Total: 4.7985 || lr: 0.000100 || speed: 47.10 per Sec.
+2019-07-12 22:46:51
+epoch:246 iter 3300 || ARM_L Loss: 0.7405 ARM_C Loss: 1.6517 ODM_L Loss: 0.5887 ODM_C Loss: 0.8845  Total: 3.8654 || lr: 0.000100 || speed: 49.58 per Sec.
+2019-07-12 22:49:09
+epoch:246 iter 3400 || ARM_L Loss: 1.1102 ARM_C Loss: 1.9093 ODM_L Loss: 0.7966 ODM_C Loss: 1.3108  Total: 5.1269 || lr: 0.000100 || speed: 44.89 per Sec.
+2019-07-12 22:51:27
+epoch:246 iter 3500 || ARM_L Loss: 0.7296 ARM_C Loss: 1.7346 ODM_L Loss: 0.5551 ODM_C Loss: 0.9193  Total: 3.9386 || lr: 0.000100 || speed: 48.61 per Sec.
+2019-07-12 22:53:45
+epoch:246 iter 3600 || ARM_L Loss: 0.9525 ARM_C Loss: 1.7332 ODM_L Loss: 0.7117 ODM_C Loss: 1.1262  Total: 4.5236 || lr: 0.000100 || speed: 47.74 per Sec.
+2019-07-12 22:56:02
+epoch:246 iter 3700 || ARM_L Loss: 0.9324 ARM_C Loss: 1.8622 ODM_L Loss: 0.8009 ODM_C Loss: 1.2095  Total: 4.8051 || lr: 0.000100 || speed: 48.77 per Sec.
+2019-07-12 22:58:21
+epoch:246 iter 3800 || ARM_L Loss: 0.5977 ARM_C Loss: 1.3703 ODM_L Loss: 0.4773 ODM_C Loss: 0.7532  Total: 3.1985 || lr: 0.000100 || speed: 48.54 per Sec.
+2019-07-12 23:00:38
+epoch:246 iter 3900 || ARM_L Loss: 0.8163 ARM_C Loss: 1.5216 ODM_L Loss: 0.6201 ODM_C Loss: 1.2468  Total: 4.2048 || lr: 0.000100 || speed: 47.73 per Sec.
+2019-07-12 23:02:56
+epoch:246 iter 4000 || ARM_L Loss: 0.7380 ARM_C Loss: 1.6026 ODM_L Loss: 0.6311 ODM_C Loss: 0.9811  Total: 3.9527 || lr: 0.000100 || speed: 47.88 per Sec.
+2019-07-12 23:05:14
+epoch:246 iter 4100 || ARM_L Loss: 0.7389 ARM_C Loss: 1.4903 ODM_L Loss: 0.4884 ODM_C Loss: 0.8635  Total: 3.5811 || lr: 0.000100 || speed: 48.44 per Sec.
+2019-07-12 23:07:33
+epoch:246 iter 4200 || ARM_L Loss: 0.9553 ARM_C Loss: 1.8097 ODM_L Loss: 0.7083 ODM_C Loss: 1.1289  Total: 4.6022 || lr: 0.000100 || speed: 46.90 per Sec.
+2019-07-12 23:09:51
+epoch:246 iter 4300 || ARM_L Loss: 0.6265 ARM_C Loss: 1.5878 ODM_L Loss: 0.6738 ODM_C Loss: 1.0375  Total: 3.9255 || lr: 0.000100 || speed: 49.57 per Sec.
+2019-07-12 23:12:09
+epoch:246 iter 4400 || ARM_L Loss: 0.6598 ARM_C Loss: 1.9766 ODM_L Loss: 0.6463 ODM_C Loss: 1.3186  Total: 4.6013 || lr: 0.000100 || speed: 48.20 per Sec.
+2019-07-12 23:14:27
+epoch:246 iter 4500 || ARM_L Loss: 0.7217 ARM_C Loss: 1.7470 ODM_L Loss: 0.6352 ODM_C Loss: 1.2097  Total: 4.3135 || lr: 0.000100 || speed: 47.55 per Sec.
+2019-07-12 23:16:46
+epoch:246 iter 4600 || ARM_L Loss: 0.7991 ARM_C Loss: 1.5854 ODM_L Loss: 0.6295 ODM_C Loss: 1.1385  Total: 4.1524 || lr: 0.000100 || speed: 38.71 per Sec.
+**********************************saved weights at 246
+2019-07-12 23:16:56
+epoch:247 iter 0 || ARM_L Loss: 0.6306 ARM_C Loss: 1.5403 ODM_L Loss: 0.5496 ODM_C Loss: 0.8893  Total: 3.6098 || lr: 0.000100 || speed: 46.75 per Sec.
+2019-07-12 23:19:16
+epoch:247 iter 100 || ARM_L Loss: 0.6442 ARM_C Loss: 1.5475 ODM_L Loss: 0.6133 ODM_C Loss: 0.8066  Total: 3.6115 || lr: 0.000100 || speed: 48.13 per Sec.
+2019-07-12 23:21:33
+epoch:247 iter 200 || ARM_L Loss: 0.6028 ARM_C Loss: 1.4855 ODM_L Loss: 0.4782 ODM_C Loss: 1.0088  Total: 3.5753 || lr: 0.000100 || speed: 44.13 per Sec.
+2019-07-12 23:23:52
+epoch:247 iter 300 || ARM_L Loss: 0.7392 ARM_C Loss: 1.5249 ODM_L Loss: 0.5933 ODM_C Loss: 0.9204  Total: 3.7778 || lr: 0.000100 || speed: 47.16 per Sec.
+2019-07-12 23:26:10
+epoch:247 iter 400 || ARM_L Loss: 1.0425 ARM_C Loss: 1.7733 ODM_L Loss: 0.7507 ODM_C Loss: 1.0423  Total: 4.6089 || lr: 0.000100 || speed: 46.05 per Sec.
+2019-07-12 23:28:29
+epoch:247 iter 500 || ARM_L Loss: 0.7584 ARM_C Loss: 1.6917 ODM_L Loss: 0.6075 ODM_C Loss: 0.8388  Total: 3.8964 || lr: 0.000100 || speed: 45.54 per Sec.
+2019-07-12 23:30:47
+epoch:247 iter 600 || ARM_L Loss: 0.7331 ARM_C Loss: 1.7502 ODM_L Loss: 0.5519 ODM_C Loss: 1.1467  Total: 4.1819 || lr: 0.000100 || speed: 44.98 per Sec.
+2019-07-12 23:33:07
+epoch:247 iter 700 || ARM_L Loss: 1.2110 ARM_C Loss: 1.9366 ODM_L Loss: 0.7695 ODM_C Loss: 1.2985  Total: 5.2155 || lr: 0.000100 || speed: 46.21 per Sec.
+2019-07-12 23:35:25
+epoch:247 iter 800 || ARM_L Loss: 0.6301 ARM_C Loss: 1.5068 ODM_L Loss: 0.5940 ODM_C Loss: 0.8612  Total: 3.5920 || lr: 0.000100 || speed: 40.59 per Sec.
+2019-07-12 23:37:43
+epoch:247 iter 900 || ARM_L Loss: 0.6819 ARM_C Loss: 1.5452 ODM_L Loss: 0.5983 ODM_C Loss: 0.8820  Total: 3.7074 || lr: 0.000100 || speed: 47.28 per Sec.
+2019-07-12 23:40:01
+epoch:247 iter 1000 || ARM_L Loss: 0.5955 ARM_C Loss: 1.5248 ODM_L Loss: 0.5957 ODM_C Loss: 0.9872  Total: 3.7032 || lr: 0.000100 || speed: 47.90 per Sec.
+2019-07-12 23:42:18
+epoch:247 iter 1100 || ARM_L Loss: 0.7663 ARM_C Loss: 1.4912 ODM_L Loss: 0.6063 ODM_C Loss: 1.1560  Total: 4.0198 || lr: 0.000100 || speed: 47.93 per Sec.
+2019-07-12 23:44:36
+epoch:247 iter 1200 || ARM_L Loss: 0.7235 ARM_C Loss: 1.7059 ODM_L Loss: 0.6677 ODM_C Loss: 1.1289  Total: 4.2261 || lr: 0.000100 || speed: 46.17 per Sec.
+2019-07-12 23:46:55
+epoch:247 iter 1300 || ARM_L Loss: 0.6178 ARM_C Loss: 1.5510 ODM_L Loss: 0.5899 ODM_C Loss: 1.0604  Total: 3.8191 || lr: 0.000100 || speed: 47.74 per Sec.
+2019-07-12 23:49:15
+epoch:247 iter 1400 || ARM_L Loss: 1.0886 ARM_C Loss: 1.7300 ODM_L Loss: 0.8840 ODM_C Loss: 1.2737  Total: 4.9762 || lr: 0.000100 || speed: 47.12 per Sec.
+2019-07-12 23:51:34
+epoch:247 iter 1500 || ARM_L Loss: 0.6600 ARM_C Loss: 1.6379 ODM_L Loss: 0.5905 ODM_C Loss: 1.0292  Total: 3.9175 || lr: 0.000100 || speed: 44.05 per Sec.
+2019-07-12 23:53:53
+epoch:247 iter 1600 || ARM_L Loss: 0.8743 ARM_C Loss: 1.7711 ODM_L Loss: 0.6737 ODM_C Loss: 1.1628  Total: 4.4819 || lr: 0.000100 || speed: 45.81 per Sec.
+2019-07-12 23:56:12
+epoch:247 iter 1700 || ARM_L Loss: 0.3696 ARM_C Loss: 1.2827 ODM_L Loss: 0.4125 ODM_C Loss: 0.7710  Total: 2.8357 || lr: 0.000100 || speed: 48.41 per Sec.
+2019-07-12 23:58:30
+epoch:247 iter 1800 || ARM_L Loss: 0.6511 ARM_C Loss: 1.6177 ODM_L Loss: 0.4562 ODM_C Loss: 0.9476  Total: 3.6726 || lr: 0.000100 || speed: 48.61 per Sec.
+2019-07-13 00:00:48
+epoch:247 iter 1900 || ARM_L Loss: 0.7080 ARM_C Loss: 1.5549 ODM_L Loss: 0.5175 ODM_C Loss: 0.9273  Total: 3.7077 || lr: 0.000100 || speed: 48.22 per Sec.
+2019-07-13 00:03:05
+epoch:247 iter 2000 || ARM_L Loss: 0.6711 ARM_C Loss: 1.5011 ODM_L Loss: 0.5395 ODM_C Loss: 0.8575  Total: 3.5692 || lr: 0.000100 || speed: 44.20 per Sec.
+2019-07-13 00:05:24
+epoch:247 iter 2100 || ARM_L Loss: 1.1136 ARM_C Loss: 1.6861 ODM_L Loss: 0.7616 ODM_C Loss: 1.2089  Total: 4.7702 || lr: 0.000100 || speed: 48.18 per Sec.
+2019-07-13 00:07:43
+epoch:247 iter 2200 || ARM_L Loss: 0.6641 ARM_C Loss: 1.6241 ODM_L Loss: 0.5045 ODM_C Loss: 1.0564  Total: 3.8490 || lr: 0.000100 || speed: 48.90 per Sec.
+2019-07-13 00:10:01
+epoch:247 iter 2300 || ARM_L Loss: 0.7873 ARM_C Loss: 1.5764 ODM_L Loss: 0.6765 ODM_C Loss: 1.0510  Total: 4.0912 || lr: 0.000100 || speed: 47.38 per Sec.
+2019-07-13 00:12:19
+epoch:247 iter 2400 || ARM_L Loss: 1.1395 ARM_C Loss: 1.6943 ODM_L Loss: 0.7960 ODM_C Loss: 1.1548  Total: 4.7845 || lr: 0.000100 || speed: 47.06 per Sec.
+2019-07-13 00:14:37
+epoch:247 iter 2500 || ARM_L Loss: 0.6481 ARM_C Loss: 1.5277 ODM_L Loss: 0.5929 ODM_C Loss: 0.8745  Total: 3.6432 || lr: 0.000100 || speed: 44.03 per Sec.
+2019-07-13 00:16:54
+epoch:247 iter 2600 || ARM_L Loss: 0.7931 ARM_C Loss: 1.6865 ODM_L Loss: 0.6818 ODM_C Loss: 1.2203  Total: 4.3817 || lr: 0.000100 || speed: 48.67 per Sec.
+2019-07-13 00:19:12
+epoch:247 iter 2700 || ARM_L Loss: 0.7978 ARM_C Loss: 1.6380 ODM_L Loss: 0.6082 ODM_C Loss: 0.9152  Total: 3.9591 || lr: 0.000100 || speed: 47.42 per Sec.
+2019-07-13 00:21:31
+epoch:247 iter 2800 || ARM_L Loss: 0.5706 ARM_C Loss: 1.6270 ODM_L Loss: 0.5153 ODM_C Loss: 0.8973  Total: 3.6103 || lr: 0.000100 || speed: 47.45 per Sec.
+2019-07-13 00:23:50
+epoch:247 iter 2900 || ARM_L Loss: 0.9704 ARM_C Loss: 1.6988 ODM_L Loss: 0.6164 ODM_C Loss: 1.1374  Total: 4.4229 || lr: 0.000100 || speed: 47.24 per Sec.
+2019-07-13 00:26:08
+epoch:247 iter 3000 || ARM_L Loss: 0.9309 ARM_C Loss: 1.8332 ODM_L Loss: 0.7011 ODM_C Loss: 1.1927  Total: 4.6580 || lr: 0.000100 || speed: 45.18 per Sec.
+2019-07-13 00:28:25
+epoch:247 iter 3100 || ARM_L Loss: 0.8074 ARM_C Loss: 1.6042 ODM_L Loss: 0.6449 ODM_C Loss: 1.0588  Total: 4.1153 || lr: 0.000100 || speed: 49.15 per Sec.
+2019-07-13 00:30:43
+epoch:247 iter 3200 || ARM_L Loss: 0.9599 ARM_C Loss: 1.5608 ODM_L Loss: 0.5136 ODM_C Loss: 0.9076  Total: 3.9420 || lr: 0.000100 || speed: 47.48 per Sec.
+2019-07-13 00:33:02
+epoch:247 iter 3300 || ARM_L Loss: 0.4785 ARM_C Loss: 1.4149 ODM_L Loss: 0.4658 ODM_C Loss: 0.8557  Total: 3.2149 || lr: 0.000100 || speed: 44.38 per Sec.
+2019-07-13 00:35:20
+epoch:247 iter 3400 || ARM_L Loss: 0.8886 ARM_C Loss: 1.6144 ODM_L Loss: 0.7067 ODM_C Loss: 1.2007  Total: 4.4104 || lr: 0.000100 || speed: 49.27 per Sec.
+2019-07-13 00:37:39
+epoch:247 iter 3500 || ARM_L Loss: 0.7245 ARM_C Loss: 1.6617 ODM_L Loss: 0.6047 ODM_C Loss: 1.1406  Total: 4.1315 || lr: 0.000100 || speed: 48.02 per Sec.
+2019-07-13 00:39:58
+epoch:247 iter 3600 || ARM_L Loss: 0.7079 ARM_C Loss: 1.6137 ODM_L Loss: 0.6434 ODM_C Loss: 1.1826  Total: 4.1477 || lr: 0.000100 || speed: 47.57 per Sec.
+2019-07-13 00:42:17
+epoch:247 iter 3700 || ARM_L Loss: 0.8102 ARM_C Loss: 1.6658 ODM_L Loss: 0.5796 ODM_C Loss: 0.9033  Total: 3.9589 || lr: 0.000100 || speed: 46.14 per Sec.
+2019-07-13 00:44:34
+epoch:247 iter 3800 || ARM_L Loss: 0.8994 ARM_C Loss: 1.6539 ODM_L Loss: 0.5976 ODM_C Loss: 0.8389  Total: 3.9899 || lr: 0.000100 || speed: 47.69 per Sec.
+2019-07-13 00:46:53
+epoch:247 iter 3900 || ARM_L Loss: 1.0498 ARM_C Loss: 1.7074 ODM_L Loss: 0.7858 ODM_C Loss: 1.1548  Total: 4.6977 || lr: 0.000100 || speed: 46.04 per Sec.
+2019-07-13 00:49:11
+epoch:247 iter 4000 || ARM_L Loss: 0.7952 ARM_C Loss: 1.6445 ODM_L Loss: 0.6872 ODM_C Loss: 1.2264  Total: 4.3534 || lr: 0.000100 || speed: 48.24 per Sec.
+2019-07-13 00:51:29
+epoch:247 iter 4100 || ARM_L Loss: 0.5170 ARM_C Loss: 1.3813 ODM_L Loss: 0.4367 ODM_C Loss: 0.7739  Total: 3.1090 || lr: 0.000100 || speed: 48.38 per Sec.
+2019-07-13 00:53:46
+epoch:247 iter 4200 || ARM_L Loss: 0.7506 ARM_C Loss: 1.7558 ODM_L Loss: 0.6160 ODM_C Loss: 1.1404  Total: 4.2628 || lr: 0.000100 || speed: 47.76 per Sec.
+2019-07-13 00:56:05
+epoch:247 iter 4300 || ARM_L Loss: 0.5798 ARM_C Loss: 1.6199 ODM_L Loss: 0.5106 ODM_C Loss: 0.9499  Total: 3.6602 || lr: 0.000100 || speed: 44.92 per Sec.
+2019-07-13 00:58:24
+epoch:247 iter 4400 || ARM_L Loss: 0.8198 ARM_C Loss: 1.6963 ODM_L Loss: 0.7060 ODM_C Loss: 1.2033  Total: 4.4254 || lr: 0.000100 || speed: 48.01 per Sec.
+2019-07-13 01:00:43
+epoch:247 iter 4500 || ARM_L Loss: 0.9698 ARM_C Loss: 1.7406 ODM_L Loss: 0.7435 ODM_C Loss: 1.1127  Total: 4.5666 || lr: 0.000100 || speed: 46.51 per Sec.
+2019-07-13 01:03:01
+epoch:247 iter 4600 || ARM_L Loss: 0.7556 ARM_C Loss: 1.6943 ODM_L Loss: 0.6620 ODM_C Loss: 0.9980  Total: 4.1098 || lr: 0.000100 || speed: 47.34 per Sec.
+2019-07-13 01:03:11
+epoch:248 iter 0 || ARM_L Loss: 0.8126 ARM_C Loss: 1.5445 ODM_L Loss: 0.6120 ODM_C Loss: 1.0326  Total: 4.0018 || lr: 0.000100 || speed: 49.06 per Sec.
+2019-07-13 01:05:31
+epoch:248 iter 100 || ARM_L Loss: 0.8027 ARM_C Loss: 1.6973 ODM_L Loss: 0.6541 ODM_C Loss: 1.1396  Total: 4.2937 || lr: 0.000100 || speed: 46.18 per Sec.
+2019-07-13 01:07:49
+epoch:248 iter 200 || ARM_L Loss: 0.8479 ARM_C Loss: 1.8040 ODM_L Loss: 0.7332 ODM_C Loss: 1.3296  Total: 4.7147 || lr: 0.000100 || speed: 45.42 per Sec.
+2019-07-13 01:10:08
+epoch:248 iter 300 || ARM_L Loss: 0.8567 ARM_C Loss: 1.7256 ODM_L Loss: 0.5372 ODM_C Loss: 1.1875  Total: 4.3069 || lr: 0.000100 || speed: 47.83 per Sec.
+2019-07-13 01:12:26
+epoch:248 iter 400 || ARM_L Loss: 0.9197 ARM_C Loss: 1.7087 ODM_L Loss: 0.6495 ODM_C Loss: 1.1290  Total: 4.4069 || lr: 0.000100 || speed: 46.51 per Sec.
+2019-07-13 01:14:45
+epoch:248 iter 500 || ARM_L Loss: 0.6373 ARM_C Loss: 1.7792 ODM_L Loss: 0.5687 ODM_C Loss: 1.0388  Total: 4.0240 || lr: 0.000100 || speed: 45.14 per Sec.
+2019-07-13 01:17:04
+epoch:248 iter 600 || ARM_L Loss: 0.9753 ARM_C Loss: 1.9577 ODM_L Loss: 0.8210 ODM_C Loss: 1.3016  Total: 5.0557 || lr: 0.000100 || speed: 44.40 per Sec.
+2019-07-13 01:19:23
+epoch:248 iter 700 || ARM_L Loss: 0.7963 ARM_C Loss: 1.6684 ODM_L Loss: 0.5542 ODM_C Loss: 1.1604  Total: 4.1793 || lr: 0.000100 || speed: 45.34 per Sec.
+2019-07-13 01:21:41
+epoch:248 iter 800 || ARM_L Loss: 0.6781 ARM_C Loss: 1.5647 ODM_L Loss: 0.6096 ODM_C Loss: 1.2996  Total: 4.1520 || lr: 0.000100 || speed: 46.92 per Sec.
+2019-07-13 01:24:00
+epoch:248 iter 900 || ARM_L Loss: 0.6916 ARM_C Loss: 1.7161 ODM_L Loss: 0.5933 ODM_C Loss: 1.1367  Total: 4.1378 || lr: 0.000100 || speed: 47.86 per Sec.
+2019-07-13 01:26:18
+epoch:248 iter 1000 || ARM_L Loss: 0.8147 ARM_C Loss: 1.5891 ODM_L Loss: 0.5399 ODM_C Loss: 0.9004  Total: 3.8441 || lr: 0.000100 || speed: 46.34 per Sec.
+2019-07-13 01:28:36
+epoch:248 iter 1100 || ARM_L Loss: 0.6130 ARM_C Loss: 1.4691 ODM_L Loss: 0.5453 ODM_C Loss: 0.8111  Total: 3.4385 || lr: 0.000100 || speed: 47.23 per Sec.
+2019-07-13 01:30:55
+epoch:248 iter 1200 || ARM_L Loss: 0.8371 ARM_C Loss: 1.7473 ODM_L Loss: 0.6218 ODM_C Loss: 1.2410  Total: 4.4473 || lr: 0.000100 || speed: 44.86 per Sec.
+2019-07-13 01:33:14
+epoch:248 iter 1300 || ARM_L Loss: 0.8318 ARM_C Loss: 1.6691 ODM_L Loss: 0.6516 ODM_C Loss: 1.0465  Total: 4.1991 || lr: 0.000100 || speed: 48.00 per Sec.
+2019-07-13 01:35:32
+epoch:248 iter 1400 || ARM_L Loss: 1.3617 ARM_C Loss: 1.7661 ODM_L Loss: 0.8572 ODM_C Loss: 1.2728  Total: 5.2578 || lr: 0.000100 || speed: 46.42 per Sec.
+2019-07-13 01:37:50
+epoch:248 iter 1500 || ARM_L Loss: 0.6334 ARM_C Loss: 1.7056 ODM_L Loss: 0.5969 ODM_C Loss: 0.9908  Total: 3.9267 || lr: 0.000100 || speed: 37.89 per Sec.
+2019-07-13 01:40:08
+epoch:248 iter 1600 || ARM_L Loss: 0.6608 ARM_C Loss: 1.5412 ODM_L Loss: 0.5188 ODM_C Loss: 0.8352  Total: 3.5560 || lr: 0.000100 || speed: 47.17 per Sec.
+2019-07-13 01:42:27
+epoch:248 iter 1700 || ARM_L Loss: 0.9787 ARM_C Loss: 1.8083 ODM_L Loss: 0.7855 ODM_C Loss: 1.1522  Total: 4.7248 || lr: 0.000100 || speed: 40.14 per Sec.
+2019-07-13 01:44:45
+epoch:248 iter 1800 || ARM_L Loss: 1.0411 ARM_C Loss: 1.6396 ODM_L Loss: 0.6935 ODM_C Loss: 1.0111  Total: 4.3853 || lr: 0.000100 || speed: 41.89 per Sec.
+2019-07-13 01:47:05
+epoch:248 iter 1900 || ARM_L Loss: 0.7588 ARM_C Loss: 1.8808 ODM_L Loss: 0.6647 ODM_C Loss: 1.0797  Total: 4.3840 || lr: 0.000100 || speed: 48.20 per Sec.
+2019-07-13 01:49:22
+epoch:248 iter 2000 || ARM_L Loss: 0.7782 ARM_C Loss: 1.6331 ODM_L Loss: 0.6580 ODM_C Loss: 0.9386  Total: 4.0079 || lr: 0.000100 || speed: 47.16 per Sec.
+2019-07-13 01:51:41
+epoch:248 iter 2100 || ARM_L Loss: 1.2216 ARM_C Loss: 1.9327 ODM_L Loss: 0.7291 ODM_C Loss: 1.3965  Total: 5.2799 || lr: 0.000100 || speed: 46.96 per Sec.
+2019-07-13 01:54:00
+epoch:248 iter 2200 || ARM_L Loss: 0.6257 ARM_C Loss: 1.6057 ODM_L Loss: 0.5246 ODM_C Loss: 0.9917  Total: 3.7478 || lr: 0.000100 || speed: 47.90 per Sec.
+2019-07-13 01:56:18
+epoch:248 iter 2300 || ARM_L Loss: 0.9284 ARM_C Loss: 1.6628 ODM_L Loss: 0.7289 ODM_C Loss: 1.2788  Total: 4.5989 || lr: 0.000100 || speed: 47.57 per Sec.
+2019-07-13 01:58:37
+epoch:248 iter 2400 || ARM_L Loss: 0.8303 ARM_C Loss: 1.6376 ODM_L Loss: 0.6846 ODM_C Loss: 0.9991  Total: 4.1516 || lr: 0.000100 || speed: 39.48 per Sec.
+2019-07-13 02:00:57
+epoch:248 iter 2500 || ARM_L Loss: 0.6480 ARM_C Loss: 1.6811 ODM_L Loss: 0.5033 ODM_C Loss: 1.0955  Total: 3.9279 || lr: 0.000100 || speed: 47.85 per Sec.
+2019-07-13 02:03:17
+epoch:248 iter 2600 || ARM_L Loss: 0.9040 ARM_C Loss: 1.8521 ODM_L Loss: 0.5835 ODM_C Loss: 1.0669  Total: 4.4065 || lr: 0.000100 || speed: 48.44 per Sec.
+2019-07-13 02:05:34
+epoch:248 iter 2700 || ARM_L Loss: 0.8617 ARM_C Loss: 1.5945 ODM_L Loss: 0.7734 ODM_C Loss: 1.0294  Total: 4.2591 || lr: 0.000100 || speed: 46.80 per Sec.
+2019-07-13 02:07:52
+epoch:248 iter 2800 || ARM_L Loss: 0.8232 ARM_C Loss: 1.4289 ODM_L Loss: 0.5465 ODM_C Loss: 0.9036  Total: 3.7021 || lr: 0.000100 || speed: 45.76 per Sec.
+2019-07-13 02:10:10
+epoch:248 iter 2900 || ARM_L Loss: 0.9251 ARM_C Loss: 1.4730 ODM_L Loss: 0.5489 ODM_C Loss: 1.1060  Total: 4.0530 || lr: 0.000100 || speed: 47.94 per Sec.
+2019-07-13 02:12:28
+epoch:248 iter 3000 || ARM_L Loss: 0.5815 ARM_C Loss: 1.3005 ODM_L Loss: 0.4434 ODM_C Loss: 0.7214  Total: 3.0469 || lr: 0.000010 || speed: 45.44 per Sec.
+2019-07-13 02:14:48
+epoch:248 iter 3100 || ARM_L Loss: 0.3832 ARM_C Loss: 1.3523 ODM_L Loss: 0.3368 ODM_C Loss: 0.6670  Total: 2.7393 || lr: 0.000010 || speed: 47.43 per Sec.
+2019-07-13 02:17:07
+epoch:248 iter 3200 || ARM_L Loss: 0.9922 ARM_C Loss: 1.6992 ODM_L Loss: 0.7192 ODM_C Loss: 0.9945  Total: 4.4050 || lr: 0.000010 || speed: 47.87 per Sec.
+2019-07-13 02:19:25
+epoch:248 iter 3300 || ARM_L Loss: 0.7419 ARM_C Loss: 1.8213 ODM_L Loss: 0.7078 ODM_C Loss: 1.2800  Total: 4.5510 || lr: 0.000010 || speed: 47.33 per Sec.
+2019-07-13 02:21:43
+epoch:248 iter 3400 || ARM_L Loss: 0.6292 ARM_C Loss: 1.4985 ODM_L Loss: 0.5887 ODM_C Loss: 0.8706  Total: 3.5870 || lr: 0.000010 || speed: 45.59 per Sec.
+2019-07-13 02:24:03
+epoch:248 iter 3500 || ARM_L Loss: 0.5252 ARM_C Loss: 1.2567 ODM_L Loss: 0.3592 ODM_C Loss: 0.8722  Total: 3.0133 || lr: 0.000010 || speed: 35.84 per Sec.
+2019-07-13 02:26:21
+epoch:248 iter 3600 || ARM_L Loss: 0.6188 ARM_C Loss: 1.6686 ODM_L Loss: 0.5235 ODM_C Loss: 0.8884  Total: 3.6992 || lr: 0.000010 || speed: 46.14 per Sec.
+2019-07-13 02:28:40
+epoch:248 iter 3700 || ARM_L Loss: 0.8454 ARM_C Loss: 1.7260 ODM_L Loss: 0.6432 ODM_C Loss: 0.9686  Total: 4.1832 || lr: 0.000010 || speed: 47.84 per Sec.
+2019-07-13 02:30:59
+epoch:248 iter 3800 || ARM_L Loss: 0.7767 ARM_C Loss: 1.6192 ODM_L Loss: 0.5718 ODM_C Loss: 0.9863  Total: 3.9539 || lr: 0.000010 || speed: 46.99 per Sec.
+2019-07-13 02:33:17
+epoch:248 iter 3900 || ARM_L Loss: 0.5992 ARM_C Loss: 1.4873 ODM_L Loss: 0.4547 ODM_C Loss: 0.8667  Total: 3.4079 || lr: 0.000010 || speed: 47.70 per Sec.
+2019-07-13 02:35:36
+epoch:248 iter 4000 || ARM_L Loss: 0.8031 ARM_C Loss: 1.5793 ODM_L Loss: 0.5647 ODM_C Loss: 1.0232  Total: 3.9704 || lr: 0.000010 || speed: 45.44 per Sec.
+2019-07-13 02:37:55
+epoch:248 iter 4100 || ARM_L Loss: 1.2533 ARM_C Loss: 1.8772 ODM_L Loss: 0.8676 ODM_C Loss: 1.2160  Total: 5.2141 || lr: 0.000010 || speed: 47.77 per Sec.
+2019-07-13 02:40:14
+epoch:248 iter 4200 || ARM_L Loss: 0.8357 ARM_C Loss: 1.9443 ODM_L Loss: 0.6400 ODM_C Loss: 1.1241  Total: 4.5440 || lr: 0.000010 || speed: 43.35 per Sec.
+2019-07-13 02:42:32
+epoch:248 iter 4300 || ARM_L Loss: 0.4744 ARM_C Loss: 1.3700 ODM_L Loss: 0.3874 ODM_C Loss: 0.8299  Total: 3.0618 || lr: 0.000010 || speed: 48.90 per Sec.
+2019-07-13 02:44:51
+epoch:248 iter 4400 || ARM_L Loss: 0.8969 ARM_C Loss: 1.6562 ODM_L Loss: 0.7820 ODM_C Loss: 1.1954  Total: 4.5305 || lr: 0.000010 || speed: 44.05 per Sec.
+2019-07-13 02:47:11
+epoch:248 iter 4500 || ARM_L Loss: 0.8448 ARM_C Loss: 1.5456 ODM_L Loss: 0.6053 ODM_C Loss: 1.0587  Total: 4.0544 || lr: 0.000010 || speed: 48.17 per Sec.
+2019-07-13 02:49:29
+epoch:248 iter 4600 || ARM_L Loss: 0.6790 ARM_C Loss: 1.6284 ODM_L Loss: 0.5160 ODM_C Loss: 0.9672  Total: 3.7906 || lr: 0.000010 || speed: 45.63 per Sec.
+**********************************saved weights at 248
+2019-07-13 02:49:39
+epoch:249 iter 0 || ARM_L Loss: 0.6150 ARM_C Loss: 1.4215 ODM_L Loss: 0.6790 ODM_C Loss: 0.9744  Total: 3.6898 || lr: 0.000010 || speed: 47.20 per Sec.
+2019-07-13 02:51:58
+epoch:249 iter 100 || ARM_L Loss: 0.6321 ARM_C Loss: 1.5316 ODM_L Loss: 0.5257 ODM_C Loss: 1.4069  Total: 4.0963 || lr: 0.000010 || speed: 44.33 per Sec.
+2019-07-13 02:54:17
+epoch:249 iter 200 || ARM_L Loss: 1.2524 ARM_C Loss: 1.6198 ODM_L Loss: 0.6706 ODM_C Loss: 1.0555  Total: 4.5983 || lr: 0.000010 || speed: 43.12 per Sec.
+2019-07-13 02:56:37
+epoch:249 iter 300 || ARM_L Loss: 0.6714 ARM_C Loss: 1.6712 ODM_L Loss: 0.6478 ODM_C Loss: 1.0061  Total: 3.9966 || lr: 0.000010 || speed: 46.94 per Sec.
+2019-07-13 02:58:55
+epoch:249 iter 400 || ARM_L Loss: 0.8177 ARM_C Loss: 1.6196 ODM_L Loss: 0.6825 ODM_C Loss: 1.0239  Total: 4.1437 || lr: 0.000010 || speed: 46.02 per Sec.
+2019-07-13 03:01:14
+epoch:249 iter 500 || ARM_L Loss: 0.6649 ARM_C Loss: 1.5289 ODM_L Loss: 0.6137 ODM_C Loss: 0.9102  Total: 3.7177 || lr: 0.000010 || speed: 46.51 per Sec.
+2019-07-13 03:03:33
+epoch:249 iter 600 || ARM_L Loss: 0.8402 ARM_C Loss: 1.8104 ODM_L Loss: 0.6593 ODM_C Loss: 1.1107  Total: 4.4207 || lr: 0.000010 || speed: 47.98 per Sec.
+2019-07-13 03:05:51
+epoch:249 iter 700 || ARM_L Loss: 0.6102 ARM_C Loss: 1.4569 ODM_L Loss: 0.4754 ODM_C Loss: 0.7277  Total: 3.2702 || lr: 0.000010 || speed: 48.37 per Sec.
+2019-07-13 03:08:10
+epoch:249 iter 800 || ARM_L Loss: 0.7059 ARM_C Loss: 1.6799 ODM_L Loss: 0.6715 ODM_C Loss: 1.0582  Total: 4.1155 || lr: 0.000010 || speed: 48.27 per Sec.
+2019-07-13 03:10:28
+epoch:249 iter 900 || ARM_L Loss: 0.4845 ARM_C Loss: 1.4753 ODM_L Loss: 0.5312 ODM_C Loss: 0.8537  Total: 3.3447 || lr: 0.000010 || speed: 47.00 per Sec.
+2019-07-13 03:12:47
+epoch:249 iter 1000 || ARM_L Loss: 0.8706 ARM_C Loss: 1.7216 ODM_L Loss: 0.7626 ODM_C Loss: 1.1312  Total: 4.4860 || lr: 0.000010 || speed: 45.96 per Sec.
+2019-07-13 03:15:07
+epoch:249 iter 1100 || ARM_L Loss: 0.9081 ARM_C Loss: 1.8027 ODM_L Loss: 0.7238 ODM_C Loss: 1.0491  Total: 4.4837 || lr: 0.000010 || speed: 45.31 per Sec.
+2019-07-13 03:17:26
+epoch:249 iter 1200 || ARM_L Loss: 0.8523 ARM_C Loss: 1.7411 ODM_L Loss: 0.6970 ODM_C Loss: 1.0679  Total: 4.3582 || lr: 0.000010 || speed: 49.39 per Sec.
+2019-07-13 03:19:45
+epoch:249 iter 1300 || ARM_L Loss: 0.4648 ARM_C Loss: 1.2523 ODM_L Loss: 0.3458 ODM_C Loss: 0.6324  Total: 2.6952 || lr: 0.000010 || speed: 47.29 per Sec.
+2019-07-13 03:22:05
+epoch:249 iter 1400 || ARM_L Loss: 0.5618 ARM_C Loss: 1.5932 ODM_L Loss: 0.5014 ODM_C Loss: 0.9795  Total: 3.6358 || lr: 0.000010 || speed: 48.49 per Sec.
+2019-07-13 03:24:23
+epoch:249 iter 1500 || ARM_L Loss: 0.6754 ARM_C Loss: 1.7129 ODM_L Loss: 0.5811 ODM_C Loss: 1.0612  Total: 4.0306 || lr: 0.000010 || speed: 49.14 per Sec.
+2019-07-13 03:26:41
+epoch:249 iter 1600 || ARM_L Loss: 1.0327 ARM_C Loss: 1.6903 ODM_L Loss: 0.5534 ODM_C Loss: 0.9803  Total: 4.2567 || lr: 0.000010 || speed: 47.73 per Sec.
+2019-07-13 03:29:00
+epoch:249 iter 1700 || ARM_L Loss: 0.9966 ARM_C Loss: 1.6455 ODM_L Loss: 0.6996 ODM_C Loss: 1.2493  Total: 4.5910 || lr: 0.000010 || speed: 44.11 per Sec.
+2019-07-13 03:31:19
+epoch:249 iter 1800 || ARM_L Loss: 0.7525 ARM_C Loss: 1.6585 ODM_L Loss: 0.7121 ODM_C Loss: 1.0769  Total: 4.2000 || lr: 0.000010 || speed: 48.00 per Sec.
+2019-07-13 03:33:38
+epoch:249 iter 1900 || ARM_L Loss: 0.7088 ARM_C Loss: 1.3693 ODM_L Loss: 0.5268 ODM_C Loss: 0.8869  Total: 3.4918 || lr: 0.000010 || speed: 47.77 per Sec.
+2019-07-13 03:35:57
+epoch:249 iter 2000 || ARM_L Loss: 0.5064 ARM_C Loss: 1.4962 ODM_L Loss: 0.4616 ODM_C Loss: 0.8258  Total: 3.2901 || lr: 0.000010 || speed: 48.28 per Sec.
+2019-07-13 03:38:14
+epoch:249 iter 2100 || ARM_L Loss: 0.6569 ARM_C Loss: 1.6355 ODM_L Loss: 0.5410 ODM_C Loss: 1.0945  Total: 3.9279 || lr: 0.000010 || speed: 47.73 per Sec.
+2019-07-13 03:40:34
+epoch:249 iter 2200 || ARM_L Loss: 0.8433 ARM_C Loss: 1.7158 ODM_L Loss: 0.6474 ODM_C Loss: 1.0360  Total: 4.2425 || lr: 0.000010 || speed: 49.70 per Sec.
+2019-07-13 03:42:53
+epoch:249 iter 2300 || ARM_L Loss: 0.8957 ARM_C Loss: 1.8866 ODM_L Loss: 0.7645 ODM_C Loss: 1.3018  Total: 4.8485 || lr: 0.000010 || speed: 46.37 per Sec.
+2019-07-13 03:45:11
+epoch:249 iter 2400 || ARM_L Loss: 0.8262 ARM_C Loss: 1.8017 ODM_L Loss: 0.6921 ODM_C Loss: 1.1719  Total: 4.4919 || lr: 0.000010 || speed: 48.09 per Sec.
+2019-07-13 03:47:28
+epoch:249 iter 2500 || ARM_L Loss: 0.8640 ARM_C Loss: 1.6141 ODM_L Loss: 0.6207 ODM_C Loss: 1.1837  Total: 4.2824 || lr: 0.000010 || speed: 48.36 per Sec.
+2019-07-13 03:49:46
+epoch:249 iter 2600 || ARM_L Loss: 0.7508 ARM_C Loss: 1.7331 ODM_L Loss: 0.5900 ODM_C Loss: 0.9312  Total: 4.0051 || lr: 0.000010 || speed: 45.11 per Sec.
+2019-07-13 03:52:04
+epoch:249 iter 2700 || ARM_L Loss: 0.6814 ARM_C Loss: 1.5191 ODM_L Loss: 0.5588 ODM_C Loss: 0.8573  Total: 3.6166 || lr: 0.000010 || speed: 47.75 per Sec.
+2019-07-13 03:54:22
+epoch:249 iter 2800 || ARM_L Loss: 0.6136 ARM_C Loss: 1.6110 ODM_L Loss: 0.5104 ODM_C Loss: 1.1836  Total: 3.9185 || lr: 0.000010 || speed: 47.92 per Sec.
+2019-07-13 03:56:41
+epoch:249 iter 2900 || ARM_L Loss: 0.8200 ARM_C Loss: 1.5681 ODM_L Loss: 0.6395 ODM_C Loss: 1.0228  Total: 4.0504 || lr: 0.000010 || speed: 46.77 per Sec.
+2019-07-13 03:59:00
+epoch:249 iter 3000 || ARM_L Loss: 0.5809 ARM_C Loss: 1.5535 ODM_L Loss: 0.4365 ODM_C Loss: 0.8227  Total: 3.3936 || lr: 0.000010 || speed: 44.59 per Sec.
+2019-07-13 04:01:18
+epoch:249 iter 3100 || ARM_L Loss: 0.6500 ARM_C Loss: 1.5436 ODM_L Loss: 0.5021 ODM_C Loss: 0.8575  Total: 3.5533 || lr: 0.000010 || speed: 43.64 per Sec.
+2019-07-13 04:03:36
+epoch:249 iter 3200 || ARM_L Loss: 0.7979 ARM_C Loss: 1.6359 ODM_L Loss: 0.6061 ODM_C Loss: 0.9231  Total: 3.9631 || lr: 0.000010 || speed: 40.74 per Sec.
+2019-07-13 04:05:55
+epoch:249 iter 3300 || ARM_L Loss: 0.7642 ARM_C Loss: 1.7488 ODM_L Loss: 0.6587 ODM_C Loss: 1.2000  Total: 4.3716 || lr: 0.000010 || speed: 48.37 per Sec.
+2019-07-13 04:08:12
+epoch:249 iter 3400 || ARM_L Loss: 0.6708 ARM_C Loss: 1.5538 ODM_L Loss: 0.6468 ODM_C Loss: 1.0057  Total: 3.8770 || lr: 0.000010 || speed: 46.66 per Sec.
+2019-07-13 04:10:31
+epoch:249 iter 3500 || ARM_L Loss: 1.0637 ARM_C Loss: 1.6404 ODM_L Loss: 0.6722 ODM_C Loss: 0.9370  Total: 4.3134 || lr: 0.000010 || speed: 44.90 per Sec.
+2019-07-13 04:12:50
+epoch:249 iter 3600 || ARM_L Loss: 0.9147 ARM_C Loss: 1.7503 ODM_L Loss: 0.6800 ODM_C Loss: 1.0175  Total: 4.3625 || lr: 0.000010 || speed: 48.92 per Sec.
+2019-07-13 04:15:08
+epoch:249 iter 3700 || ARM_L Loss: 0.8307 ARM_C Loss: 1.8098 ODM_L Loss: 0.5842 ODM_C Loss: 1.0871  Total: 4.3118 || lr: 0.000010 || speed: 47.27 per Sec.
+2019-07-13 04:17:27
+epoch:249 iter 3800 || ARM_L Loss: 0.6877 ARM_C Loss: 1.6987 ODM_L Loss: 0.5726 ODM_C Loss: 1.0464  Total: 4.0053 || lr: 0.000010 || speed: 46.71 per Sec.
+2019-07-13 04:19:44
+epoch:249 iter 3900 || ARM_L Loss: 0.6104 ARM_C Loss: 1.3689 ODM_L Loss: 0.5120 ODM_C Loss: 0.9023  Total: 3.3936 || lr: 0.000010 || speed: 47.79 per Sec.
+2019-07-13 04:22:03
+epoch:249 iter 4000 || ARM_L Loss: 0.7868 ARM_C Loss: 1.6163 ODM_L Loss: 0.7049 ODM_C Loss: 1.0613  Total: 4.1693 || lr: 0.000010 || speed: 47.48 per Sec.
+2019-07-13 04:24:22
+epoch:249 iter 4100 || ARM_L Loss: 1.0622 ARM_C Loss: 1.7373 ODM_L Loss: 0.6591 ODM_C Loss: 1.1040  Total: 4.5626 || lr: 0.000010 || speed: 45.54 per Sec.
+2019-07-13 04:26:40
+epoch:249 iter 4200 || ARM_L Loss: 0.8484 ARM_C Loss: 1.7716 ODM_L Loss: 0.7555 ODM_C Loss: 1.2283  Total: 4.6038 || lr: 0.000010 || speed: 47.44 per Sec.
+2019-07-13 04:28:59
+epoch:249 iter 4300 || ARM_L Loss: 0.7835 ARM_C Loss: 1.6420 ODM_L Loss: 0.5650 ODM_C Loss: 0.9023  Total: 3.8927 || lr: 0.000010 || speed: 43.64 per Sec.
+2019-07-13 04:31:18
+epoch:249 iter 4400 || ARM_L Loss: 0.7094 ARM_C Loss: 1.5734 ODM_L Loss: 0.4781 ODM_C Loss: 0.8788  Total: 3.6397 || lr: 0.000010 || speed: 44.55 per Sec.
+2019-07-13 04:33:36
+epoch:249 iter 4500 || ARM_L Loss: 0.8418 ARM_C Loss: 1.7074 ODM_L Loss: 0.6334 ODM_C Loss: 1.0428  Total: 4.2254 || lr: 0.000010 || speed: 47.91 per Sec.
+2019-07-13 04:35:55
+epoch:249 iter 4600 || ARM_L Loss: 0.8212 ARM_C Loss: 1.7795 ODM_L Loss: 0.6338 ODM_C Loss: 1.2649  Total: 4.4994 || lr: 0.000010 || speed: 47.70 per Sec.
+2019-07-13 04:36:05
+epoch:250 iter 0 || ARM_L Loss: 0.5598 ARM_C Loss: 1.4708 ODM_L Loss: 0.5413 ODM_C Loss: 0.8990  Total: 3.4709 || lr: 0.000010 || speed: 46.02 per Sec.
+2019-07-13 04:38:23
+epoch:250 iter 100 || ARM_L Loss: 0.7173 ARM_C Loss: 1.7451 ODM_L Loss: 0.6715 ODM_C Loss: 0.8100  Total: 3.9439 || lr: 0.000010 || speed: 48.53 per Sec.
+2019-07-13 04:40:40
+epoch:250 iter 200 || ARM_L Loss: 0.5172 ARM_C Loss: 1.3950 ODM_L Loss: 0.4782 ODM_C Loss: 0.8679  Total: 3.2583 || lr: 0.000010 || speed: 46.59 per Sec.
+2019-07-13 04:42:59
+epoch:250 iter 300 || ARM_L Loss: 0.5615 ARM_C Loss: 1.4534 ODM_L Loss: 0.5144 ODM_C Loss: 0.7553  Total: 3.2846 || lr: 0.000010 || speed: 44.00 per Sec.
+2019-07-13 04:45:18
+epoch:250 iter 400 || ARM_L Loss: 0.7041 ARM_C Loss: 1.8365 ODM_L Loss: 0.6290 ODM_C Loss: 1.2079  Total: 4.3777 || lr: 0.000010 || speed: 49.70 per Sec.
+2019-07-13 04:47:37
+epoch:250 iter 500 || ARM_L Loss: 0.7099 ARM_C Loss: 1.6576 ODM_L Loss: 0.5485 ODM_C Loss: 1.0261  Total: 3.9421 || lr: 0.000010 || speed: 44.31 per Sec.
+2019-07-13 04:49:56
+epoch:250 iter 600 || ARM_L Loss: 0.6594 ARM_C Loss: 1.4900 ODM_L Loss: 0.5588 ODM_C Loss: 0.9620  Total: 3.6701 || lr: 0.000010 || speed: 47.82 per Sec.
+2019-07-13 04:52:14
+epoch:250 iter 700 || ARM_L Loss: 0.5894 ARM_C Loss: 1.3724 ODM_L Loss: 0.4494 ODM_C Loss: 0.7758  Total: 3.1871 || lr: 0.000010 || speed: 49.33 per Sec.
+2019-07-13 04:54:33
+epoch:250 iter 800 || ARM_L Loss: 0.8253 ARM_C Loss: 1.5600 ODM_L Loss: 0.5839 ODM_C Loss: 1.0340  Total: 4.0031 || lr: 0.000010 || speed: 41.63 per Sec.
+2019-07-13 04:56:51
+epoch:250 iter 900 || ARM_L Loss: 0.6845 ARM_C Loss: 1.4328 ODM_L Loss: 0.5377 ODM_C Loss: 0.7556  Total: 3.4105 || lr: 0.000010 || speed: 46.12 per Sec.
+2019-07-13 04:59:09
+epoch:250 iter 1000 || ARM_L Loss: 0.4226 ARM_C Loss: 1.5315 ODM_L Loss: 0.4366 ODM_C Loss: 0.7465  Total: 3.1372 || lr: 0.000010 || speed: 48.37 per Sec.
+2019-07-13 05:01:28
+epoch:250 iter 1100 || ARM_L Loss: 0.7068 ARM_C Loss: 1.9580 ODM_L Loss: 0.5026 ODM_C Loss: 1.2237  Total: 4.3911 || lr: 0.000010 || speed: 45.87 per Sec.
+2019-07-13 05:03:46
+epoch:250 iter 1200 || ARM_L Loss: 0.5774 ARM_C Loss: 1.4621 ODM_L Loss: 0.5278 ODM_C Loss: 0.8849  Total: 3.4522 || lr: 0.000010 || speed: 48.10 per Sec.
+2019-07-13 05:06:03
+epoch:250 iter 1300 || ARM_L Loss: 0.7316 ARM_C Loss: 1.5523 ODM_L Loss: 0.5146 ODM_C Loss: 0.9595  Total: 3.7580 || lr: 0.000010 || speed: 46.11 per Sec.
+2019-07-13 05:08:21
+epoch:250 iter 1400 || ARM_L Loss: 0.8360 ARM_C Loss: 1.6564 ODM_L Loss: 0.6926 ODM_C Loss: 1.1688  Total: 4.3538 || lr: 0.000010 || speed: 48.24 per Sec.
+2019-07-13 05:10:39
+epoch:250 iter 1500 || ARM_L Loss: 0.7028 ARM_C Loss: 1.4935 ODM_L Loss: 0.6264 ODM_C Loss: 0.8350  Total: 3.6578 || lr: 0.000010 || speed: 47.75 per Sec.
+2019-07-13 05:12:56
+epoch:250 iter 1600 || ARM_L Loss: 0.7923 ARM_C Loss: 1.6114 ODM_L Loss: 0.5738 ODM_C Loss: 0.9679  Total: 3.9454 || lr: 0.000010 || speed: 45.78 per Sec.
+2019-07-13 05:15:15
+epoch:250 iter 1700 || ARM_L Loss: 0.9283 ARM_C Loss: 1.7096 ODM_L Loss: 0.6921 ODM_C Loss: 1.1294  Total: 4.4594 || lr: 0.000010 || speed: 47.24 per Sec.
+2019-07-13 05:17:34
+epoch:250 iter 1800 || ARM_L Loss: 0.8051 ARM_C Loss: 1.8437 ODM_L Loss: 0.6244 ODM_C Loss: 1.1400  Total: 4.4130 || lr: 0.000010 || speed: 48.97 per Sec.
+2019-07-13 05:19:52
+epoch:250 iter 1900 || ARM_L Loss: 0.7287 ARM_C Loss: 1.5114 ODM_L Loss: 0.6439 ODM_C Loss: 0.8982  Total: 3.7821 || lr: 0.000010 || speed: 48.15 per Sec.
+2019-07-13 05:22:09
+epoch:250 iter 2000 || ARM_L Loss: 0.9804 ARM_C Loss: 1.6811 ODM_L Loss: 0.6819 ODM_C Loss: 1.0602  Total: 4.4037 || lr: 0.000010 || speed: 47.47 per Sec.
+2019-07-13 05:24:27
+epoch:250 iter 2100 || ARM_L Loss: 1.0065 ARM_C Loss: 1.8195 ODM_L Loss: 0.7393 ODM_C Loss: 1.0229  Total: 4.5881 || lr: 0.000010 || speed: 44.19 per Sec.
+2019-07-13 05:26:46
+epoch:250 iter 2200 || ARM_L Loss: 0.7048 ARM_C Loss: 1.5919 ODM_L Loss: 0.5974 ODM_C Loss: 0.9493  Total: 3.8435 || lr: 0.000010 || speed: 45.17 per Sec.
+2019-07-13 05:29:05
+epoch:250 iter 2300 || ARM_L Loss: 0.4285 ARM_C Loss: 1.3830 ODM_L Loss: 0.4197 ODM_C Loss: 0.9178  Total: 3.1490 || lr: 0.000010 || speed: 48.01 per Sec.
+2019-07-13 05:31:23
+epoch:250 iter 2400 || ARM_L Loss: 0.6887 ARM_C Loss: 1.5787 ODM_L Loss: 0.5733 ODM_C Loss: 0.8405  Total: 3.6812 || lr: 0.000010 || speed: 44.39 per Sec.
+2019-07-13 05:33:41
+epoch:250 iter 2500 || ARM_L Loss: 0.6780 ARM_C Loss: 1.3929 ODM_L Loss: 0.5059 ODM_C Loss: 0.7765  Total: 3.3533 || lr: 0.000010 || speed: 46.51 per Sec.
+2019-07-13 05:36:00
+epoch:250 iter 2600 || ARM_L Loss: 0.8640 ARM_C Loss: 1.5561 ODM_L Loss: 0.6135 ODM_C Loss: 0.9203  Total: 3.9539 || lr: 0.000010 || speed: 43.50 per Sec.
+2019-07-13 05:38:17
+epoch:250 iter 2700 || ARM_L Loss: 1.0591 ARM_C Loss: 1.8320 ODM_L Loss: 0.7630 ODM_C Loss: 1.0832  Total: 4.7373 || lr: 0.000010 || speed: 46.52 per Sec.
+2019-07-13 05:40:35
+epoch:250 iter 2800 || ARM_L Loss: 0.6164 ARM_C Loss: 1.5722 ODM_L Loss: 0.4643 ODM_C Loss: 0.9263  Total: 3.5792 || lr: 0.000010 || speed: 48.16 per Sec.
+2019-07-13 05:42:53
+epoch:250 iter 2900 || ARM_L Loss: 0.7362 ARM_C Loss: 1.5658 ODM_L Loss: 0.5892 ODM_C Loss: 0.8615  Total: 3.7527 || lr: 0.000010 || speed: 47.19 per Sec.
+2019-07-13 05:45:10
+epoch:250 iter 3000 || ARM_L Loss: 0.5750 ARM_C Loss: 1.6932 ODM_L Loss: 0.5891 ODM_C Loss: 0.8434  Total: 3.7007 || lr: 0.000010 || speed: 45.97 per Sec.
+2019-07-13 05:47:29
+epoch:250 iter 3100 || ARM_L Loss: 0.6014 ARM_C Loss: 1.3932 ODM_L Loss: 0.5065 ODM_C Loss: 0.7869  Total: 3.2880 || lr: 0.000010 || speed: 48.82 per Sec.
+2019-07-13 05:49:47
+epoch:250 iter 3200 || ARM_L Loss: 0.7983 ARM_C Loss: 1.6134 ODM_L Loss: 0.5592 ODM_C Loss: 1.1071  Total: 4.0779 || lr: 0.000010 || speed: 34.89 per Sec.
+2019-07-13 05:52:05
+epoch:250 iter 3300 || ARM_L Loss: 1.1534 ARM_C Loss: 1.6743 ODM_L Loss: 0.7661 ODM_C Loss: 1.1309  Total: 4.7247 || lr: 0.000010 || speed: 42.96 per Sec.
+2019-07-13 05:54:24
+epoch:250 iter 3400 || ARM_L Loss: 0.6996 ARM_C Loss: 1.6503 ODM_L Loss: 0.5999 ODM_C Loss: 0.9345  Total: 3.8842 || lr: 0.000010 || speed: 43.96 per Sec.
+2019-07-13 05:56:42
+epoch:250 iter 3500 || ARM_L Loss: 0.9004 ARM_C Loss: 2.0122 ODM_L Loss: 0.7833 ODM_C Loss: 1.2239  Total: 4.9197 || lr: 0.000010 || speed: 45.12 per Sec.
+2019-07-13 05:59:01
+epoch:250 iter 3600 || ARM_L Loss: 0.7027 ARM_C Loss: 1.7152 ODM_L Loss: 0.5634 ODM_C Loss: 1.0815  Total: 4.0628 || lr: 0.000010 || speed: 46.32 per Sec.
+2019-07-13 06:01:20
+epoch:250 iter 3700 || ARM_L Loss: 0.7236 ARM_C Loss: 1.4838 ODM_L Loss: 0.6001 ODM_C Loss: 0.9808  Total: 3.7882 || lr: 0.000010 || speed: 48.93 per Sec.
+2019-07-13 06:03:39
+epoch:250 iter 3800 || ARM_L Loss: 0.6199 ARM_C Loss: 1.4977 ODM_L Loss: 0.4963 ODM_C Loss: 1.0075  Total: 3.6215 || lr: 0.000010 || speed: 43.28 per Sec.
+2019-07-13 06:05:58
+epoch:250 iter 3900 || ARM_L Loss: 1.1003 ARM_C Loss: 1.7022 ODM_L Loss: 0.6544 ODM_C Loss: 1.1302  Total: 4.5870 || lr: 0.000010 || speed: 47.43 per Sec.
+2019-07-13 06:08:16
+epoch:250 iter 4000 || ARM_L Loss: 0.5474 ARM_C Loss: 1.4390 ODM_L Loss: 0.4899 ODM_C Loss: 0.7918  Total: 3.2681 || lr: 0.000010 || speed: 48.18 per Sec.
+2019-07-13 06:10:35
+epoch:250 iter 4100 || ARM_L Loss: 0.5794 ARM_C Loss: 1.3504 ODM_L Loss: 0.4473 ODM_C Loss: 0.7150  Total: 3.0921 || lr: 0.000010 || speed: 38.69 per Sec.
+2019-07-13 06:12:54
+epoch:250 iter 4200 || ARM_L Loss: 0.5775 ARM_C Loss: 1.4705 ODM_L Loss: 0.4419 ODM_C Loss: 0.8315  Total: 3.3214 || lr: 0.000010 || speed: 39.68 per Sec.
+2019-07-13 06:15:14
+epoch:250 iter 4300 || ARM_L Loss: 0.6270 ARM_C Loss: 1.5623 ODM_L Loss: 0.5312 ODM_C Loss: 0.9110  Total: 3.6314 || lr: 0.000010 || speed: 48.13 per Sec.
+2019-07-13 06:17:32
+epoch:250 iter 4400 || ARM_L Loss: 0.6883 ARM_C Loss: 1.5717 ODM_L Loss: 0.6333 ODM_C Loss: 1.0797  Total: 3.9729 || lr: 0.000010 || speed: 48.75 per Sec.
+2019-07-13 06:19:50
+epoch:250 iter 4500 || ARM_L Loss: 0.8393 ARM_C Loss: 1.6661 ODM_L Loss: 0.6514 ODM_C Loss: 1.0210  Total: 4.1779 || lr: 0.000010 || speed: 47.13 per Sec.
+2019-07-13 06:22:06
+epoch:250 iter 4600 || ARM_L Loss: 0.7318 ARM_C Loss: 1.4065 ODM_L Loss: 0.5672 ODM_C Loss: 0.9835  Total: 3.6890 || lr: 0.000010 || speed: 44.57 per Sec.
+**********************************saved weights at 250
+2019-07-13 06:22:17
+epoch:251 iter 0 || ARM_L Loss: 0.7895 ARM_C Loss: 1.7243 ODM_L Loss: 0.6340 ODM_C Loss: 1.2064  Total: 4.3541 || lr: 0.000010 || speed: 46.66 per Sec.
+2019-07-13 06:24:34
+epoch:251 iter 100 || ARM_L Loss: 0.5733 ARM_C Loss: 1.5534 ODM_L Loss: 0.5109 ODM_C Loss: 0.7958  Total: 3.4333 || lr: 0.000010 || speed: 47.78 per Sec.
+2019-07-13 06:26:52
+epoch:251 iter 200 || ARM_L Loss: 0.7456 ARM_C Loss: 1.5883 ODM_L Loss: 0.4970 ODM_C Loss: 0.7597  Total: 3.5907 || lr: 0.000010 || speed: 48.31 per Sec.
+2019-07-13 06:29:10
+epoch:251 iter 300 || ARM_L Loss: 0.6701 ARM_C Loss: 1.4622 ODM_L Loss: 0.5304 ODM_C Loss: 0.9449  Total: 3.6077 || lr: 0.000010 || speed: 45.94 per Sec.
+2019-07-13 06:31:28
+epoch:251 iter 400 || ARM_L Loss: 0.4918 ARM_C Loss: 1.4533 ODM_L Loss: 0.5357 ODM_C Loss: 0.9131  Total: 3.3940 || lr: 0.000010 || speed: 46.39 per Sec.
+2019-07-13 06:33:46
+epoch:251 iter 500 || ARM_L Loss: 0.9336 ARM_C Loss: 1.7865 ODM_L Loss: 0.6716 ODM_C Loss: 1.0431  Total: 4.4348 || lr: 0.000010 || speed: 46.94 per Sec.
+2019-07-13 06:36:05
+epoch:251 iter 600 || ARM_L Loss: 0.5936 ARM_C Loss: 1.6707 ODM_L Loss: 0.6343 ODM_C Loss: 1.1738  Total: 4.0725 || lr: 0.000010 || speed: 47.05 per Sec.
+2019-07-13 06:38:24
+epoch:251 iter 700 || ARM_L Loss: 0.5980 ARM_C Loss: 1.5665 ODM_L Loss: 0.5364 ODM_C Loss: 0.9338  Total: 3.6347 || lr: 0.000010 || speed: 48.11 per Sec.
+2019-07-13 06:40:43
+epoch:251 iter 800 || ARM_L Loss: 0.9294 ARM_C Loss: 1.7147 ODM_L Loss: 0.6355 ODM_C Loss: 1.0166  Total: 4.2962 || lr: 0.000010 || speed: 47.82 per Sec.
+2019-07-13 06:43:02
+epoch:251 iter 900 || ARM_L Loss: 0.6859 ARM_C Loss: 1.6389 ODM_L Loss: 0.5919 ODM_C Loss: 1.0193  Total: 3.9361 || lr: 0.000010 || speed: 44.55 per Sec.
+2019-07-13 06:45:20
+epoch:251 iter 1000 || ARM_L Loss: 0.7831 ARM_C Loss: 1.4589 ODM_L Loss: 0.5589 ODM_C Loss: 1.0227  Total: 3.8236 || lr: 0.000010 || speed: 39.04 per Sec.
+2019-07-13 06:47:38
+epoch:251 iter 1100 || ARM_L Loss: 0.5854 ARM_C Loss: 1.4698 ODM_L Loss: 0.4591 ODM_C Loss: 0.7869  Total: 3.3012 || lr: 0.000010 || speed: 46.33 per Sec.
+2019-07-13 06:49:57
+epoch:251 iter 1200 || ARM_L Loss: 0.9314 ARM_C Loss: 1.7711 ODM_L Loss: 0.6718 ODM_C Loss: 1.0787  Total: 4.4529 || lr: 0.000010 || speed: 47.87 per Sec.
+2019-07-13 06:52:16
+epoch:251 iter 1300 || ARM_L Loss: 0.7972 ARM_C Loss: 1.6857 ODM_L Loss: 0.6754 ODM_C Loss: 1.0489  Total: 4.2072 || lr: 0.000010 || speed: 43.50 per Sec.
+2019-07-13 06:54:35
+epoch:251 iter 1400 || ARM_L Loss: 0.8290 ARM_C Loss: 1.6415 ODM_L Loss: 0.5589 ODM_C Loss: 0.9306  Total: 3.9600 || lr: 0.000010 || speed: 47.56 per Sec.
+2019-07-13 06:56:53
+epoch:251 iter 1500 || ARM_L Loss: 0.6358 ARM_C Loss: 1.5080 ODM_L Loss: 0.4973 ODM_C Loss: 0.9460  Total: 3.5871 || lr: 0.000010 || speed: 45.70 per Sec.
+2019-07-13 06:59:12
+epoch:251 iter 1600 || ARM_L Loss: 0.7454 ARM_C Loss: 1.6982 ODM_L Loss: 0.6071 ODM_C Loss: 0.8984  Total: 3.9491 || lr: 0.000010 || speed: 37.45 per Sec.
+2019-07-13 07:01:29
+epoch:251 iter 1700 || ARM_L Loss: 0.9154 ARM_C Loss: 1.6762 ODM_L Loss: 0.6764 ODM_C Loss: 1.1357  Total: 4.4037 || lr: 0.000010 || speed: 45.85 per Sec.
+2019-07-13 07:03:48
+epoch:251 iter 1800 || ARM_L Loss: 0.7235 ARM_C Loss: 1.6498 ODM_L Loss: 0.5091 ODM_C Loss: 0.8684  Total: 3.7508 || lr: 0.000010 || speed: 46.27 per Sec.
+2019-07-13 07:06:06
+epoch:251 iter 1900 || ARM_L Loss: 0.6355 ARM_C Loss: 1.6717 ODM_L Loss: 0.4792 ODM_C Loss: 0.9876  Total: 3.7741 || lr: 0.000010 || speed: 49.20 per Sec.
+2019-07-13 07:08:23
+epoch:251 iter 2000 || ARM_L Loss: 0.7416 ARM_C Loss: 1.7089 ODM_L Loss: 0.6179 ODM_C Loss: 1.0570  Total: 4.1253 || lr: 0.000010 || speed: 46.19 per Sec.
+2019-07-13 07:10:41
+epoch:251 iter 2100 || ARM_L Loss: 0.5230 ARM_C Loss: 1.4572 ODM_L Loss: 0.4503 ODM_C Loss: 1.0530  Total: 3.4836 || lr: 0.000010 || speed: 47.59 per Sec.
+2019-07-13 07:12:59
+epoch:251 iter 2200 || ARM_L Loss: 0.8402 ARM_C Loss: 1.5886 ODM_L Loss: 0.6005 ODM_C Loss: 0.9331  Total: 3.9624 || lr: 0.000010 || speed: 48.33 per Sec.
+2019-07-13 07:15:18
+epoch:251 iter 2300 || ARM_L Loss: 0.6196 ARM_C Loss: 1.5310 ODM_L Loss: 0.5249 ODM_C Loss: 0.9284  Total: 3.6038 || lr: 0.000010 || speed: 49.22 per Sec.
+2019-07-13 07:17:36
+epoch:251 iter 2400 || ARM_L Loss: 0.5872 ARM_C Loss: 1.5015 ODM_L Loss: 0.5461 ODM_C Loss: 0.9715  Total: 3.6063 || lr: 0.000010 || speed: 44.99 per Sec.
+2019-07-13 07:19:54
+epoch:251 iter 2500 || ARM_L Loss: 0.8492 ARM_C Loss: 1.4804 ODM_L Loss: 0.4998 ODM_C Loss: 0.8640  Total: 3.6933 || lr: 0.000010 || speed: 46.57 per Sec.
+2019-07-13 07:22:13
+epoch:251 iter 2600 || ARM_L Loss: 0.6344 ARM_C Loss: 1.5776 ODM_L Loss: 0.5908 ODM_C Loss: 0.9707  Total: 3.7736 || lr: 0.000010 || speed: 50.34 per Sec.
+2019-07-13 07:24:31
+epoch:251 iter 2700 || ARM_L Loss: 0.6317 ARM_C Loss: 1.5150 ODM_L Loss: 0.5481 ODM_C Loss: 0.9299  Total: 3.6247 || lr: 0.000010 || speed: 44.99 per Sec.
+2019-07-13 07:26:49
+epoch:251 iter 2800 || ARM_L Loss: 0.7838 ARM_C Loss: 1.5674 ODM_L Loss: 0.6008 ODM_C Loss: 1.0430  Total: 3.9949 || lr: 0.000010 || speed: 47.27 per Sec.
+2019-07-13 07:29:07
+epoch:251 iter 2900 || ARM_L Loss: 0.5374 ARM_C Loss: 1.4364 ODM_L Loss: 0.5530 ODM_C Loss: 0.9698  Total: 3.4966 || lr: 0.000010 || speed: 48.32 per Sec.
+2019-07-13 07:31:24
+epoch:251 iter 3000 || ARM_L Loss: 0.9214 ARM_C Loss: 1.7393 ODM_L Loss: 0.7138 ODM_C Loss: 1.0995  Total: 4.4740 || lr: 0.000010 || speed: 47.66 per Sec.
+2019-07-13 07:33:42
+epoch:251 iter 3100 || ARM_L Loss: 0.8691 ARM_C Loss: 1.7315 ODM_L Loss: 0.6531 ODM_C Loss: 1.0024  Total: 4.2560 || lr: 0.000010 || speed: 47.20 per Sec.
+2019-07-13 07:36:01
+epoch:251 iter 3200 || ARM_L Loss: 1.2126 ARM_C Loss: 1.7559 ODM_L Loss: 0.6758 ODM_C Loss: 1.0691  Total: 4.7134 || lr: 0.000010 || speed: 49.00 per Sec.
+2019-07-13 07:38:19
+epoch:251 iter 3300 || ARM_L Loss: 0.5967 ARM_C Loss: 1.7219 ODM_L Loss: 0.6916 ODM_C Loss: 1.0784  Total: 4.0886 || lr: 0.000010 || speed: 43.76 per Sec.
+2019-07-13 07:40:37
+epoch:251 iter 3400 || ARM_L Loss: 0.5439 ARM_C Loss: 1.6236 ODM_L Loss: 0.4927 ODM_C Loss: 0.9974  Total: 3.6576 || lr: 0.000010 || speed: 47.22 per Sec.
+2019-07-13 07:42:56
+epoch:251 iter 3500 || ARM_L Loss: 0.8191 ARM_C Loss: 1.5716 ODM_L Loss: 0.5865 ODM_C Loss: 0.9369  Total: 3.9140 || lr: 0.000010 || speed: 45.19 per Sec.
+2019-07-13 07:45:15
+epoch:251 iter 3600 || ARM_L Loss: 0.8744 ARM_C Loss: 1.6816 ODM_L Loss: 0.5985 ODM_C Loss: 0.9913  Total: 4.1458 || lr: 0.000010 || speed: 43.38 per Sec.
+2019-07-13 07:47:33
+epoch:251 iter 3700 || ARM_L Loss: 0.7559 ARM_C Loss: 1.4738 ODM_L Loss: 0.5308 ODM_C Loss: 0.8999  Total: 3.6605 || lr: 0.000010 || speed: 48.63 per Sec.
+2019-07-13 07:49:52
+epoch:251 iter 3800 || ARM_L Loss: 1.0017 ARM_C Loss: 1.8589 ODM_L Loss: 0.7683 ODM_C Loss: 1.1146  Total: 4.7435 || lr: 0.000010 || speed: 48.10 per Sec.
+2019-07-13 07:52:12
+epoch:251 iter 3900 || ARM_L Loss: 0.7463 ARM_C Loss: 1.5595 ODM_L Loss: 0.5550 ODM_C Loss: 0.9312  Total: 3.7921 || lr: 0.000010 || speed: 47.27 per Sec.
+2019-07-13 07:54:31
+epoch:251 iter 4000 || ARM_L Loss: 0.8791 ARM_C Loss: 1.7801 ODM_L Loss: 0.7008 ODM_C Loss: 1.0193  Total: 4.3793 || lr: 0.000010 || speed: 47.99 per Sec.
+2019-07-13 07:56:50
+epoch:251 iter 4100 || ARM_L Loss: 0.6255 ARM_C Loss: 1.5908 ODM_L Loss: 0.5845 ODM_C Loss: 1.0655  Total: 3.8663 || lr: 0.000010 || speed: 49.68 per Sec.
+2019-07-13 07:59:09
+epoch:251 iter 4200 || ARM_L Loss: 0.7174 ARM_C Loss: 1.6400 ODM_L Loss: 0.5416 ODM_C Loss: 0.9307  Total: 3.8297 || lr: 0.000010 || speed: 45.24 per Sec.
+2019-07-13 08:01:28
+epoch:251 iter 4300 || ARM_L Loss: 0.7590 ARM_C Loss: 1.8049 ODM_L Loss: 0.5744 ODM_C Loss: 1.1147  Total: 4.2530 || lr: 0.000010 || speed: 47.04 per Sec.
+2019-07-13 08:03:47
+epoch:251 iter 4400 || ARM_L Loss: 0.7811 ARM_C Loss: 1.6304 ODM_L Loss: 0.5276 ODM_C Loss: 0.9395  Total: 3.8786 || lr: 0.000010 || speed: 47.21 per Sec.
+2019-07-13 08:06:06
+epoch:251 iter 4500 || ARM_L Loss: 0.6704 ARM_C Loss: 1.6353 ODM_L Loss: 0.5598 ODM_C Loss: 0.8784  Total: 3.7439 || lr: 0.000010 || speed: 48.61 per Sec.
+2019-07-13 08:08:24
+epoch:251 iter 4600 || ARM_L Loss: 0.7622 ARM_C Loss: 1.6807 ODM_L Loss: 0.7074 ODM_C Loss: 1.0561  Total: 4.2064 || lr: 0.000010 || speed: 46.10 per Sec.
+2019-07-13 08:08:34
+epoch:252 iter 0 || ARM_L Loss: 1.0412 ARM_C Loss: 1.8225 ODM_L Loss: 0.7850 ODM_C Loss: 1.2384  Total: 4.8872 || lr: 0.000010 || speed: 47.63 per Sec.
+2019-07-13 08:10:52
+epoch:252 iter 100 || ARM_L Loss: 0.6654 ARM_C Loss: 1.4829 ODM_L Loss: 0.5137 ODM_C Loss: 0.7440  Total: 3.4059 || lr: 0.000010 || speed: 46.35 per Sec.
+2019-07-13 08:13:11
+epoch:252 iter 200 || ARM_L Loss: 0.6498 ARM_C Loss: 1.4470 ODM_L Loss: 0.5874 ODM_C Loss: 0.8639  Total: 3.5482 || lr: 0.000010 || speed: 45.66 per Sec.
+2019-07-13 08:15:29
+epoch:252 iter 300 || ARM_L Loss: 0.7033 ARM_C Loss: 1.7247 ODM_L Loss: 0.5496 ODM_C Loss: 0.8674  Total: 3.8449 || lr: 0.000010 || speed: 48.80 per Sec.
+2019-07-13 08:17:49
+epoch:252 iter 400 || ARM_L Loss: 0.6395 ARM_C Loss: 1.5657 ODM_L Loss: 0.5093 ODM_C Loss: 0.8677  Total: 3.5822 || lr: 0.000010 || speed: 48.37 per Sec.
+2019-07-13 08:20:07
+epoch:252 iter 500 || ARM_L Loss: 0.7936 ARM_C Loss: 1.7593 ODM_L Loss: 0.6707 ODM_C Loss: 1.0955  Total: 4.3191 || lr: 0.000010 || speed: 48.01 per Sec.
+2019-07-13 08:22:26
+epoch:252 iter 600 || ARM_L Loss: 0.9936 ARM_C Loss: 1.7371 ODM_L Loss: 0.7073 ODM_C Loss: 0.9660  Total: 4.4039 || lr: 0.000010 || speed: 48.68 per Sec.
+2019-07-13 08:24:46
+epoch:252 iter 700 || ARM_L Loss: 0.9423 ARM_C Loss: 1.7698 ODM_L Loss: 0.6419 ODM_C Loss: 1.1129  Total: 4.4669 || lr: 0.000010 || speed: 46.41 per Sec.
+2019-07-13 08:27:05
+epoch:252 iter 800 || ARM_L Loss: 0.9684 ARM_C Loss: 1.7943 ODM_L Loss: 0.6675 ODM_C Loss: 1.2620  Total: 4.6922 || lr: 0.000010 || speed: 47.83 per Sec.
+2019-07-13 08:29:23
+epoch:252 iter 900 || ARM_L Loss: 0.8733 ARM_C Loss: 1.7814 ODM_L Loss: 0.7274 ODM_C Loss: 1.2726  Total: 4.6545 || lr: 0.000010 || speed: 47.64 per Sec.
+2019-07-13 08:31:41
+epoch:252 iter 1000 || ARM_L Loss: 0.7822 ARM_C Loss: 1.6608 ODM_L Loss: 0.7095 ODM_C Loss: 1.0973  Total: 4.2498 || lr: 0.000010 || speed: 45.81 per Sec.
+2019-07-13 08:34:01
+epoch:252 iter 1100 || ARM_L Loss: 0.6480 ARM_C Loss: 1.7197 ODM_L Loss: 0.5818 ODM_C Loss: 1.0490  Total: 3.9985 || lr: 0.000010 || speed: 48.45 per Sec.
+2019-07-13 08:36:18
+epoch:252 iter 1200 || ARM_L Loss: 0.7363 ARM_C Loss: 1.7229 ODM_L Loss: 0.7102 ODM_C Loss: 1.0577  Total: 4.2272 || lr: 0.000010 || speed: 44.05 per Sec.
+2019-07-13 08:38:37
+epoch:252 iter 1300 || ARM_L Loss: 0.9326 ARM_C Loss: 1.6048 ODM_L Loss: 0.6129 ODM_C Loss: 1.2028  Total: 4.3531 || lr: 0.000010 || speed: 46.51 per Sec.
+2019-07-13 08:40:56
+epoch:252 iter 1400 || ARM_L Loss: 0.8164 ARM_C Loss: 1.6100 ODM_L Loss: 0.6145 ODM_C Loss: 0.9755  Total: 4.0163 || lr: 0.000010 || speed: 46.28 per Sec.
+2019-07-13 08:43:14
+epoch:252 iter 1500 || ARM_L Loss: 0.9794 ARM_C Loss: 1.7855 ODM_L Loss: 0.7253 ODM_C Loss: 1.1336  Total: 4.6237 || lr: 0.000010 || speed: 46.73 per Sec.
+2019-07-13 08:45:32
+epoch:252 iter 1600 || ARM_L Loss: 0.9974 ARM_C Loss: 1.6128 ODM_L Loss: 0.6455 ODM_C Loss: 0.8829  Total: 4.1386 || lr: 0.000010 || speed: 48.84 per Sec.
+2019-07-13 08:47:50
+epoch:252 iter 1700 || ARM_L Loss: 0.6658 ARM_C Loss: 1.3599 ODM_L Loss: 0.6026 ODM_C Loss: 0.8531  Total: 3.4814 || lr: 0.000010 || speed: 48.57 per Sec.
+2019-07-13 08:50:08
+epoch:252 iter 1800 || ARM_L Loss: 0.8674 ARM_C Loss: 1.7669 ODM_L Loss: 0.7419 ODM_C Loss: 1.2858  Total: 4.6621 || lr: 0.000010 || speed: 45.47 per Sec.
+2019-07-13 08:52:27
+epoch:252 iter 1900 || ARM_L Loss: 0.7501 ARM_C Loss: 1.5508 ODM_L Loss: 0.5827 ODM_C Loss: 0.9568  Total: 3.8405 || lr: 0.000010 || speed: 49.53 per Sec.
+2019-07-13 08:54:46
+epoch:252 iter 2000 || ARM_L Loss: 0.8571 ARM_C Loss: 1.5794 ODM_L Loss: 0.6577 ODM_C Loss: 1.1943  Total: 4.2885 || lr: 0.000010 || speed: 45.46 per Sec.
+2019-07-13 08:57:05
+epoch:252 iter 2100 || ARM_L Loss: 0.9704 ARM_C Loss: 1.6917 ODM_L Loss: 0.7138 ODM_C Loss: 1.2282  Total: 4.6042 || lr: 0.000010 || speed: 47.69 per Sec.
+2019-07-13 08:59:24
+epoch:252 iter 2200 || ARM_L Loss: 0.8797 ARM_C Loss: 1.5259 ODM_L Loss: 0.5351 ODM_C Loss: 0.8952  Total: 3.8359 || lr: 0.000010 || speed: 48.86 per Sec.
+2019-07-13 09:01:42
+epoch:252 iter 2300 || ARM_L Loss: 0.8526 ARM_C Loss: 1.6965 ODM_L Loss: 0.6370 ODM_C Loss: 0.9818  Total: 4.1680 || lr: 0.000010 || speed: 48.10 per Sec.
+2019-07-13 09:04:01
+epoch:252 iter 2400 || ARM_L Loss: 0.6702 ARM_C Loss: 1.5718 ODM_L Loss: 0.5686 ODM_C Loss: 1.0765  Total: 3.8871 || lr: 0.000010 || speed: 45.87 per Sec.
+2019-07-13 09:06:20
+epoch:252 iter 2500 || ARM_L Loss: 0.9654 ARM_C Loss: 1.5836 ODM_L Loss: 0.6355 ODM_C Loss: 1.0525  Total: 4.2369 || lr: 0.000010 || speed: 44.87 per Sec.
+2019-07-13 09:08:37
+epoch:252 iter 2600 || ARM_L Loss: 0.7497 ARM_C Loss: 1.7110 ODM_L Loss: 0.6451 ODM_C Loss: 1.0779  Total: 4.1836 || lr: 0.000010 || speed: 46.08 per Sec.
+2019-07-13 09:10:56
+epoch:252 iter 2700 || ARM_L Loss: 0.9441 ARM_C Loss: 1.6960 ODM_L Loss: 0.6986 ODM_C Loss: 1.0784  Total: 4.4171 || lr: 0.000010 || speed: 49.28 per Sec.
+2019-07-13 09:13:15
+epoch:252 iter 2800 || ARM_L Loss: 0.4232 ARM_C Loss: 1.3622 ODM_L Loss: 0.3461 ODM_C Loss: 0.7127  Total: 2.8442 || lr: 0.000010 || speed: 47.22 per Sec.
+2019-07-13 09:15:34
+epoch:252 iter 2900 || ARM_L Loss: 0.6748 ARM_C Loss: 1.4849 ODM_L Loss: 0.5850 ODM_C Loss: 0.9646  Total: 3.7093 || lr: 0.000010 || speed: 45.77 per Sec.
+2019-07-13 09:17:51
+epoch:252 iter 3000 || ARM_L Loss: 0.8148 ARM_C Loss: 1.6604 ODM_L Loss: 0.6958 ODM_C Loss: 1.0430  Total: 4.2140 || lr: 0.000010 || speed: 48.17 per Sec.
+2019-07-13 09:20:10
+epoch:252 iter 3100 || ARM_L Loss: 0.8390 ARM_C Loss: 1.7295 ODM_L Loss: 0.5794 ODM_C Loss: 0.8683  Total: 4.0161 || lr: 0.000010 || speed: 46.30 per Sec.
+2019-07-13 09:22:28
+epoch:252 iter 3200 || ARM_L Loss: 1.0518 ARM_C Loss: 1.7011 ODM_L Loss: 0.6656 ODM_C Loss: 1.0343  Total: 4.4528 || lr: 0.000010 || speed: 46.16 per Sec.
+2019-07-13 09:24:48
+epoch:252 iter 3300 || ARM_L Loss: 0.8803 ARM_C Loss: 1.7059 ODM_L Loss: 0.6527 ODM_C Loss: 1.1629  Total: 4.4018 || lr: 0.000010 || speed: 47.35 per Sec.
+2019-07-13 09:27:07
+epoch:252 iter 3400 || ARM_L Loss: 0.8494 ARM_C Loss: 1.7373 ODM_L Loss: 0.6466 ODM_C Loss: 1.1612  Total: 4.3945 || lr: 0.000010 || speed: 47.90 per Sec.
+2019-07-13 09:29:25
+epoch:252 iter 3500 || ARM_L Loss: 0.6652 ARM_C Loss: 1.6564 ODM_L Loss: 0.6664 ODM_C Loss: 0.9711  Total: 3.9591 || lr: 0.000010 || speed: 45.29 per Sec.
+2019-07-13 09:31:44
+epoch:252 iter 3600 || ARM_L Loss: 1.0848 ARM_C Loss: 1.8270 ODM_L Loss: 0.6798 ODM_C Loss: 1.3056  Total: 4.8973 || lr: 0.000010 || speed: 47.62 per Sec.
+2019-07-13 09:34:02
+epoch:252 iter 3700 || ARM_L Loss: 1.0639 ARM_C Loss: 1.8980 ODM_L Loss: 0.7358 ODM_C Loss: 1.2615  Total: 4.9592 || lr: 0.000010 || speed: 49.44 per Sec.
+2019-07-13 09:36:21
+epoch:252 iter 3800 || ARM_L Loss: 0.6248 ARM_C Loss: 1.5473 ODM_L Loss: 0.5896 ODM_C Loss: 1.1457  Total: 3.9074 || lr: 0.000010 || speed: 49.18 per Sec.
+2019-07-13 09:38:39
+epoch:252 iter 3900 || ARM_L Loss: 0.4608 ARM_C Loss: 1.2372 ODM_L Loss: 0.3903 ODM_C Loss: 0.7342  Total: 2.8224 || lr: 0.000010 || speed: 49.40 per Sec.
+2019-07-13 09:40:59
+epoch:252 iter 4000 || ARM_L Loss: 0.8656 ARM_C Loss: 1.6971 ODM_L Loss: 0.6038 ODM_C Loss: 1.0065  Total: 4.1730 || lr: 0.000010 || speed: 47.19 per Sec.
+2019-07-13 09:43:17
+epoch:252 iter 4100 || ARM_L Loss: 0.9352 ARM_C Loss: 1.8112 ODM_L Loss: 0.7899 ODM_C Loss: 1.2888  Total: 4.8250 || lr: 0.000010 || speed: 45.52 per Sec.
+2019-07-13 09:45:36
+epoch:252 iter 4200 || ARM_L Loss: 0.6073 ARM_C Loss: 1.5863 ODM_L Loss: 0.5444 ODM_C Loss: 0.7495  Total: 3.4876 || lr: 0.000010 || speed: 47.78 per Sec.
+2019-07-13 09:47:54
+epoch:252 iter 4300 || ARM_L Loss: 0.6939 ARM_C Loss: 1.6860 ODM_L Loss: 0.4750 ODM_C Loss: 1.0038  Total: 3.8587 || lr: 0.000010 || speed: 48.44 per Sec.
+2019-07-13 09:50:14
+epoch:252 iter 4400 || ARM_L Loss: 0.6446 ARM_C Loss: 1.4220 ODM_L Loss: 0.4889 ODM_C Loss: 0.8492  Total: 3.4046 || lr: 0.000010 || speed: 47.15 per Sec.
+2019-07-13 09:52:32
+epoch:252 iter 4500 || ARM_L Loss: 0.6339 ARM_C Loss: 1.6264 ODM_L Loss: 0.6469 ODM_C Loss: 1.0809  Total: 3.9880 || lr: 0.000010 || speed: 45.31 per Sec.
+2019-07-13 09:54:51
+epoch:252 iter 4600 || ARM_L Loss: 0.8216 ARM_C Loss: 1.5202 ODM_L Loss: 0.5548 ODM_C Loss: 1.0454  Total: 3.9420 || lr: 0.000010 || speed: 47.65 per Sec.
+**********************************saved weights at 252
+2019-07-13 09:55:01
+epoch:253 iter 0 || ARM_L Loss: 0.7295 ARM_C Loss: 1.8657 ODM_L Loss: 0.6522 ODM_C Loss: 1.1893  Total: 4.4367 || lr: 0.000010 || speed: 43.27 per Sec.
+2019-07-13 09:57:20
+epoch:253 iter 100 || ARM_L Loss: 1.0167 ARM_C Loss: 1.6743 ODM_L Loss: 0.6122 ODM_C Loss: 0.9330  Total: 4.2362 || lr: 0.000010 || speed: 47.65 per Sec.
+2019-07-13 09:59:38
+epoch:253 iter 200 || ARM_L Loss: 0.9281 ARM_C Loss: 1.8385 ODM_L Loss: 0.6846 ODM_C Loss: 1.0142  Total: 4.4654 || lr: 0.000010 || speed: 47.40 per Sec.
+2019-07-13 10:01:57
+epoch:253 iter 300 || ARM_L Loss: 0.8393 ARM_C Loss: 1.7270 ODM_L Loss: 0.8089 ODM_C Loss: 1.2312  Total: 4.6063 || lr: 0.000010 || speed: 45.72 per Sec.
+2019-07-13 10:04:16
+epoch:253 iter 400 || ARM_L Loss: 0.8123 ARM_C Loss: 1.6097 ODM_L Loss: 0.6709 ODM_C Loss: 1.0472  Total: 4.1401 || lr: 0.000010 || speed: 44.97 per Sec.
+2019-07-13 10:06:34
+epoch:253 iter 500 || ARM_L Loss: 0.4108 ARM_C Loss: 1.4614 ODM_L Loss: 0.4402 ODM_C Loss: 0.7176  Total: 3.0301 || lr: 0.000010 || speed: 48.88 per Sec.
+2019-07-13 10:08:53
+epoch:253 iter 600 || ARM_L Loss: 0.5380 ARM_C Loss: 1.3937 ODM_L Loss: 0.5439 ODM_C Loss: 0.8143  Total: 3.2899 || lr: 0.000010 || speed: 35.29 per Sec.
+2019-07-13 10:11:10
+epoch:253 iter 700 || ARM_L Loss: 0.6592 ARM_C Loss: 1.4803 ODM_L Loss: 0.6026 ODM_C Loss: 0.9231  Total: 3.6651 || lr: 0.000010 || speed: 47.09 per Sec.
+2019-07-13 10:13:29
+epoch:253 iter 800 || ARM_L Loss: 0.9608 ARM_C Loss: 1.7643 ODM_L Loss: 0.8057 ODM_C Loss: 1.3677  Total: 4.8985 || lr: 0.000010 || speed: 40.89 per Sec.
+2019-07-13 10:15:40
+epoch:253 iter 900 || ARM_L Loss: 0.6902 ARM_C Loss: 1.5690 ODM_L Loss: 0.6547 ODM_C Loss: 1.0682  Total: 3.9821 || lr: 0.000010 || speed: 45.26 per Sec.
+2019-07-13 10:17:47
+epoch:253 iter 1000 || ARM_L Loss: 0.8811 ARM_C Loss: 1.5573 ODM_L Loss: 0.5517 ODM_C Loss: 1.0441  Total: 4.0341 || lr: 0.000010 || speed: 47.26 per Sec.
+2019-07-13 10:19:55
+epoch:253 iter 1100 || ARM_L Loss: 0.6864 ARM_C Loss: 1.5540 ODM_L Loss: 0.6327 ODM_C Loss: 0.9825  Total: 3.8556 || lr: 0.000010 || speed: 44.17 per Sec.
+2019-07-13 10:22:02
+epoch:253 iter 1200 || ARM_L Loss: 1.1356 ARM_C Loss: 1.7149 ODM_L Loss: 0.7449 ODM_C Loss: 1.1854  Total: 4.7808 || lr: 0.000010 || speed: 48.71 per Sec.
+2019-07-13 10:24:09
+epoch:253 iter 1300 || ARM_L Loss: 0.7520 ARM_C Loss: 1.5380 ODM_L Loss: 0.4759 ODM_C Loss: 0.8617  Total: 3.6276 || lr: 0.000010 || speed: 49.29 per Sec.
+2019-07-13 10:26:15
+epoch:253 iter 1400 || ARM_L Loss: 0.9388 ARM_C Loss: 1.5571 ODM_L Loss: 0.6276 ODM_C Loss: 1.0569  Total: 4.1804 || lr: 0.000010 || speed: 45.64 per Sec.
+2019-07-13 10:28:20
+epoch:253 iter 1500 || ARM_L Loss: 1.0089 ARM_C Loss: 1.6422 ODM_L Loss: 0.6515 ODM_C Loss: 1.0769  Total: 4.3795 || lr: 0.000010 || speed: 48.37 per Sec.
+2019-07-13 10:30:26
+epoch:253 iter 1600 || ARM_L Loss: 0.6791 ARM_C Loss: 1.5935 ODM_L Loss: 0.4857 ODM_C Loss: 1.0054  Total: 3.7636 || lr: 0.000010 || speed: 46.77 per Sec.
+2019-07-13 10:32:32
+epoch:253 iter 1700 || ARM_L Loss: 0.6438 ARM_C Loss: 1.4792 ODM_L Loss: 0.5319 ODM_C Loss: 0.7879  Total: 3.4428 || lr: 0.000010 || speed: 49.29 per Sec.
+2019-07-13 10:34:37
+epoch:253 iter 1800 || ARM_L Loss: 0.6789 ARM_C Loss: 1.5356 ODM_L Loss: 0.5232 ODM_C Loss: 1.0185  Total: 3.7563 || lr: 0.000010 || speed: 50.22 per Sec.
+2019-07-13 10:36:43
+epoch:253 iter 1900 || ARM_L Loss: 0.7519 ARM_C Loss: 1.7335 ODM_L Loss: 0.6497 ODM_C Loss: 1.0576  Total: 4.1926 || lr: 0.000010 || speed: 44.83 per Sec.
+2019-07-13 10:38:49
+epoch:253 iter 2000 || ARM_L Loss: 0.4884 ARM_C Loss: 1.5141 ODM_L Loss: 0.5998 ODM_C Loss: 1.0507  Total: 3.6530 || lr: 0.000010 || speed: 47.14 per Sec.
+2019-07-13 10:40:56
+epoch:253 iter 2100 || ARM_L Loss: 0.4920 ARM_C Loss: 1.2738 ODM_L Loss: 0.4784 ODM_C Loss: 0.8206  Total: 3.0647 || lr: 0.000010 || speed: 47.72 per Sec.
+2019-07-13 10:43:03
+epoch:253 iter 2200 || ARM_L Loss: 0.7394 ARM_C Loss: 1.4945 ODM_L Loss: 0.5663 ODM_C Loss: 0.8939  Total: 3.6940 || lr: 0.000010 || speed: 44.67 per Sec.
+2019-07-13 10:45:07
+epoch:253 iter 2300 || ARM_L Loss: 0.6786 ARM_C Loss: 1.6300 ODM_L Loss: 0.6056 ODM_C Loss: 0.9624  Total: 3.8766 || lr: 0.000010 || speed: 49.55 per Sec.
+2019-07-13 10:47:13
+epoch:253 iter 2400 || ARM_L Loss: 0.7264 ARM_C Loss: 1.6165 ODM_L Loss: 0.5529 ODM_C Loss: 1.1986  Total: 4.0944 || lr: 0.000010 || speed: 49.14 per Sec.
+2019-07-13 10:49:18
+epoch:253 iter 2500 || ARM_L Loss: 0.8174 ARM_C Loss: 1.3178 ODM_L Loss: 0.4770 ODM_C Loss: 0.7187  Total: 3.3309 || lr: 0.000010 || speed: 44.76 per Sec.
+2019-07-13 10:51:25
+epoch:253 iter 2600 || ARM_L Loss: 0.7489 ARM_C Loss: 1.7220 ODM_L Loss: 0.6033 ODM_C Loss: 1.1035  Total: 4.1778 || lr: 0.000010 || speed: 46.70 per Sec.
+2019-07-13 10:53:32
+epoch:253 iter 2700 || ARM_L Loss: 0.8993 ARM_C Loss: 1.6340 ODM_L Loss: 0.6295 ODM_C Loss: 0.9801  Total: 4.1429 || lr: 0.000010 || speed: 46.06 per Sec.
+2019-07-13 10:55:39
+epoch:253 iter 2800 || ARM_L Loss: 0.8251 ARM_C Loss: 1.7412 ODM_L Loss: 0.6336 ODM_C Loss: 1.0712  Total: 4.2713 || lr: 0.000010 || speed: 48.87 per Sec.
+2019-07-13 10:57:43
+epoch:253 iter 2900 || ARM_L Loss: 0.5085 ARM_C Loss: 1.7337 ODM_L Loss: 0.4724 ODM_C Loss: 1.1794  Total: 3.8940 || lr: 0.000010 || speed: 48.22 per Sec.
+2019-07-13 10:59:49
+epoch:253 iter 3000 || ARM_L Loss: 0.9191 ARM_C Loss: 1.7200 ODM_L Loss: 0.8351 ODM_C Loss: 1.1247  Total: 4.5989 || lr: 0.000010 || speed: 46.98 per Sec.
+2019-07-13 11:01:54
+epoch:253 iter 3100 || ARM_L Loss: 0.5865 ARM_C Loss: 1.5002 ODM_L Loss: 0.4641 ODM_C Loss: 0.9167  Total: 3.4674 || lr: 0.000010 || speed: 48.75 per Sec.
+2019-07-13 11:03:59
+epoch:253 iter 3200 || ARM_L Loss: 0.4958 ARM_C Loss: 1.3080 ODM_L Loss: 0.4550 ODM_C Loss: 0.7311  Total: 2.9899 || lr: 0.000010 || speed: 49.42 per Sec.
+2019-07-13 11:06:04
+epoch:253 iter 3300 || ARM_L Loss: 0.6217 ARM_C Loss: 1.5093 ODM_L Loss: 0.5672 ODM_C Loss: 0.8280  Total: 3.5262 || lr: 0.000010 || speed: 48.93 per Sec.
+2019-07-13 11:08:09
+epoch:253 iter 3400 || ARM_L Loss: 0.6220 ARM_C Loss: 1.3821 ODM_L Loss: 0.4980 ODM_C Loss: 0.9695  Total: 3.4716 || lr: 0.000010 || speed: 49.53 per Sec.
+2019-07-13 11:10:16
+epoch:253 iter 3500 || ARM_L Loss: 0.6197 ARM_C Loss: 1.7087 ODM_L Loss: 0.5789 ODM_C Loss: 1.2324  Total: 4.1398 || lr: 0.000010 || speed: 46.19 per Sec.
