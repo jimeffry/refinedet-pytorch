@@ -9,7 +9,8 @@ COLORS = ((255, 0, 0, 128), (0, 255, 0, 128), (0, 0, 255, 128),
           (0, 255, 255, 128), (255, 0, 255, 128), (255, 255, 0, 128))
 #************************************************************dataset
 cfgs.ClsNum = 9
-cfgs.COCODataNames = ['person','bicycle','motorcycle','car','bus','airplane','train','boat']
+cfgs.COCODataSet_Name = 'COCO'
+cfgs.COCODataNames = ['person','bicycle','motorcycle','car','bus','airplane','truck','boat']
 cfgs.VOCDataNames = ['person','bicycle','motorbike','car','bus','aeroplane','train','boat']
 #cfgs.VOCDataNames = ['aeroplane', 'bicycle', 'bird', 'boat','bottle', 'bus', 'car', 'cat', 'chair',
  #   'cow', 'diningtable', 'dog', 'horse','motorbike', 'person', 'pottedplant','sheep', 'sofa', 'train', 'tvmonitor']
@@ -27,7 +28,7 @@ cfgs.Smry_iter = 2000
 cfgs.Total_Imgs = 133459#133644
 cfgs.ImgSize = 320
 cfgs.Pkl_Path = '/data/train_record/voc_coco.pkl'
-cfgs.ModelPrefix = 'resnet320' #'refinedet320' #'RefineDet320_VOC'
+cfgs.ModelPrefix = 'RefineDet320_VOC' #'resnet320' #'refinedet320' #'RefineDet320_VOC'
 cfgs.Momentum = 0.9
 cfgs.Weight_decay = 5e-4
 cfgs.lr_steps = [20000, 40000, 60000]
@@ -61,7 +62,7 @@ cfgs.PriorBox_Cfg_resnet = {'320': {'feature_maps': [40,20,10,5],
                                 'steps': [8, 16, 32, 64],
                                 'min_sizes': [16, 32, 64, 128],
                                 'max_sizes': [32,64,128,256],
-                                'aspect_ratios': [[2], [2], [2], [2]],
+                                'aspect_ratios': [[2,3], [2,3], [2,3],[2,3]],
                                 'variance': [0.1, 0.2],
                                 'clip': True,
                                 'name': 'RefineDet_VOC_320'},
@@ -76,9 +77,9 @@ cfgs.PriorBox_Cfg_resnet = {'320': {'feature_maps': [40,20,10,5],
 
 #[[2,3], [2,3], [2,3], [2,3]],[25,48, 105, 256],[48,105,163,278],[[2], [2], [2], [2]],[32, 64, 128, 256],
 #************************************************************************************test
-cfgs.top_k = 1000
-cfgs.odm_threshold = 0.95
-cfgs.nms_threshold = 0.5 #0.45
+cfgs.top_k = 500
+cfgs.odm_threshold = 0.2
+cfgs.nms_threshold = 0.45 #0.45
 cfgs.arm_threshold = 0.1
 cfgs.model_dir = '/data/models/refinedet'
 cfgs.shownames = ['bg','person','bicycle','motorbike','car','bus','aeroplane','train','boat']

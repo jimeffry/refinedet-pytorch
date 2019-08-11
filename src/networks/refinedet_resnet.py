@@ -101,7 +101,7 @@ class RefineDet(nn.Module):
         odm_loc = list()
         odm_conf = list()
         tcb_source = list()
-        odm_loc_map = list()
+        odm_conf_map = list()
         # apply vgg up to conv4_3 relu and conv5_3 relu
         c3,c4,c5,x = self.backone(x)
         c6 = self.res6(x)
@@ -119,7 +119,7 @@ class RefineDet(nn.Module):
         for (x, odm_pred) in zip(tcb_source, self.Odm_list):
             odm_loc.append(odm_pred(x)[0].permute(0, 2, 3, 1).contiguous())
             odm_conf.append(odm_pred(x)[1].permute(0, 2, 3, 1).contiguous())
-        odm_loc_map = odm_loc
+        odm_conf_map = odm_conf
         odm_loc = torch.cat([tmp.view(tmp.size(0), -1) for tmp in odm_loc], 1)
         odm_conf = torch.cat([tmp.view(tmp.size(0), -1) for tmp in odm_conf], 1)
         #print(arm_loc.size(), arm_conf.size(), odm_loc.size(), odm_conf.size())
@@ -129,7 +129,7 @@ class RefineDet(nn.Module):
                 odm_loc.view(odm_loc.size(0), -1, 4),
                 odm_conf.view(odm_conf.size(0), -1, self.num_classes),
                 self.priors,
-                odm_loc_map
+                odm_conf_map
             )
         return output
 

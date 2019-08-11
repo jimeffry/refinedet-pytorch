@@ -15,7 +15,7 @@ def main(args):
         os.makedirs(out_dir)
     out_file = args.out_file
     out_file_name = os.path.join(out_dir,out_file)
-    record_name = os.path.join(out_dir,'record_train.txt')
+    record_name = os.path.join(out_dir,'record_val.txt')
     print(out_file_name)
     file_w = open(out_file_name,'w')
     record = open(record_name,'w')

@@ -203,7 +203,10 @@ def train(args):
             arm_loss = arm_loss_l * arm_gamma + arm_loss_c
             odm_loss = odm_loss_l * odm_gamma + odm_loss_c
             loss = arm_loss + odm_loss
+            if bool(loss == 0):
+                continue
             loss.backward()
+            torch.nn.utils.clip_grad_norm_(net.parameters(), 0.1)
             optimizer.step()
             t1 = time.time()
             if args.visdom:

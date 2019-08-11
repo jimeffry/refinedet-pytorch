@@ -19,8 +19,8 @@ from torch.autograd import Variable
 sys.path.append(os.path.join(os.path.dirname(__file__),'../utils'))
 from detection_refinedet import Detect_RefineDet
 sys.path.append(os.path.join(os.path.dirname(__file__),'../networks'))
-#from refinedet import build_refinedet
-from refinedet_resnet import build_refinedet
+from refinedet import build_refinedet
+#from refinedet_resnet import build_refinedet
 #from refinedet_train_test import build_refinedet
 sys.path.append(os.path.join(os.path.dirname(__file__),'../configs'))
 from config import cfgs
@@ -56,7 +56,7 @@ class Refinedet_test(object):
         if torch.cuda.is_available():
             self.RefineDet_model.load_weights(load_path)
             self.RefineDet_model.cuda()
-            self.Detector.cuda()
+            #self.Detector.cuda()
         else: 
             self.RefineDet_model.load_state_dict(torch.load(load_path,map_location='cpu'))
         self.RefineDet_model.eval()
@@ -154,12 +154,12 @@ class Refinedet_test(object):
         img_input = torch.from_numpy(img_scale).permute(2, 0, 1)
         img_input = Variable(img_input.unsqueeze(0))
         if torch.cuda.is_available():
-            img_input.cuda()
+            img_input = img_input.cuda()
         t1=time.time()
         rectangles,conf_maps = self.inference(img_input)  # forward pass
         detections = rectangles.cpu().numpy()
         t2=time.time()
-        #print('consume:',t2-t1)
+        print('consume:',t2-t1)
         # scale each detection back up to the image
         detections = self.de_scale(detections,window[0],window[1],window[2],window[3],height,width)
         self.label_show(detections,frame)
@@ -173,7 +173,7 @@ class Refinedet_test(object):
         for tmp_map in conf_maps:
             batch,h,w,c = tmp_map.size()
             tmp_map = tmp_map.view(batch,h,w,-1,cfgs.ClsNum)
-            tmp_map = tmp_map[0]
+            tmp_map = tmp_map[0,:,:,:,1:]
             tmp_map_soft = torch.nn.functional.softmax(tmp_map,dim=3)
             cls_mask = torch.argmax(tmp_map_soft,dim=3,keepdim=True)
             #score,cls_mask = torch.max(tmp_map_soft,dim=4,keepdim=True)
@@ -232,7 +232,7 @@ class Refinedet_test(object):
             min_d+=0.01
         ax4 = axes[1,1]
         im4 = ax4.imshow(hotmaps[3])
-        cb4 = fig.colorbar(im4,ticks=tick_d)
+        cb4 = fig.colorbar(im4) #ticks=tick_d)
         ax4.set_title('feature_6')
         #fig.tight_layout()
         plt.savefig('hotmap.png')
@@ -295,12 +295,12 @@ class Refinedet_test(object):
         elif os.path.isfile(imgpath) and imgpath.endswith(('.mp4','.avi')) :
             #url = "rtsp://admin:dh123456@192.168.2." + ip + "/cam/realmonitor?channel=1&subtype=0"
             url = "rtsp://admin:hk123456@192.168.1.64/h264/1/main/av_stream"
-            cap = cv2.VideoCapture('/data/new_way.avi')
+            cap = cv2.VideoCapture(imgpath)
             if not cap.isOpened():
                 print("failed open camera")
                 return 0
             else: 
-                while 1:
+                while cap.isOpened():
                     _,img = cap.read()
                     frame,_ = self.test_img(img)
                     cv2.imshow('result',frame)
@@ -315,8 +315,8 @@ class Refinedet_test(object):
                 # grab next frame
                 # update FPS counter
                 frame,odm_maps = self.test_img(img)
-                #hotmaps = self.get_hotmaps(odm_maps)
-                #self.display_hotmap(hotmaps)
+                hotmaps = self.get_hotmaps(odm_maps)
+                self.display_hotmap(hotmaps)
                 # keybindings for display
                 cv2.imshow('result',frame)
                 cv2.imwrite('test1.jpg',frame)

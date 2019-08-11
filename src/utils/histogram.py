@@ -19,6 +19,8 @@ def parms():
                         help='traing data name')
     parser.add_argument('--loss_name',type=str,default='total',help='loss')
     parser.add_argument('--load_num',type=int,default=0,help='load model num')
+    parser.add_argument('--file2_in',type=str,default=None,help='load file')
+    parser.add_argument('--cmd_type',type=str,default=None,help='')
     return parser.parse_args()
 
 def read_data(file_in,name):
@@ -122,13 +124,106 @@ def plot_roces(base_dir):
     for tmp in name_list:
         input_file = os.path.join(base_dir,tmp+'_pr.txt')
         plot_pr(input_file,tmp)
+
+def plt_histgram(file_in,file_out,distance,num_bins=20):
+    '''
+    file_in: saved train img path  txt file: /img_path/0.jpg  1188
+    file_out: output bins and 
+    '''
+    out_name = file_out
+    input_file=open(file_in,'r')
+    out_file=open(file_out,'w')
+    data_arr=[]
+    print(out_name)
+    out_list = out_name.strip()
+    out_list = out_list.split('/')
+    out_name = "./output/"+out_list[-1][:-4]+".png"
+    print(out_name)
+    id_dict_cnt = dict()
+    for line in input_file.readlines():
+        line = line.strip()
+        line_splits = line.split(' ')
+        key_name=int(line_splits[-1])
+        cur_cnt = id_dict_cnt.setdefault(key_name,0)
+        id_dict_cnt[key_name] = cur_cnt +1
+    for key_num in id_dict_cnt.keys():
+        data_arr.append(id_dict_cnt[key_num])
+    data_in=np.asarray(data_arr)
+    if distance is None:
+        max_bin = np.max(data_in)
+    else:
+        max_bin = distance
+    datas,bins,c=plt.hist(data_in,num_bins,range=(0.0,max_bin),normed=0,color='blue',cumulative=0)
+    #a,b,c=plt.hist(data_in,num_bins,normed=1,color='blue',cumulative=1)
+    plt.title('histogram')
+    plt.savefig(out_name, format='png')
+    plt.show()
+    for i in range(num_bins):
+        out_file.write(str(datas[i])+'\t'+str(bins[i])+'\n')
+    input_file.close()
+    out_file.close()
+
+def plot_bar(data_dict,name,data2_dict=None):
+    #menMeans = (20, 35, 30, 35, 27)
+    #womenMeans = (25, 32, 34, 20, 25)
+    #menStd = (2, 3, 4, 1, 2)
+    #womenStd = (3, 5, 2, 3, 3)
+    keys = data_dict.keys()
+    bar_data = []
+    x_labels = keys
+    for tmp in keys:
+        if data2_dict is None:
+            bar_data.append(data_dict[tmp])
+        else:
+            bar_data.append(data2_dict[tmp]+data_dict[tmp])
+    ind = np.arange(len(bar_data))  # the x locations for the groups
+    if not isinstance(bar_data,tuple):
+        bar_data = tuple(bar_data)    
+    if not isinstance(x_labels,tuple):
+        x_labels = tuple(x_labels)
+    width = 0.35       # the width of the bars: can also be len(x) sequence
+    p1 = plt.bar(ind, bar_data, width)
+    #p2 = plt.bar(ind, womenMeans, width,
+    #            bottom=menMeans, yerr=womenStd)
+    plt.ylabel('bounding-box-num')
+    plt.title('%s' % name)
+    plt.xticks(ind, x_labels)
+    plt.yticks(np.arange(0, 270000, 10000))
+    #plt.legend((p1[0], p2[0]), ('Men', 'Women'))
+    outname = '%s.png' % name
+    plt.savefig(outname,format='png')
+    plt.show()
     
+def get_dataset(f_path):
+    f_r = open(f_path,'r')
+    f_cnts = f_r.readlines()
+    data_dict = dict()
+    for tmp in f_cnts:
+        tmp_splits = tmp.strip().split(',')
+        data_dict[tmp_splits[0]] = int(tmp_splits[1])
+    return data_dict
+
+def plt_dataset(f1_path,dataname,f2_path=None):
+    data1_dict = get_dataset(f1_path)
+    if f2_path is not None:
+        data2_dict = get_dataset(f2_path)
+    else:
+        data2_dict = None
+    plot_bar(data1_dict,dataname,data2_dict)
 
 if __name__=='__main__':
     args = parms()
     file_in = args.file_in
     data_name = args.data_name
     loss_name = args.loss_name
-    #plot_lines(file_in,data_name,loss_name)
-    #plot_pr(file_in,data_name)
-    plot_roces(file_in)
+    file2_in = args.file2_in
+    if args.cmd_type == 'plot_pr':
+        plot_roces(file_in)
+    elif args.cmd_type == 'plot_data':
+        plt_dataset(file_in,data_name,file2_in)
+    elif args.cmd_type == 'plot_trainlog':
+        plot_lines(file_in,data_name,loss_name)
+    elif args.cmd_type == 'plot_file':
+        plot_pr(file_in,data_name)
+    else:
+        print('please input cmd')

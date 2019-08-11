@@ -28,7 +28,7 @@ class Detect_RefineDet(Function):
         self.variance = cfgs.variance
         if torch.cuda.is_available():
             self.variance = torch.tensor(self.variance,dtype=torch.float)
-            self.variance.cuda()
+            self.variance =self.variance.cuda()
 
     def forward(self, arm_loc_data, arm_conf_data, odm_loc_data, odm_conf_data, prior_data):
         """

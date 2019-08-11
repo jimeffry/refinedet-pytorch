@@ -51,8 +51,8 @@ class PriorBox(object):
                 # aspect_ratio: 1
                 # rel size: sqrt(s_k * s_(k+1))
                 if len(self.max_sizes):
-                    #s_k_prime = sqrt(s_k * (self.max_sizes[k]/self.image_size))
-                    s_k_prime = self.max_sizes[k]/float(self.image_size)
+                    s_k_prime = sqrt(s_k * (self.max_sizes[k]/self.image_size))
+                    #s_k_prime = self.max_sizes[k]/float(self.image_size)
                     default_boxes += [cx, cy, s_k_prime, s_k_prime]
                 # rest of aspect ratios
                 for ar in self.aspect_ratios[k]:
@@ -64,8 +64,8 @@ class PriorBox(object):
                     #h = np.minimum(np.maximum(0,h),self.image_size)
                     default_boxes += [cx, cy, w, h]
                     default_boxes += [cx, cy, h, w]
-                    default_boxes += [cx, cy, w_,h_]
-                    default_boxes += [cx,cy,h_,w_]
+                    #default_boxes += [cx, cy, w_,h_]
+                    #default_boxes += [cx,cy,h_,w_]
         # back to torch land
         #mean_p = np.array(default_boxes)
         #np.savetxt('test.txt',mean_p)

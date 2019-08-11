@@ -23,6 +23,7 @@ from detection_refinedet import Detect_RefineDet
 sys.path.append(os.path.join(os.path.dirname(__file__),'../networks'))
 from refinedet import build_refinedet
 #from refinedet_train_test import build_refinedet
+#from refinedet_resnet import build_refinedet
 sys.path.append(os.path.join(os.path.dirname(__file__),'../configs'))
 from config import cfgs
 sys.path.append(os.path.join(os.path.dirname(__file__),'../prepare_datas'))

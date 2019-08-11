@@ -114,8 +114,8 @@ def convert_voc(base_dir,file_in,file_out,name):
     '''
     annotation_f = open(file_in,'r')
     f_out = open(file_out,'w')
-    record_w = open('%s.txt' % name,'w')
-    tmp_f = open('voc12trainval.txt','w')
+    record_w = open('../../datas/VOC/%s.txt' % name,'w')
+    tmp_f = open('voc07test.txt','w')
     p_cnt = 0
     cnt_none = 0
     cnt_img =0
@@ -164,7 +164,7 @@ def get_dir_cnt(dirpath,outfile):
             f_w.write("{}\n".format(tmp[:-4]))
     f_w.close
 
-def merge_2file(file1,file2,file_out):
+def merge_2file_(file1,file2,file_out):
     '''
     file1: img_name, x1,y1,x2,y2,label,x11,y11,x22,y22,label2,...
     file2: img_name, x1,y1,x2,y2,label,x11,y11,x22,y22,label2,...
@@ -188,6 +188,24 @@ def merge_2file(file1,file2,file_out):
     f2_r.close()
     f_w.close()
 
+def merge_2file(file1,file2,file_out):
+    '''
+    file1: img_name, x1,y1,x2,y2,label,x11,y11,x22,y22,label2,...
+    file2: img_name, x1,y1,x2,y2,label,x11,y11,x22,y22,label2,...
+    '''
+    f1_r = open(file1,'r')
+    f2_r = open(file2,'r')
+    f_w = open(file_out,'w')
+    f1_cnts = f1_r.readlines()
+    f2_cnts = f2_r.readlines()
+    for tmp in f1_cnts:
+        f_w.write("{}\n".format(tmp.strip()))
+    for tmp in f2_cnts:
+        f_w.write("{}\n".format(tmp.strip()))
+    f1_r.close()
+    f2_r.close()
+    f_w.close()
+
 def filter_area(file_in,file_out):
     '''
     '''
@@ -206,9 +224,11 @@ def filter_area(file_in,file_out):
             w = pt[2] - pt[0]
             h = pt[3] - pt[1] 
             label = pt[4]
-            if int(label) == 0 and w/h >3:
+            if int(label) >=5:
                 continue
-            if w*h > 400:
+            #if int(label) ==0 and w/h >3:
+             #   continue
+            if w*h > 2:
                 tmp_bb.extend(pt)
         if len(tmp_bb) >0:
             bb_out = map(str,tmp_bb)
@@ -232,7 +252,7 @@ if __name__=='__main__':
     #cmd = cmd.strip()
     #print(base_dir)
     #print(cmd)
-    if cmd in ['readvoc']:
+    if cmd == 'readvoc':
         convert_voc(base_dir,file_in,file_out,args.save_name)
     elif cmd == 'getdir':
         get_dir_cnt(dir_path,file_out)

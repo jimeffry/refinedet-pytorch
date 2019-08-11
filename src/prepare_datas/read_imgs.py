@@ -21,6 +21,8 @@ import torch.utils.data as u_data
 #from convert_to_pickle import label_show
 sys.path.append(os.path.join(os.path.dirname(__file__),'../configs'))
 from config import cfgs
+sys.path.append(os.path.join(os.path.dirname(__file__),'../utils'))
+from transform import Transform
 
 def detection_collate(batch):
     """Custom collate fn for dealing with batches of images that have a different
@@ -57,6 +59,9 @@ class ReadDataset(u_data.Dataset): #data.Dataset
         self.total_num = self.__len__()
         self.shulf_num = list(range(self.total_num))
         random.shuffle(self.shulf_num)
+        auger_list=["Sequential", "Fliplr","Dropout", \
+                    "AdditiveGaussianNoise","SigmoidContrast","Multiply"]
+        self.transfrom_imgs = Transform(img_auger_list=auger_list)
 
     def __getitem__(self, index):
         im, gt,_,_ = self.pull_item(index)
@@ -169,6 +174,30 @@ class ReadDataset(u_data.Dataset): #data.Dataset
         img[:,:,2] -= cfgs.PIXEL_MEAN[2]
         
         return img.astype(np.float32)
+
+    def transform(self,img,gt_box_labels):
+        '''
+        annotation: 1/img_01 x1 y1 x2 y2 x1 y1 x2 y2 ...
+        '''
+        #img_dict = dict()
+        if img is None:
+            return None
+        boxes = gt_box_labels[:,:4]
+        labels = gt_box_labels[:,4]
+        img_aug,boxes_aug,keep_idx = self.transfrom_imgs.aug_img_boxes(img_org,[boxes.tolist()])
+        if not len(boxes_aug) >0:
+            #print("aug box is None")
+            return None
+        img_data = np.array(img_aug[0],np.uint8)
+        boxes_trans = np.array(boxes_aug[0], dtype=np.int32).reshape(-1, 4)
+        label = np.array(labels[keep_idx[1][0]],dtype=np.int32).reshape(-1,1)
+        gt_box_labels = np.concatenate((boxes_trans,label),axis=1)
+        img_dict['img_data'] = img_data
+        img_dict['gt'] = gt_box_labels #gt_list
+        for i in range(gt_box_labels.shape[0]):
+            tmp_key = cfgs.VOCDataNames[int(gt_box_labels[i,4])]
+            cnt_dict[tmp_key]+=1
+        return img_dict
 
 if __name__=='__main__':
     test_d = ReadDataset()
